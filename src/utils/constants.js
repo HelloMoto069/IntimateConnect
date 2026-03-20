@@ -129,6 +129,12 @@ export const SCREEN_NAMES = {
   HEALTH: 'Health',
   PARTNER: 'Partner',
   PROFILE: 'Profile',
+  // Position screens
+  POSITION_DETAIL: 'PositionDetail',
+  POSITION_OF_THE_DAY: 'PositionOfTheDay',
+  CATEGORY_BROWSE: 'CategoryBrowse',
+  SEARCH: 'Search',
+  FAVORITES: 'Favorites',
 };
 
 // ─── Storage Keys ────────────────────────────────────────
@@ -140,6 +146,8 @@ export const STORAGE_KEYS = {
   THEME_MODE: '@theme_mode',
   USER_TOKEN: '@user_token',
   FCM_TOKEN: '@fcm_token',
+  POTD_CACHE_PREFIX: '@potd_',
+  RECENT_SEARCHES: '@recent_searches',
 };
 
 // ─── Firebase Collections ────────────────────────────────
@@ -155,6 +163,35 @@ export const FIREBASE_COLLECTIONS = {
 };
 
 // ─── App Constants ───────────────────────────────────────
+// ─── Position Categories ────────────────────────────────
+export const POSITION_CATEGORIES = [
+  {id: 'beginner', label: 'Beginner Friendly', icon: '🌱'},
+  {id: 'intermediate', label: 'Intermediate', icon: '🔥'},
+  {id: 'advanced', label: 'Advanced', icon: '💪'},
+  {id: 'romantic', label: 'Romantic/Slow', icon: '💕'},
+  {id: 'passionate', label: 'Passionate', icon: '🔥'},
+  {id: 'standing', label: 'Standing', icon: '🧍'},
+  {id: 'sitting', label: 'Sitting', icon: '🪑'},
+  {id: 'lying-down', label: 'Lying Down', icon: '🛏️'},
+  {id: 'side-by-side', label: 'Side-by-Side', icon: '🤝'},
+  {id: 'face-to-face', label: 'Face-to-Face', icon: '👀'},
+  {id: 'rear-entry', label: 'Rear Entry', icon: '🔄'},
+  {id: 'flexibility', label: 'Flexibility Required', icon: '🤸'},
+  {id: 'quickie', label: 'Quickies', icon: '⚡'},
+  {id: 'tantric', label: 'Tantric/Spiritual', icon: '🧘'},
+  {id: 'pregnancy-safe', label: 'Pregnancy Safe', icon: '🤰'},
+];
+
+// ─── Position Sort Options ──────────────────────────────
+export const SORT_OPTIONS = [
+  {id: 'name_asc', label: 'Name (A-Z)', field: 'name', direction: 'asc'},
+  {id: 'name_desc', label: 'Name (Z-A)', field: 'name', direction: 'desc'},
+  {id: 'difficulty_asc', label: 'Easiest First', field: 'difficulty', direction: 'asc'},
+  {id: 'difficulty_desc', label: 'Hardest First', field: 'difficulty', direction: 'desc'},
+  {id: 'intimacy_desc', label: 'Most Intimate', field: 'intimacyLevel', direction: 'desc'},
+  {id: 'intimacy_asc', label: 'Least Intimate', field: 'intimacyLevel', direction: 'asc'},
+];
+
 export const MIN_AGE = 18;
 export const PIN_LENGTH = 4;
 export const MAX_PIN_ATTEMPTS = 5;

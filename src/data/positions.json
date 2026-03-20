@@ -1,0 +1,2107 @@
+[
+  {
+    "id": "pos_001",
+    "name": "The Lotus",
+    "alternateNames": ["Padmasana", "Sitting Embrace"],
+    "category": ["face-to-face", "sitting", "romantic", "tantric"],
+    "difficulty": 3,
+    "intimacyLevel": 5,
+    "flexibilityRequired": 3,
+    "staminaRequired": 3,
+    "description": "A deeply intimate sitting position inspired by traditional tantric practices. Both partners sit facing each other, creating maximal physical and emotional closeness through sustained eye contact and synchronized breathing.",
+    "howTo": [
+      {"step": 1, "text": "Partner A sits cross-legged on a comfortable surface such as a bed or padded floor."},
+      {"step": 2, "text": "Partner B sits on Partner A's lap, facing them, with legs wrapped around Partner A's waist."},
+      {"step": 3, "text": "Both partners wrap their arms around each other for stability and closeness."}
+    ],
+    "tips": ["Place a pillow under the sitting partner for added comfort and elevation", "Maintain eye contact and synchronize breathing for a deeper emotional connection", "Rock gently together rather than relying on vigorous movement"],
+    "physicalNotes": "Requires moderate hip flexibility from both partners. The sitting partner bears most of the weight, so back support may be helpful for extended sessions.",
+    "bestFor": ["deep connection", "slow pace", "eye contact", "emotional bonding"],
+    "relatedPositions": ["pos_002", "pos_015", "pos_045"]
+  },
+  {
+    "id": "pos_002",
+    "name": "Classic Embrace",
+    "alternateNames": ["Missionary", "The Foundation"],
+    "category": ["beginner", "lying-down", "face-to-face", "romantic"],
+    "difficulty": 1,
+    "intimacyLevel": 4,
+    "flexibilityRequired": 1,
+    "staminaRequired": 2,
+    "description": "The most widely known intimate position, offering full-body contact and face-to-face closeness. Partner A lies on their back while Partner B positions themselves above, allowing for kissing, eye contact, and easy communication throughout.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies comfortably on their back on a supportive surface."},
+      {"step": 2, "text": "Partner B positions themselves above Partner A, supporting their weight on forearms or hands."},
+      {"step": 3, "text": "Both partners adjust hips and legs for comfortable alignment and connection."}
+    ],
+    "tips": ["Partner B should distribute weight on arms to avoid pressing too heavily on Partner A", "Place a pillow under Partner A's hips to adjust the angle for greater comfort"],
+    "physicalNotes": "Low physical demand overall. Partner B should be mindful of weight distribution to ensure comfort for both.",
+    "bestFor": ["beginners", "emotional intimacy", "full-body contact"],
+    "relatedPositions": ["pos_003", "pos_010", "pos_001"]
+  },
+  {
+    "id": "pos_003",
+    "name": "The Bridge",
+    "alternateNames": ["Elevated Embrace", "Pillow Lift"],
+    "category": ["beginner", "lying-down", "face-to-face"],
+    "difficulty": 1,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 1,
+    "staminaRequired": 2,
+    "description": "A gentle variation of the classic lying-down position where Partner A elevates their hips using a pillow or cushion. This simple adjustment changes the angle of connection and can significantly enhance comfort and sensation for both partners.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies on their back and places a firm pillow or folded blanket under their hips."},
+      {"step": 2, "text": "Partner B positions themselves above, adjusting to the new elevated angle."},
+      {"step": 3, "text": "Both partners communicate to find the most comfortable and pleasurable alignment."}
+    ],
+    "tips": ["Experiment with different pillow thicknesses to find the ideal angle", "A wedge-shaped cushion provides more consistent support than a regular pillow"],
+    "physicalNotes": "Very accessible position with minimal physical requirements. The pillow reduces strain on both partners' lower backs.",
+    "bestFor": ["comfort", "beginners", "angle variation"],
+    "relatedPositions": ["pos_002", "pos_010"]
+  },
+  {
+    "id": "pos_004",
+    "name": "The Cowgirl",
+    "alternateNames": ["Partner on Top", "The Rider"],
+    "category": ["beginner", "lying-down", "face-to-face"],
+    "difficulty": 2,
+    "intimacyLevel": 4,
+    "flexibilityRequired": 2,
+    "staminaRequired": 3,
+    "description": "Partner B sits upright on top of Partner A, who lies on their back. This position gives the top partner full control over pace, depth, and angle, while the bottom partner can relax and enjoy the visual and physical connection.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies flat on their back on a comfortable surface."},
+      {"step": 2, "text": "Partner B straddles Partner A, kneeling with one knee on each side of Partner A's hips."},
+      {"step": 3, "text": "Partner B controls the rhythm and depth while Partner A supports by holding Partner B's hips or thighs."}
+    ],
+    "tips": ["Partner B can lean forward or backward to change the angle and sensation", "Partner A can bend their knees slightly to provide support for Partner B to lean against"],
+    "physicalNotes": "Moderate thigh and core engagement for Partner B. Partner A has relatively low physical demand.",
+    "bestFor": ["partner empowerment", "controlled pace", "visual connection"],
+    "relatedPositions": ["pos_005", "pos_006", "pos_002"]
+  },
+  {
+    "id": "pos_005",
+    "name": "Reverse Rider",
+    "alternateNames": ["Reverse Cowgirl", "The Turnabout"],
+    "category": ["intermediate", "lying-down", "rear-entry"],
+    "difficulty": 3,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 2,
+    "staminaRequired": 3,
+    "description": "A variation where Partner B sits on top of Partner A but faces away from them. This position offers different angles of stimulation and a unique visual perspective for both partners.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies flat on their back."},
+      {"step": 2, "text": "Partner B straddles Partner A facing toward their feet, kneeling on either side."},
+      {"step": 3, "text": "Partner B leans slightly forward, bracing on Partner A's shins or the surface for balance."},
+      {"step": 4, "text": "Partner B controls the movement while Partner A can support with hands on Partner B's hips."}
+    ],
+    "tips": ["Partner B should lean forward rather than backward to maintain a comfortable angle", "Communication is especially important since partners cannot see each other's faces"],
+    "physicalNotes": "Requires good balance from Partner B and moderate thigh strength. Take care with alignment to avoid discomfort.",
+    "bestFor": ["variety", "new sensations", "visual stimulation"],
+    "relatedPositions": ["pos_004", "pos_006"]
+  },
+  {
+    "id": "pos_006",
+    "name": "The Throne",
+    "alternateNames": ["Seated Rider", "Chair Position"],
+    "category": ["intermediate", "sitting", "face-to-face"],
+    "difficulty": 2,
+    "intimacyLevel": 4,
+    "flexibilityRequired": 2,
+    "staminaRequired": 3,
+    "description": "Partner A sits on a sturdy chair or the edge of the bed while Partner B sits on their lap facing them. The chair provides back support for Partner A and allows both partners to embrace closely.",
+    "howTo": [
+      {"step": 1, "text": "Partner A sits upright on a sturdy armless chair or the edge of a firm bed."},
+      {"step": 2, "text": "Partner B straddles Partner A's lap, facing them, and lowers themselves into position."},
+      {"step": 3, "text": "Both partners wrap their arms around each other and find a comfortable rhythm together."}
+    ],
+    "tips": ["Choose a chair without arms for easier leg positioning", "Partner B can place feet flat on the floor for better leverage and movement control"],
+    "physicalNotes": "The chair provides excellent back support for Partner A. Partner B uses thigh muscles for movement.",
+    "bestFor": ["spontaneity", "face-to-face connection", "back support"],
+    "relatedPositions": ["pos_001", "pos_004", "pos_007"]
+  },
+  {
+    "id": "pos_007",
+    "name": "The Reverse Throne",
+    "alternateNames": ["Seated Reverse", "Chair Turnabout"],
+    "category": ["intermediate", "sitting", "rear-entry"],
+    "difficulty": 3,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 2,
+    "staminaRequired": 3,
+    "description": "Similar to The Throne, but Partner B faces away while sitting on Partner A's lap. This seated variation provides back support and a different angle of connection while maintaining the convenience of furniture-assisted positioning.",
+    "howTo": [
+      {"step": 1, "text": "Partner A sits on a sturdy chair with feet flat on the floor."},
+      {"step": 2, "text": "Partner B backs onto Partner A's lap, facing away, and lowers into position."},
+      {"step": 3, "text": "Partner B can grip the chair's edge or Partner A's knees for support and leverage."}
+    ],
+    "tips": ["Partner A can reach around to embrace Partner B for added intimacy", "A chair with a slight recline offers a more comfortable angle"],
+    "physicalNotes": "Moderate demand on Partner B's thighs. The chair provides stability for both partners.",
+    "bestFor": ["variety", "furniture use", "different angles"],
+    "relatedPositions": ["pos_006", "pos_005"]
+  },
+  {
+    "id": "pos_008",
+    "name": "Spooning",
+    "alternateNames": ["The Cuddle", "Side Embrace"],
+    "category": ["beginner", "side-by-side", "romantic", "pregnancy-safe"],
+    "difficulty": 1,
+    "intimacyLevel": 5,
+    "flexibilityRequired": 1,
+    "staminaRequired": 1,
+    "description": "Both partners lie on their sides facing the same direction, with Partner A behind Partner B. This gentle, low-effort position prioritizes closeness and comfort, making it ideal for relaxed, intimate moments.",
+    "howTo": [
+      {"step": 1, "text": "Both partners lie on their sides facing the same direction, with Partner A positioned behind Partner B."},
+      {"step": 2, "text": "Partner A presses close to Partner B's back, adjusting hips for alignment and connection."},
+      {"step": 3, "text": "Partner A wraps an arm around Partner B's waist or chest for closeness and gentle movement."}
+    ],
+    "tips": ["Bend knees slightly for easier alignment and comfort", "This is an excellent position for whispered communication and neck kisses"],
+    "physicalNotes": "Extremely low physical demand. Suitable for all fitness levels, during pregnancy, or when energy is limited.",
+    "bestFor": ["comfort", "lazy mornings", "pregnancy", "tenderness"],
+    "relatedPositions": ["pos_009", "pos_037", "pos_047"]
+  },
+  {
+    "id": "pos_009",
+    "name": "The Interlock",
+    "alternateNames": ["Scissors", "Side Scissors"],
+    "category": ["intermediate", "side-by-side", "face-to-face"],
+    "difficulty": 3,
+    "intimacyLevel": 4,
+    "flexibilityRequired": 2,
+    "staminaRequired": 2,
+    "description": "Partners lie on their sides facing each other with legs intertwined in a scissoring arrangement. This position allows for gentle, rhythmic movement, full-body contact, and face-to-face intimacy without requiring either partner to support body weight.",
+    "howTo": [
+      {"step": 1, "text": "Both partners lie on their sides facing each other."},
+      {"step": 2, "text": "Intertwine legs so that each partner has one leg between the other's thighs."},
+      {"step": 3, "text": "Pull close together, using arms to hold each other, and move in a gentle rocking motion."}
+    ],
+    "tips": ["This position works best with slow, grinding movements rather than thrusting", "Use the closeness to maintain eye contact and kiss throughout"],
+    "physicalNotes": "Low stamina requirement but can be tricky to align initially. Good hip mobility helps.",
+    "bestFor": ["equal partnership", "relaxed pace", "face-to-face intimacy"],
+    "relatedPositions": ["pos_008", "pos_001", "pos_010"]
+  },
+  {
+    "id": "pos_010",
+    "name": "The Wrap",
+    "alternateNames": ["Legs Up", "Ankle Cross"],
+    "category": ["beginner", "lying-down", "face-to-face", "romantic"],
+    "difficulty": 2,
+    "intimacyLevel": 4,
+    "flexibilityRequired": 2,
+    "staminaRequired": 2,
+    "description": "A variation of the classic lying-down position where Partner A wraps their legs around Partner B's waist or back. This deepens the connection and allows Partner A to actively participate in guiding rhythm and closeness.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies on their back while Partner B positions above in a standard facing position."},
+      {"step": 2, "text": "Partner A lifts their legs and wraps them around Partner B's lower back or waist."},
+      {"step": 3, "text": "Partner A uses their legs to pull Partner B closer and help control the rhythm."}
+    ],
+    "tips": ["Partner A can cross their ankles behind Partner B for a more secure hold", "This position intensifies closeness while still allowing face-to-face contact"],
+    "physicalNotes": "Requires some core and hip flexor engagement from Partner A. Partner B supports most of the weight.",
+    "bestFor": ["closeness", "active participation", "deep connection"],
+    "relatedPositions": ["pos_002", "pos_003", "pos_011"]
+  },
+  {
+    "id": "pos_011",
+    "name": "The Butterfly",
+    "alternateNames": ["Edge of Bed", "Table Top"],
+    "category": ["intermediate", "lying-down", "face-to-face"],
+    "difficulty": 2,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 2,
+    "staminaRequired": 3,
+    "description": "Partner A lies at the edge of a bed or table with hips at the very edge, while Partner B stands on the floor between their legs. The height difference created by the furniture allows for a unique angle and comfortable standing movement.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies on their back at the very edge of the bed or a sturdy table, with hips at the rim."},
+      {"step": 2, "text": "Partner B stands at the edge of the bed between Partner A's legs."},
+      {"step": 3, "text": "Partner A rests their legs on Partner B's shoulders, waist, or lets them hang naturally for different angles."}
+    ],
+    "tips": ["Adjust the surface height with pillows if needed to achieve comfortable alignment", "Partner B has excellent leverage from a standing position for controlled movement"],
+    "physicalNotes": "Low physical demand for Partner A. Partner B needs stable footing and moderate leg stamina for standing.",
+    "bestFor": ["angle variation", "standing partner", "furniture use"],
+    "relatedPositions": ["pos_002", "pos_012", "pos_024"]
+  },
+  {
+    "id": "pos_012",
+    "name": "The Deck Chair",
+    "alternateNames": ["Legs on Shoulders", "The V"],
+    "category": ["intermediate", "lying-down", "face-to-face", "flexibility"],
+    "difficulty": 3,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 3,
+    "staminaRequired": 3,
+    "description": "Partner A lies on their back and places both legs on Partner B's shoulders, creating a V-shape. This position allows for deeper connection and a significant change in angle compared to standard lying-down positions.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies on their back, lifting both legs upward."},
+      {"step": 2, "text": "Partner B kneels or leans forward and rests Partner A's legs on their shoulders."},
+      {"step": 3, "text": "Partner B leans in gently, using hands on the surface for support while maintaining comfortable pressure."}
+    ],
+    "tips": ["Partner A should communicate immediately if the stretch becomes uncomfortable", "Start with a shallow lean and gradually increase depth as comfort allows"],
+    "physicalNotes": "Requires good hamstring flexibility from Partner A. Can place significant stretch on the lower back, so proceed gradually.",
+    "bestFor": ["deep connection", "angle variation", "flexibility practice"],
+    "relatedPositions": ["pos_011", "pos_003", "pos_013"]
+  },
+  {
+    "id": "pos_013",
+    "name": "The Pretzel",
+    "alternateNames": ["Cross-Legged Twist", "The Knot"],
+    "category": ["advanced", "lying-down", "face-to-face", "flexibility"],
+    "difficulty": 4,
+    "intimacyLevel": 4,
+    "flexibilityRequired": 4,
+    "staminaRequired": 3,
+    "description": "A complex intertwined position where both partners lie facing each other with legs woven together in an alternating pattern. This creates a deeply connected, puzzle-like arrangement that rewards patience and communication.",
+    "howTo": [
+      {"step": 1, "text": "Both partners lie on their sides facing each other."},
+      {"step": 2, "text": "Partner A places one leg over Partner B's hip while Partner B threads one leg between Partner A's thighs."},
+      {"step": 3, "text": "Adjust the interlocking of legs until both partners find a stable, comfortable configuration."},
+      {"step": 4, "text": "Use slow, rolling hip movements to maintain the connection within this entwined arrangement."}
+    ],
+    "tips": ["Take time getting into position; rushing can lead to discomfort", "Keep movements slow and controlled to maintain the intertwined arrangement"],
+    "physicalNotes": "Requires above-average hip flexibility and patience. Not suitable for those with knee or hip joint issues.",
+    "bestFor": ["novelty", "puzzle-solving together", "slow intimacy"],
+    "relatedPositions": ["pos_009", "pos_014"]
+  },
+  {
+    "id": "pos_014",
+    "name": "The Cradle",
+    "alternateNames": ["Rocking Chair", "The Hold"],
+    "category": ["intermediate", "sitting", "face-to-face", "romantic"],
+    "difficulty": 3,
+    "intimacyLevel": 5,
+    "flexibilityRequired": 2,
+    "staminaRequired": 3,
+    "description": "Partner A sits with legs extended in a slight V-shape while Partner B sits on their lap facing them, wrapping legs around Partner A's torso. Both partners gently rock together in a cradling motion, emphasizing rhythm and closeness over vigorous movement.",
+    "howTo": [
+      {"step": 1, "text": "Partner A sits on a soft surface with legs extended forward and slightly apart."},
+      {"step": 2, "text": "Partner B sits on Partner A's lap facing them, wrapping their legs around Partner A's midsection."},
+      {"step": 3, "text": "Both partners hold each other close and rock together in a synchronized, gentle rhythm."}
+    ],
+    "tips": ["Partner A can lean back on their hands for additional support", "Synchronize your breathing for an enhanced emotional experience"],
+    "physicalNotes": "Moderate core engagement for both partners. A wall behind Partner A can provide helpful back support.",
+    "bestFor": ["emotional connection", "synchronized movement", "romantic evenings"],
+    "relatedPositions": ["pos_001", "pos_006", "pos_015"]
+  },
+  {
+    "id": "pos_015",
+    "name": "Yab-Yum",
+    "alternateNames": ["Sacred Union", "Tantric Seat"],
+    "category": ["sitting", "face-to-face", "tantric", "romantic"],
+    "difficulty": 3,
+    "intimacyLevel": 5,
+    "flexibilityRequired": 3,
+    "staminaRequired": 2,
+    "description": "A traditional tantric position where Partner A sits cross-legged and Partner B sits in their lap facing them, legs wrapped around. Distinguished from similar sitting positions by its emphasis on breathwork, energy circulation, and spiritual connection.",
+    "howTo": [
+      {"step": 1, "text": "Partner A sits in a comfortable cross-legged position on a cushioned surface."},
+      {"step": 2, "text": "Partner B sits in Partner A's lap, facing them, wrapping legs around Partner A's back."},
+      {"step": 3, "text": "Both partners place foreheads together and synchronize breathing, inhaling as the other exhales."},
+      {"step": 4, "text": "Movement is minimal; focus on energy exchange and breath rather than physical motion."}
+    ],
+    "tips": ["Practice synchronized breathing before adding physical intimacy", "Visualize energy flowing in a circuit between your bodies"],
+    "physicalNotes": "Moderate hip flexibility required. Extended sessions benefit from cushion support under hips.",
+    "bestFor": ["spiritual connection", "breathwork", "tantric practice", "mindfulness"],
+    "relatedPositions": ["pos_001", "pos_014", "pos_045"]
+  },
+  {
+    "id": "pos_016",
+    "name": "The Arch",
+    "alternateNames": ["Bridge Pose", "The Backbend"],
+    "category": ["advanced", "lying-down", "flexibility"],
+    "difficulty": 5,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 5,
+    "staminaRequired": 4,
+    "description": "An acrobatic position where Partner A creates a bridge or back-arch shape with their body while Partner B stands or kneels to connect. This visually striking position requires significant flexibility and strength but offers unique sensations.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies on their back, then presses up into a bridge position with hands and feet on the surface, hips elevated."},
+      {"step": 2, "text": "Partner B kneels between Partner A's legs, supporting Partner A's hips with their hands."},
+      {"step": 3, "text": "Movement should be slow and controlled, with Partner B providing most of the motion while supporting Partner A."}
+    ],
+    "tips": ["Only attempt if Partner A has practiced bridge pose in yoga or similar exercise", "Keep the duration short to avoid muscle fatigue in the arched partner"],
+    "physicalNotes": "Extremely demanding on Partner A's back, shoulders, and wrists. Not recommended for those with spinal issues. Warm up thoroughly beforehand.",
+    "bestFor": ["advanced practitioners", "flexibility showcase", "unique sensations"],
+    "relatedPositions": ["pos_013", "pos_012"]
+  },
+  {
+    "id": "pos_017",
+    "name": "The Waterfall",
+    "alternateNames": ["Head Over Edge", "The Cascade"],
+    "category": ["intermediate", "lying-down", "passionate"],
+    "difficulty": 3,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 2,
+    "staminaRequired": 3,
+    "description": "Partner A lies on their back on a bed with their head and upper back hanging gently over the edge, creating a mild inversion. Partner B positions on top or stands at the bedside. The gentle head-down tilt can create heightened sensations.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies on a bed and slides back so their head, neck, and upper back hang gently over the edge."},
+      {"step": 2, "text": "Partner B positions themselves on the bed above Partner A or stands beside the bed."},
+      {"step": 3, "text": "Partner A can grip the bed frame or Partner B for stability during movement."}
+    ],
+    "tips": ["Do not maintain the head-down position for extended periods", "Place pillows on the floor below the hanging partner as a safety precaution"],
+    "physicalNotes": "The mild inversion increases blood flow to the head. Avoid if you have high blood pressure, neck issues, or are prone to dizziness.",
+    "bestFor": ["heightened sensation", "novelty", "adventurous couples"],
+    "relatedPositions": ["pos_002", "pos_011"]
+  },
+  {
+    "id": "pos_018",
+    "name": "The Column",
+    "alternateNames": ["Standing Face-to-Face", "The Embrace"],
+    "category": ["standing", "face-to-face", "passionate"],
+    "difficulty": 3,
+    "intimacyLevel": 4,
+    "flexibilityRequired": 2,
+    "staminaRequired": 4,
+    "description": "Both partners stand facing each other. Partner A may lift one leg, wrapping it around Partner B for support and access. This position brings intensity and spontaneity, often associated with passionate, in-the-moment encounters.",
+    "howTo": [
+      {"step": 1, "text": "Both partners stand facing each other, with Partner B's back against a wall for support."},
+      {"step": 2, "text": "Partner A lifts one leg and wraps it around Partner B's hip or thigh."},
+      {"step": 3, "text": "Partner B supports Partner A's raised leg with one hand while both partners hold each other for balance."}
+    ],
+    "tips": ["A wall provides essential stability for this position", "Height differences can be managed with footwear or a small step"],
+    "physicalNotes": "Requires good balance and moderate leg strength from both partners. Height alignment is important for comfort.",
+    "bestFor": ["spontaneity", "passion", "standing encounters"],
+    "relatedPositions": ["pos_019", "pos_020", "pos_024"]
+  },
+  {
+    "id": "pos_019",
+    "name": "The Lift",
+    "alternateNames": ["Standing Carry", "The Elevator"],
+    "category": ["advanced", "standing", "passionate", "face-to-face"],
+    "difficulty": 5,
+    "intimacyLevel": 4,
+    "flexibilityRequired": 2,
+    "staminaRequired": 5,
+    "description": "Partner B lifts Partner A entirely off the ground, with Partner A wrapping both legs around Partner B's waist. An intensely physical and passionate position that requires significant strength and trust.",
+    "howTo": [
+      {"step": 1, "text": "Partner B stands with feet shoulder-width apart near a wall for potential support."},
+      {"step": 2, "text": "Partner A jumps or is lifted to wrap both legs around Partner B's waist, arms around their neck."},
+      {"step": 3, "text": "Partner B supports Partner A under the thighs or buttocks, using the wall for additional support if needed."}
+    ],
+    "tips": ["Start with Partner A seated on a counter or table edge, then transition to standing", "A wall behind either partner dramatically reduces the physical demand"],
+    "physicalNotes": "Very physically demanding for Partner B, requiring substantial upper body and core strength. Partner A must have a secure grip. Only suitable for those in good physical condition.",
+    "bestFor": ["passion", "strength display", "spontaneous encounters"],
+    "relatedPositions": ["pos_018", "pos_020"]
+  },
+  {
+    "id": "pos_020",
+    "name": "Wall Press",
+    "alternateNames": ["Against the Wall", "The Pin"],
+    "category": ["standing", "passionate", "rear-entry"],
+    "difficulty": 3,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 2,
+    "staminaRequired": 4,
+    "description": "Partner A faces a wall, leaning against it with hands for support, while Partner B stands behind them. The wall provides stability and allows both partners to maintain a standing position with minimal balance requirements.",
+    "howTo": [
+      {"step": 1, "text": "Partner A faces a wall and places both palms flat against it at shoulder height, leaning slightly forward."},
+      {"step": 2, "text": "Partner B stands close behind Partner A, aligning hips."},
+      {"step": 3, "text": "Partner A can adjust their stance width and lean angle for optimal comfort and alignment."}
+    ],
+    "tips": ["Partner A can arch or flatten their back to change the angle", "Choose a wall area away from hung pictures or shelves for safety"],
+    "physicalNotes": "Moderate stamina required from Partner B for sustained standing. Partner A's arms may tire from wall support over time.",
+    "bestFor": ["spontaneity", "passion", "quick encounters"],
+    "relatedPositions": ["pos_018", "pos_021", "pos_024"]
+  },
+  {
+    "id": "pos_021",
+    "name": "The Bend",
+    "alternateNames": ["Standing Fold", "The Lean"],
+    "category": ["standing", "rear-entry", "quickie"],
+    "difficulty": 3,
+    "intimacyLevel": 2,
+    "flexibilityRequired": 3,
+    "staminaRequired": 3,
+    "description": "Partner A bends forward at the waist, supporting themselves on a sturdy surface like a table or countertop, while Partner B stands behind them. This practical position uses everyday furniture for support and is often suited to spontaneous encounters.",
+    "howTo": [
+      {"step": 1, "text": "Partner A stands before a waist-height sturdy surface and bends forward, resting forearms or hands on it."},
+      {"step": 2, "text": "Partner B positions behind Partner A, standing close."},
+      {"step": 3, "text": "Partner A can adjust their lean angle and foot spacing for optimal comfort."}
+    ],
+    "tips": ["Ensure the supporting furniture is stable and at a comfortable height", "Partner A can stand on tiptoes or bend knees slightly to adjust alignment"],
+    "physicalNotes": "Requires moderate hamstring flexibility from Partner A. The supporting surface should be at a height that doesn't strain the lower back.",
+    "bestFor": ["quickies", "spontaneous encounters", "furniture use"],
+    "relatedPositions": ["pos_020", "pos_022"]
+  },
+  {
+    "id": "pos_022",
+    "name": "The Tabletop",
+    "alternateNames": ["Counter Connection", "The Perch"],
+    "category": ["intermediate", "sitting", "face-to-face", "quickie"],
+    "difficulty": 2,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 1,
+    "staminaRequired": 3,
+    "description": "Partner A sits on a raised surface such as a kitchen counter, desk, or table while Partner B stands between their legs. The height of the furniture naturally aligns the partners and allows for easy face-to-face connection.",
+    "howTo": [
+      {"step": 1, "text": "Partner A sits on the edge of a sturdy raised surface at approximately waist height to Partner B."},
+      {"step": 2, "text": "Partner B stands between Partner A's open legs."},
+      {"step": 3, "text": "Partner A wraps legs around Partner B's waist and arms around their neck for closeness and leverage."}
+    ],
+    "tips": ["Ensure the surface is sturdy and at the right height for comfortable alignment", "Place a towel or soft surface under Partner A for comfort on hard surfaces"],
+    "physicalNotes": "Low physical demand overall. The main consideration is finding furniture at the right height for alignment.",
+    "bestFor": ["quickies", "spontaneity", "face-to-face standing"],
+    "relatedPositions": ["pos_011", "pos_018", "pos_021"]
+  },
+  {
+    "id": "pos_023",
+    "name": "The Gallop",
+    "alternateNames": ["Doggy Style", "All Fours"],
+    "category": ["beginner", "lying-down", "rear-entry", "passionate"],
+    "difficulty": 2,
+    "intimacyLevel": 2,
+    "flexibilityRequired": 1,
+    "staminaRequired": 3,
+    "description": "One of the most well-known positions: Partner A kneels on all fours while Partner B kneels behind them. This position allows for vigorous movement and deep connection while being accessible to most couples.",
+    "howTo": [
+      {"step": 1, "text": "Partner A positions on hands and knees on a comfortable surface, keeping the back in a neutral or slightly arched position."},
+      {"step": 2, "text": "Partner B kneels directly behind Partner A, aligning hips."},
+      {"step": 3, "text": "Partner B holds Partner A's hips for stability and movement control."}
+    ],
+    "tips": ["Partner A can lower to their forearms to change the angle and reduce wrist strain", "Place padding under knees for comfort on hard surfaces"],
+    "physicalNotes": "Moderate knee and wrist pressure for Partner A. Using forearms instead of hands reduces wrist strain significantly.",
+    "bestFor": ["deep connection", "vigorous pace", "variety"],
+    "relatedPositions": ["pos_024", "pos_020", "pos_025"]
+  },
+  {
+    "id": "pos_024",
+    "name": "The Flat Iron",
+    "alternateNames": ["Prone Position", "Face Down"],
+    "category": ["beginner", "lying-down", "rear-entry"],
+    "difficulty": 1,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 1,
+    "staminaRequired": 2,
+    "description": "Partner A lies flat on their stomach, legs together or slightly parted. Partner B lies on top or kneels above Partner A. This is a low-effort, comfortable position that provides a snug, close sensation for both partners.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies face-down on a comfortable surface with legs together and a small pillow under their hips."},
+      {"step": 2, "text": "Partner B positions on top of Partner A, supporting their own weight on arms."},
+      {"step": 3, "text": "Both partners find alignment and a gentle rhythm, with Partner B controlling the movement."}
+    ],
+    "tips": ["A pillow under Partner A's hips improves the angle significantly", "Partner B should keep most of their weight on their own arms to avoid pressing down uncomfortably"],
+    "physicalNotes": "Very low physical demand for Partner A. Partner B should be conscious of weight distribution.",
+    "bestFor": ["comfort", "low effort", "beginners"],
+    "relatedPositions": ["pos_023", "pos_008", "pos_025"]
+  },
+  {
+    "id": "pos_025",
+    "name": "The Frog",
+    "alternateNames": ["Leapfrog", "The Crouch"],
+    "category": ["intermediate", "lying-down", "rear-entry"],
+    "difficulty": 3,
+    "intimacyLevel": 2,
+    "flexibilityRequired": 3,
+    "staminaRequired": 3,
+    "description": "Partner A kneels with chest lowered to the surface and arms extended forward, creating a steep angle with the hips elevated. Partner B kneels behind. This variation of the all-fours position creates a dramatically different angle.",
+    "howTo": [
+      {"step": 1, "text": "Partner A kneels on the bed and lowers their chest and face to the surface, extending arms forward, keeping hips high."},
+      {"step": 2, "text": "Partner B kneels upright behind Partner A."},
+      {"step": 3, "text": "Partner B holds Partner A's hips and controls the rhythm, adjusting angle as desired."}
+    ],
+    "tips": ["Place a pillow under Partner A's chest for comfort", "The steep angle can be intense, so start gently and communicate throughout"],
+    "physicalNotes": "Requires reasonable knee flexibility from Partner A. The angle places more pressure on Partner A's shoulders and arms.",
+    "bestFor": ["angle variation", "deep connection", "intensity"],
+    "relatedPositions": ["pos_023", "pos_024"]
+  },
+  {
+    "id": "pos_026",
+    "name": "The Seashell",
+    "alternateNames": ["The Fold", "Knees to Chest"],
+    "category": ["advanced", "lying-down", "face-to-face", "flexibility"],
+    "difficulty": 4,
+    "intimacyLevel": 4,
+    "flexibilityRequired": 4,
+    "staminaRequired": 3,
+    "description": "Partner A lies on their back and draws both knees toward their chest, essentially folding in half. Partner B kneels or leans over them. This position requires significant flexibility but allows for very deep physical connection and eye contact.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies on their back and draws both knees up toward their shoulders, holding them gently with their hands."},
+      {"step": 2, "text": "Partner B kneels facing Partner A and leans forward over them."},
+      {"step": 3, "text": "Partner B controls the pace while Partner A maintains their folded position, communicating about comfort."}
+    ],
+    "tips": ["Only attempt if Partner A can comfortably hold this position without strain", "Partner A should warm up with stretching beforehand"],
+    "physicalNotes": "Requires high hamstring and lower-back flexibility from Partner A. Not suitable for those with lower back problems.",
+    "bestFor": ["deep connection", "flexibility", "intense closeness"],
+    "relatedPositions": ["pos_012", "pos_016"]
+  },
+  {
+    "id": "pos_027",
+    "name": "The Recliner",
+    "alternateNames": ["Lazy Boy", "The Lean Back"],
+    "category": ["beginner", "sitting", "romantic"],
+    "difficulty": 2,
+    "intimacyLevel": 4,
+    "flexibilityRequired": 1,
+    "staminaRequired": 2,
+    "description": "Partner A sits leaning back at approximately a 45-degree angle, supported by pillows or the back of a couch. Partner B sits on their lap facing them. This comfortable, reclined position is excellent for unhurried intimacy.",
+    "howTo": [
+      {"step": 1, "text": "Partner A sits on a couch or bed, leaning back at a comfortable angle supported by cushions or the couch back."},
+      {"step": 2, "text": "Partner B straddles Partner A's lap, facing them, knees on either side."},
+      {"step": 3, "text": "Partner B controls the rhythm while Partner A enjoys the relaxed, reclined position."}
+    ],
+    "tips": ["Adjust the recline angle with extra pillows until both partners are comfortable", "The couch armrests can serve as handholds for Partner B"],
+    "physicalNotes": "Very relaxed position for Partner A. Moderate thigh engagement for Partner B.",
+    "bestFor": ["comfort", "relaxed pace", "movie nights"],
+    "relatedPositions": ["pos_006", "pos_014"]
+  },
+  {
+    "id": "pos_028",
+    "name": "The Amazon",
+    "alternateNames": ["Reverse Classic", "The Override"],
+    "category": ["advanced", "lying-down", "face-to-face"],
+    "difficulty": 4,
+    "intimacyLevel": 4,
+    "flexibilityRequired": 3,
+    "staminaRequired": 4,
+    "description": "An inverted version of the classic lying position where Partner A lies on their back with knees drawn up and Partner B squats over them facing their feet or face. This position shifts the dynamic and requires significant leg strength from the squatting partner.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies on their back and draws their knees up toward their chest."},
+      {"step": 2, "text": "Partner B squats over Partner A, facing them, lowering themselves into position."},
+      {"step": 3, "text": "Partner B uses their thigh strength to control movement in a squatting motion."}
+    ],
+    "tips": ["Partner B should build up thigh endurance through squats before attempting this regularly", "Use Partner A's bent knees as support for Partner B's back"],
+    "physicalNotes": "Extremely demanding on Partner B's quadriceps and glutes. Rest frequently or transition to another position as needed.",
+    "bestFor": ["role reversal", "strength challenge", "novelty"],
+    "relatedPositions": ["pos_004", "pos_026"]
+  },
+  {
+    "id": "pos_029",
+    "name": "The Side Saddle",
+    "alternateNames": ["Perpendicular", "The T"],
+    "category": ["intermediate", "lying-down", "side-by-side"],
+    "difficulty": 3,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 2,
+    "staminaRequired": 2,
+    "description": "Partners arrange themselves perpendicular to each other forming a T or L shape. Partner A lies on their back while Partner B lies on their side perpendicular to Partner A, draping a leg over Partner A's midsection. This unusual arrangement offers unique angles.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies on their back with legs slightly apart."},
+      {"step": 2, "text": "Partner B lies on their side perpendicular to Partner A, positioning their hips near Partner A's."},
+      {"step": 3, "text": "Partner B drapes their upper leg over Partner A's midsection, and both partners adjust for comfortable alignment."}
+    ],
+    "tips": ["Use hands to guide hips into comfortable alignment", "This position allows both partners' hands to be free for additional stimulation"],
+    "physicalNotes": "Low physical demand but requires patience to find the right alignment. Good for couples who want a relaxed yet different experience.",
+    "bestFor": ["novelty", "hands-free", "relaxed exploration"],
+    "relatedPositions": ["pos_009", "pos_013"]
+  },
+  {
+    "id": "pos_030",
+    "name": "The Wheelbarrow",
+    "alternateNames": ["Standing Lift", "The Handlebar"],
+    "category": ["advanced", "standing", "passionate"],
+    "difficulty": 5,
+    "intimacyLevel": 2,
+    "flexibilityRequired": 3,
+    "staminaRequired": 5,
+    "description": "Partner A supports their upper body on their hands or forearms on a raised surface while Partner B stands behind, holding Partner A's legs up at their waist. This highly athletic position requires substantial strength and coordination.",
+    "howTo": [
+      {"step": 1, "text": "Partner A places their hands or forearms on a stable, waist-height surface and extends their body outward."},
+      {"step": 2, "text": "Partner B stands behind and lifts Partner A's legs to waist level, holding them securely at the thighs."},
+      {"step": 3, "text": "Partner B controls all movement while Partner A focuses on maintaining upper body stability."}
+    ],
+    "tips": ["Use a very stable surface like a low table or ottoman for Partner A's upper body", "Start with Partner A's feet on the ground and gradually lift as comfort and strength allow"],
+    "physicalNotes": "Very demanding for both partners. Partner A needs strong arms and shoulders. Partner B needs significant grip strength and core stability. Brief duration recommended.",
+    "bestFor": ["athletic couples", "strength challenge", "adventurous play"],
+    "relatedPositions": ["pos_019", "pos_021"]
+  },
+  {
+    "id": "pos_031",
+    "name": "The Stairway",
+    "alternateNames": ["Stair Position", "Step Up"],
+    "category": ["standing", "rear-entry", "quickie"],
+    "difficulty": 3,
+    "intimacyLevel": 2,
+    "flexibilityRequired": 2,
+    "staminaRequired": 3,
+    "description": "Utilizing a staircase, Partner A stands a few steps above Partner B, creating natural height alignment. Partner A bends slightly and holds the railing while Partner B stands behind on a lower step. The stairs provide built-in height adjustment.",
+    "howTo": [
+      {"step": 1, "text": "Partner A stands on a stair a few steps up from Partner B, holding the railing for support."},
+      {"step": 2, "text": "Partner A bends forward slightly, adjusting the number of stairs between partners for alignment."},
+      {"step": 3, "text": "Partner B stands behind on a lower step, using the railing or Partner A's hips for stability."}
+    ],
+    "tips": ["Ensure the staircase has a solid railing to grip", "Adjust the step difference between partners to fine-tune height alignment"],
+    "physicalNotes": "The stairs resolve height differences naturally. Ensure good footing on the steps and reliable railing support.",
+    "bestFor": ["height adjustment", "spontaneity", "quickies"],
+    "relatedPositions": ["pos_020", "pos_021"]
+  },
+  {
+    "id": "pos_032",
+    "name": "The Lazy Dog",
+    "alternateNames": ["Relaxed All Fours", "Flat Frog"],
+    "category": ["beginner", "lying-down", "rear-entry", "pregnancy-safe"],
+    "difficulty": 1,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 1,
+    "staminaRequired": 2,
+    "description": "A relaxed version of the all-fours position where Partner A lies face-down on a stack of pillows that elevate the hips while keeping the upper body comfortable and resting. Partner B kneels behind. The pillows do the work of positioning.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies face down over a generous stack of pillows arranged under the hips and lower abdomen."},
+      {"step": 2, "text": "Partner B kneels behind Partner A, adjusting for comfortable alignment."},
+      {"step": 3, "text": "Partner B controls the rhythm while Partner A rests comfortably on the pillows."}
+    ],
+    "tips": ["Use firm pillows or a bolster for the best hip elevation", "Partner A can adjust the pillow height to change the angle"],
+    "physicalNotes": "Extremely low physical demand for both partners. The pillow arrangement is key to comfort and alignment.",
+    "bestFor": ["comfort", "low energy", "beginners", "relaxation"],
+    "relatedPositions": ["pos_024", "pos_023", "pos_008"]
+  },
+  {
+    "id": "pos_033",
+    "name": "The X",
+    "alternateNames": ["Criss-Cross", "The Crossover"],
+    "category": ["advanced", "lying-down", "face-to-face"],
+    "difficulty": 4,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 3,
+    "staminaRequired": 3,
+    "description": "Both partners lie on their backs with their bodies angled to form an X shape, connecting at the hips. Their legs interweave over each other's bodies. This unconventional arrangement creates unique leverage and allows both partners to see each other.",
+    "howTo": [
+      {"step": 1, "text": "Both partners lie on their backs at an angle to each other, forming an X shape with their bodies, hips meeting in the center."},
+      {"step": 2, "text": "Each partner drapes their legs over the other's midsection, interweaving as needed."},
+      {"step": 3, "text": "Both partners use their legs and hips to create a rocking, grinding motion."}
+    ],
+    "tips": ["Expect some trial and error getting into the right position", "Use hands on each other's thighs for additional leverage"],
+    "physicalNotes": "Moderate core engagement. The unusual angle may take practice to maintain. Both partners share the physical effort equally.",
+    "bestFor": ["novelty", "equal effort", "creative exploration"],
+    "relatedPositions": ["pos_029", "pos_009"]
+  },
+  {
+    "id": "pos_034",
+    "name": "The Plow",
+    "alternateNames": ["Deep Missionary", "The Press"],
+    "category": ["intermediate", "lying-down", "face-to-face", "passionate"],
+    "difficulty": 3,
+    "intimacyLevel": 4,
+    "flexibilityRequired": 3,
+    "staminaRequired": 4,
+    "description": "A deeper variation of the classic position where Partner A pulls their knees up toward their shoulders, allowing Partner B to lean in closely. This creates intense closeness and deep physical connection while maintaining eye contact.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies on their back and draws knees up toward their shoulders, keeping hold of them with their hands."},
+      {"step": 2, "text": "Partner B positions above and leans in, placing hands on either side of Partner A for support."},
+      {"step": 3, "text": "Partner B moves slowly, allowing Partner A to communicate about comfort and depth."}
+    ],
+    "tips": ["Start gently and increase depth only as Partner A is comfortable", "Place a pillow under Partner A's hips to reduce lower back strain"],
+    "physicalNotes": "Requires good hamstring flexibility from Partner A. Monitor for lower back discomfort. Partner B should control depth carefully.",
+    "bestFor": ["intensity", "deep connection", "passionate encounters"],
+    "relatedPositions": ["pos_002", "pos_026", "pos_012"]
+  },
+  {
+    "id": "pos_035",
+    "name": "The Glider",
+    "alternateNames": ["Prone Tiger", "Flat Back Ride"],
+    "category": ["intermediate", "lying-down"],
+    "difficulty": 3,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 2,
+    "staminaRequired": 3,
+    "description": "Partner A lies face-down while Partner B lies on top, face-down as well, aligned from head to toe. Partner B glides along Partner A's body using full-body contact. This creates a sense of being enveloped and closely held.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies face-down on a comfortable surface, legs slightly apart."},
+      {"step": 2, "text": "Partner B lies on top of Partner A in the same orientation, distributing weight carefully."},
+      {"step": 3, "text": "Partner B uses a slow gliding motion, keeping full body contact throughout."}
+    ],
+    "tips": ["Partner B should support some weight on their elbows to avoid pressing too heavily", "A small pillow under Partner A's hips aids alignment"],
+    "physicalNotes": "Partner B must be mindful of weight distribution. A significant weight difference between partners may make this position less comfortable.",
+    "bestFor": ["full-body contact", "closeness", "slow sensuality"],
+    "relatedPositions": ["pos_024", "pos_032"]
+  },
+  {
+    "id": "pos_036",
+    "name": "The Anvil",
+    "alternateNames": ["Legs Overhead", "The Fold Over"],
+    "category": ["advanced", "lying-down", "face-to-face", "flexibility"],
+    "difficulty": 4,
+    "intimacyLevel": 4,
+    "flexibilityRequired": 5,
+    "staminaRequired": 3,
+    "description": "Partner A lies on their back with legs raised all the way overhead, almost touching the surface behind their head. Partner B kneels over them. This extremely deep position requires exceptional flexibility and should only be attempted by well-stretched individuals.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies on their back and slowly raises both legs overhead, aiming to bring them back toward the surface behind their head."},
+      {"step": 2, "text": "Partner B kneels in front of Partner A and leans forward over them."},
+      {"step": 3, "text": "Movement should be minimal and extremely gentle given the compressed position."}
+    ],
+    "tips": ["Only attempt this if Partner A can comfortably perform a yoga plow pose", "Keep sessions brief and maintain constant communication"],
+    "physicalNotes": "Extreme hamstring, hip, and spine flexibility required from Partner A. Risk of back strain if flexibility is insufficient. Always warm up thoroughly.",
+    "bestFor": ["advanced flexibility", "intense closeness", "yoga practitioners"],
+    "relatedPositions": ["pos_026", "pos_012", "pos_016"]
+  },
+  {
+    "id": "pos_037",
+    "name": "The Snuggle",
+    "alternateNames": ["Lazy Spoon", "Morning Cuddle"],
+    "category": ["beginner", "side-by-side", "romantic", "pregnancy-safe"],
+    "difficulty": 1,
+    "intimacyLevel": 5,
+    "flexibilityRequired": 1,
+    "staminaRequired": 1,
+    "description": "A gentle, snuggling variation of the spooning position where both partners lie on their sides in the same direction, bodies pressed closely together from head to toe. Movement is slow and minimal, focusing on warmth and closeness.",
+    "howTo": [
+      {"step": 1, "text": "Both partners lie on the same side, facing the same direction, with Partner A behind Partner B."},
+      {"step": 2, "text": "Partner A presses their entire front against Partner B's entire back, curving to match their shape."},
+      {"step": 3, "text": "Gentle, slow rocking replaces any vigorous movement, with Partner A's arm draped over Partner B."}
+    ],
+    "tips": ["Perfect for early mornings when neither partner wants to fully wake up", "Use a shared blanket to maintain warmth and coziness"],
+    "physicalNotes": "Virtually no physical demand. Ideal for low-energy moments or when either partner has physical limitations.",
+    "bestFor": ["morning intimacy", "comfort", "pregnancy", "low energy"],
+    "relatedPositions": ["pos_008", "pos_047"]
+  },
+  {
+    "id": "pos_038",
+    "name": "The Jockey",
+    "alternateNames": ["Riding Position", "The Saddle"],
+    "category": ["intermediate", "lying-down", "rear-entry"],
+    "difficulty": 3,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 2,
+    "staminaRequired": 3,
+    "description": "Partner A lies face-down while Partner B straddles them from above, sitting on Partner A's upper thighs or buttocks area, facing the same direction. Partner B has full control of pace and depth from this mounted position.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies face-down on a comfortable surface."},
+      {"step": 2, "text": "Partner B straddles Partner A from above, sitting on the back of Partner A's upper thighs."},
+      {"step": 3, "text": "Partner B controls movement from this seated position while Partner A relaxes beneath."}
+    ],
+    "tips": ["Partner B should keep their weight centered and distributed evenly", "Partner A can squeeze their legs together to adjust the sensation"],
+    "physicalNotes": "Low demand for Partner A. Partner B needs moderate thigh stamina for sustained movement from this position.",
+    "bestFor": ["partner control", "relaxation for one partner", "deep angle"],
+    "relatedPositions": ["pos_024", "pos_035"]
+  },
+  {
+    "id": "pos_039",
+    "name": "The Rocker",
+    "alternateNames": ["Seated Rock", "The Seesaw"],
+    "category": ["sitting", "face-to-face", "tantric"],
+    "difficulty": 3,
+    "intimacyLevel": 5,
+    "flexibilityRequired": 2,
+    "staminaRequired": 2,
+    "description": "Both partners sit facing each other with legs interlocked, leaning back slightly and holding each other's forearms. They rock back and forth in a seesaw motion, alternately leaning back and pulling forward.",
+    "howTo": [
+      {"step": 1, "text": "Both partners sit on a soft surface facing each other with legs spread and interlocked around each other."},
+      {"step": 2, "text": "Grasp each other's forearms or wrists firmly."},
+      {"step": 3, "text": "Rock together in a seesaw motion: as one partner leans back, the other is pulled forward, and vice versa."}
+    ],
+    "tips": ["Maintain a steady, rhythmic rocking motion", "This is an excellent position for building emotional connection through coordinated movement"],
+    "physicalNotes": "Moderate core engagement for both partners. Requires a degree of trust and coordination to maintain the rocking rhythm.",
+    "bestFor": ["connection", "tantric practice", "coordinated movement"],
+    "relatedPositions": ["pos_014", "pos_015", "pos_001"]
+  },
+  {
+    "id": "pos_040",
+    "name": "The Spider",
+    "alternateNames": ["Crab Walk", "Face-Off"],
+    "category": ["advanced", "sitting", "face-to-face"],
+    "difficulty": 4,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 3,
+    "staminaRequired": 4,
+    "description": "Both partners sit facing each other and lean back on their hands with legs overlapping, resembling two crabs facing each other. They connect at the hips and use their arms to push themselves together in a rocking motion.",
+    "howTo": [
+      {"step": 1, "text": "Both partners sit facing each other with legs spread, then shift close enough for hips to meet."},
+      {"step": 2, "text": "Both lean back and support themselves on their hands placed behind them."},
+      {"step": 3, "text": "Use arm and hip strength to rock forward and back, maintaining connection through the motion."}
+    ],
+    "tips": ["This position is more about grinding and rocking than thrusting", "Take breaks for your wrists if they begin to fatigue"],
+    "physicalNotes": "Significant arm, wrist, and core strength required from both partners. Wrist fatigue is common. Short sessions recommended.",
+    "bestFor": ["equal effort", "athletic couples", "novelty"],
+    "relatedPositions": ["pos_033", "pos_039"]
+  },
+  {
+    "id": "pos_041",
+    "name": "The Couch Surfer",
+    "alternateNames": ["Sofa Position", "The Armrest"],
+    "category": ["beginner", "lying-down", "rear-entry", "quickie"],
+    "difficulty": 2,
+    "intimacyLevel": 2,
+    "flexibilityRequired": 1,
+    "staminaRequired": 2,
+    "description": "Partner A kneels on the couch seat and drapes their upper body over the armrest or back of the couch. Partner B kneels behind on the couch or stands behind it, depending on couch height. This utilizes common living room furniture for comfortable support.",
+    "howTo": [
+      {"step": 1, "text": "Partner A kneels on the couch cushion and leans forward over the couch's armrest, arms resting on the other side."},
+      {"step": 2, "text": "Partner B kneels on the couch directly behind Partner A, or stands behind the couch if the height works."},
+      {"step": 3, "text": "Both partners use the couch structure for support and comfort as they find their rhythm."}
+    ],
+    "tips": ["Drape a blanket over the armrest for padding under Partner A's midsection", "Ensure the couch is positioned against a wall so it doesn't slide"],
+    "physicalNotes": "Low physical demand thanks to the couch support. The main challenge is finding the right couch height for alignment.",
+    "bestFor": ["quickies", "spontaneity", "comfort"],
+    "relatedPositions": ["pos_023", "pos_021", "pos_027"]
+  },
+  {
+    "id": "pos_042",
+    "name": "The Tango",
+    "alternateNames": ["Standing Dance", "The Dip"],
+    "category": ["standing", "face-to-face", "romantic"],
+    "difficulty": 3,
+    "intimacyLevel": 4,
+    "flexibilityRequired": 2,
+    "staminaRequired": 4,
+    "description": "Partners stand face-to-face, with one partner slightly dipping the other backward in a dance-like pose. The upright partner supports the dipping partner's back while they lean into each other. Romantic and dramatic.",
+    "howTo": [
+      {"step": 1, "text": "Both partners stand facing each other in a close embrace."},
+      {"step": 2, "text": "Partner B supports Partner A's lower back firmly while Partner A leans back into a gentle dip."},
+      {"step": 3, "text": "Partner A wraps one leg around Partner B for stability while they find a connected rhythm in this dramatic pose."}
+    ],
+    "tips": ["Practice the dip and support before adding intimacy", "Do not dip too far back; a slight lean is sufficient and safer"],
+    "physicalNotes": "Requires good balance and core strength from Partner B to support the dip. Partner A needs core strength to maintain the lean.",
+    "bestFor": ["romance", "drama", "dancing couples"],
+    "relatedPositions": ["pos_018", "pos_019"]
+  },
+  {
+    "id": "pos_043",
+    "name": "The Hammock",
+    "alternateNames": ["Suspended Spoon", "The Swing"],
+    "category": ["intermediate", "side-by-side", "romantic"],
+    "difficulty": 3,
+    "intimacyLevel": 4,
+    "flexibilityRequired": 1,
+    "staminaRequired": 2,
+    "description": "A spooning variation where Partner A lies behind Partner B, and Partner B's upper leg is lifted and held by Partner A. This opens the angle while maintaining the cozy, side-by-side orientation that makes spooning so comfortable.",
+    "howTo": [
+      {"step": 1, "text": "Both partners lie on their sides in a spooning position, Partner A behind Partner B."},
+      {"step": 2, "text": "Partner A lifts Partner B's upper leg, holding it at the thigh or under the knee."},
+      {"step": 3, "text": "With the leg lifted, both partners have an easier angle for connection while remaining in the cozy spoon shape."}
+    ],
+    "tips": ["Partner B can hook their top leg back over Partner A's hip as an alternative to being held", "This is a great progression from basic spooning when you want more access"],
+    "physicalNotes": "Low overall demand. Partner A's holding arm may fatigue; switching to Partner B hooking their own leg back alleviates this.",
+    "bestFor": ["upgraded spooning", "comfort", "deeper access"],
+    "relatedPositions": ["pos_008", "pos_037"]
+  },
+  {
+    "id": "pos_044",
+    "name": "The Lotus Blossom",
+    "alternateNames": ["Open Lotus", "Unfolding"],
+    "category": ["sitting", "face-to-face", "tantric", "romantic"],
+    "difficulty": 3,
+    "intimacyLevel": 5,
+    "flexibilityRequired": 3,
+    "staminaRequired": 2,
+    "description": "An expanded version of The Lotus where both partners sit facing each other with legs extended behind the other's back rather than wrapped around. This opens the hips more widely and creates a flatter, more grounded connection point.",
+    "howTo": [
+      {"step": 1, "text": "Partner A sits on a cushioned surface with legs extended forward in a wide V-shape."},
+      {"step": 2, "text": "Partner B sits in Partner A's lap facing them, also extending their legs behind Partner A in a V-shape."},
+      {"step": 3, "text": "Both partners sit upright, hold hands or embrace, and move together with slow, gentle rhythms."}
+    ],
+    "tips": ["Sit on a folded blanket for hip elevation and comfort", "Focus on breath synchronization to deepen the experience"],
+    "physicalNotes": "Requires open hips and moderate flexibility from both partners. A meditation cushion or zafu helps significantly.",
+    "bestFor": ["tantric practice", "meditative intimacy", "spiritual connection"],
+    "relatedPositions": ["pos_001", "pos_015", "pos_039"]
+  },
+  {
+    "id": "pos_045",
+    "name": "The Temple Gate",
+    "alternateNames": ["Sacred Arch", "Tantric Bridge"],
+    "category": ["tantric", "sitting", "face-to-face"],
+    "difficulty": 3,
+    "intimacyLevel": 5,
+    "flexibilityRequired": 2,
+    "staminaRequired": 2,
+    "description": "A tantric position emphasizing energy flow. Partners sit facing each other in the Yab-Yum base position but alternate between leaning back and forward, creating an arching, wavelike energy circuit between their bodies.",
+    "howTo": [
+      {"step": 1, "text": "Begin in the Yab-Yum position (pos_015) with Partner B in Partner A's lap, facing them."},
+      {"step": 2, "text": "As one partner slowly arches backward, the other leans forward to follow, maintaining contact."},
+      {"step": 3, "text": "Reverse the motion in a fluid, wavelike alternation, breathing deeply throughout."}
+    ],
+    "tips": ["Visualize energy traveling up and down between your bodies with each wave", "Play ambient music to set a rhythm for the wavelike motion"],
+    "physicalNotes": "Moderate core engagement for the arching motions. Back support behind Partner A helps with the backward lean.",
+    "bestFor": ["energy work", "tantric practice", "flowing movement"],
+    "relatedPositions": ["pos_015", "pos_001", "pos_044"]
+  },
+  {
+    "id": "pos_046",
+    "name": "The Dragonfly",
+    "alternateNames": ["Soaring", "The Spread"],
+    "category": ["intermediate", "lying-down", "face-to-face"],
+    "difficulty": 3,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 3,
+    "staminaRequired": 3,
+    "description": "Partner A lies on their back with legs spread wide in a V-shape, creating an open, accessible arrangement. Partner B kneels between Partner A's legs, lifting Partner A's hips slightly for alignment. This wide-open position allows for varied angles.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies on their back and spreads their legs wide, resting them on the surface."},
+      {"step": 2, "text": "Partner B kneels between Partner A's legs and places a pillow under Partner A's hips for elevation."},
+      {"step": 3, "text": "Partner B holds Partner A's thighs or hips and both partners find a comfortable rhythm."}
+    ],
+    "tips": ["Partner A should only spread legs as wide as is naturally comfortable", "The kneeling partner can shift between upright and leaning forward for angle variety"],
+    "physicalNotes": "Requires moderate hip and inner-thigh flexibility from Partner A. The pillow elevation is important for comfortable alignment.",
+    "bestFor": ["openness", "angle variety", "visual connection"],
+    "relatedPositions": ["pos_011", "pos_003"]
+  },
+  {
+    "id": "pos_047",
+    "name": "The Nest",
+    "alternateNames": ["Fetal Spoon", "The Cocoon"],
+    "category": ["beginner", "side-by-side", "romantic", "pregnancy-safe"],
+    "difficulty": 1,
+    "intimacyLevel": 5,
+    "flexibilityRequired": 1,
+    "staminaRequired": 1,
+    "description": "Both partners curl up in a fetal-like position while spooning, creating a tight, cocoon-like embrace. This deeply comforting position prioritizes emotional safety and warmth over physical intensity.",
+    "howTo": [
+      {"step": 1, "text": "Both partners lie on the same side in a spooning position."},
+      {"step": 2, "text": "Both draw their knees up together in a matching fetal position."},
+      {"step": 3, "text": "Partner A (behind) wraps tightly around Partner B, and both settle into gentle, minimal rocking."}
+    ],
+    "tips": ["Pull a blanket around both of you for maximum cocoon effect", "This is ideal when one or both partners need emotional comfort along with physical closeness"],
+    "physicalNotes": "Virtually zero physical demand. One of the most accessible positions for any fitness level or physical condition.",
+    "bestFor": ["emotional comfort", "security", "pregnancy", "low energy"],
+    "relatedPositions": ["pos_008", "pos_037"]
+  },
+  {
+    "id": "pos_048",
+    "name": "The Valkyrie",
+    "alternateNames": ["Riding High", "Upright Rider"],
+    "category": ["intermediate", "lying-down", "passionate"],
+    "difficulty": 3,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 2,
+    "staminaRequired": 4,
+    "description": "Partner A lies on their back while Partner B sits on top, completely upright with hands on their own thighs or in the air. This variation emphasizes Partner B's control and creates an athletic, vigorous dynamic.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies flat on their back."},
+      {"step": 2, "text": "Partner B straddles Partner A, kneeling, and sits fully upright."},
+      {"step": 3, "text": "Partner B places hands on their own thighs or Partner A's chest and controls all movement using core and leg muscles."}
+    ],
+    "tips": ["Partner B can alternate between bouncing and grinding motions for variety", "Partner A can hold Partner B's hips to provide support and share in guiding the rhythm"],
+    "physicalNotes": "High thigh and core demand on Partner B. Build endurance gradually. Partner A's role is largely passive.",
+    "bestFor": ["partner empowerment", "vigorous pace", "visual excitement"],
+    "relatedPositions": ["pos_004", "pos_005"]
+  },
+  {
+    "id": "pos_049",
+    "name": "The Pretzel Dip",
+    "alternateNames": ["Twisted Embrace", "The Corkscrew"],
+    "category": ["advanced", "side-by-side", "face-to-face"],
+    "difficulty": 4,
+    "intimacyLevel": 4,
+    "flexibilityRequired": 3,
+    "staminaRequired": 2,
+    "description": "Partner A lies on their side while Partner B lies perpendicular, threading their legs through Partner A's to create a twisted, interlocked arrangement. Despite the complex setup, once in position it requires minimal effort.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies on their side with knees slightly bent."},
+      {"step": 2, "text": "Partner B lies on their back perpendicular to Partner A, sliding their near leg between Partner A's legs."},
+      {"step": 3, "text": "Partner B drapes their far leg over Partner A's hip, creating an interlocked configuration."},
+      {"step": 4, "text": "Both adjust until aligned and comfortable, using slow movement."}
+    ],
+    "tips": ["Be patient while getting into position; it takes several adjustments", "Once set up, use gentle rocking motions rather than large movements"],
+    "physicalNotes": "The setup is the hardest part. Once in position, physical demand is low. Good for extended, slow sessions.",
+    "bestFor": ["novelty", "slow exploration", "unique angles"],
+    "relatedPositions": ["pos_013", "pos_029", "pos_033"]
+  },
+  {
+    "id": "pos_050",
+    "name": "The Dancer",
+    "alternateNames": ["Standing Split", "Ballerina"],
+    "category": ["advanced", "standing", "face-to-face", "flexibility"],
+    "difficulty": 5,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 5,
+    "staminaRequired": 4,
+    "description": "Both partners stand facing each other. Partner A lifts one leg high, resting it on Partner B's shoulder, while standing on the other leg. This ballet-inspired position requires exceptional flexibility and balance.",
+    "howTo": [
+      {"step": 1, "text": "Both partners stand facing each other near a wall or sturdy support."},
+      {"step": 2, "text": "Partner A lifts one leg and places it on Partner B's shoulder while holding the wall for balance."},
+      {"step": 3, "text": "Partner B steps close, supporting Partner A's raised leg, and both find a slow, careful rhythm."}
+    ],
+    "tips": ["Warm up thoroughly with stretching before attempting", "Keep a hand on a wall at all times for safety"],
+    "physicalNotes": "Requires near-full-splits flexibility from Partner A and excellent balance from both. Only for those with dancer- or gymnast-level flexibility.",
+    "bestFor": ["flexibility showcase", "athletic couples", "visual drama"],
+    "relatedPositions": ["pos_018", "pos_016"]
+  },
+  {
+    "id": "pos_051",
+    "name": "The Slow Burn",
+    "alternateNames": ["Gentle Grind", "The Pulse"],
+    "category": ["beginner", "lying-down", "face-to-face", "romantic"],
+    "difficulty": 1,
+    "intimacyLevel": 5,
+    "flexibilityRequired": 1,
+    "staminaRequired": 1,
+    "description": "A variation of the classic facing position where all movement is reduced to a slow, grinding rhythm rather than thrusting. Partners lie face-to-face, bodies fully pressed together, using tiny circular hip movements to build sensation gradually.",
+    "howTo": [
+      {"step": 1, "text": "Partners settle into a standard face-to-face lying position with Partner B on top."},
+      {"step": 2, "text": "Rather than thrusting, Partner B uses slow, circular hip motions while pressing fully against Partner A."},
+      {"step": 3, "text": "Partner A mirrors the circular motion with their own hips, creating a synchronized grinding rhythm."}
+    ],
+    "tips": ["Focus on the journey rather than the destination with this slow approach", "Whisper, kiss, and maintain eye contact throughout"],
+    "physicalNotes": "Minimal physical demand. The focus is on subtle movement and sustained closeness.",
+    "bestFor": ["building tension", "romantic connection", "extended sessions"],
+    "relatedPositions": ["pos_002", "pos_010"]
+  },
+  {
+    "id": "pos_052",
+    "name": "The Seesaw",
+    "alternateNames": ["Counterbalance", "Push-Pull"],
+    "category": ["intermediate", "sitting", "face-to-face"],
+    "difficulty": 3,
+    "intimacyLevel": 4,
+    "flexibilityRequired": 2,
+    "staminaRequired": 3,
+    "description": "Both partners sit facing each other with connected hips, leaning back and holding each other's wrists. They use a push-pull counterbalance to create movement, with one leaning back as the other leans forward.",
+    "howTo": [
+      {"step": 1, "text": "Both partners sit facing each other, legs wrapped around each other or interlocked, hips connected."},
+      {"step": 2, "text": "Each partner grips the other's wrists firmly."},
+      {"step": 3, "text": "Alternate leaning back and forward in a seesaw motion, using the counterbalance to drive the rhythm."}
+    ],
+    "tips": ["Keep a firm but comfortable grip on each other's wrists", "Start with small, controlled movements and expand the range as you find your balance"],
+    "physicalNotes": "Core and arm engagement for both. Requires coordination and trust to maintain the counterbalance rhythm.",
+    "bestFor": ["teamwork", "core workout", "playful intimacy"],
+    "relatedPositions": ["pos_039", "pos_040"]
+  },
+  {
+    "id": "pos_053",
+    "name": "The Lap Dance",
+    "alternateNames": ["Seated Grind", "Club Chair"],
+    "category": ["intermediate", "sitting", "passionate"],
+    "difficulty": 2,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 2,
+    "staminaRequired": 3,
+    "description": "Partner A sits in a sturdy chair while Partner B sits on their lap facing away, mimicking the motion of a lap dance. Partner B has full control over speed, depth, and rhythm from this rear-facing seated position.",
+    "howTo": [
+      {"step": 1, "text": "Partner A sits on a sturdy chair with armrests, feet flat on the floor."},
+      {"step": 2, "text": "Partner B sits on Partner A's lap facing away, feet on the floor for leverage."},
+      {"step": 3, "text": "Partner B controls all movement using their legs and hips while Partner A holds their waist."}
+    ],
+    "tips": ["Partner B can lean forward and place hands on Partner A's knees for support", "Alternate between grinding and bouncing motions for variety"],
+    "physicalNotes": "Moderate thigh demand on Partner B. Partner A's role is largely passive. The chair provides stability for both.",
+    "bestFor": ["partner control", "seated passion", "visual excitement"],
+    "relatedPositions": ["pos_007", "pos_006"]
+  },
+  {
+    "id": "pos_054",
+    "name": "The Plank",
+    "alternateNames": ["Push-Up Position", "The Hover"],
+    "category": ["advanced", "lying-down", "face-to-face"],
+    "difficulty": 4,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 1,
+    "staminaRequired": 5,
+    "description": "Partner B holds themselves in a push-up or plank position above Partner A, who lies on their back. Rather than resting body weight on Partner A, Partner B hovers above using arm and core strength, controlling movement with their entire body.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies on their back on a firm surface."},
+      {"step": 2, "text": "Partner B assumes a push-up or plank position directly above, arms fully extended."},
+      {"step": 3, "text": "Partner B uses controlled push-up-like motions, lowering and raising the body for connection and movement."}
+    ],
+    "tips": ["This is as much a workout as an intimate position; pace yourself", "Partner B can drop to forearms for a modified version that is less tiring"],
+    "physicalNotes": "Extremely high upper body, core, and stamina demand on Partner B. Ideal for fitness enthusiasts looking to combine exercise with intimacy.",
+    "bestFor": ["fitness", "strength building", "unique challenge"],
+    "relatedPositions": ["pos_002", "pos_035"]
+  },
+  {
+    "id": "pos_055",
+    "name": "The Cupid's Arrow",
+    "alternateNames": ["One Leg Up", "Half Split"],
+    "category": ["intermediate", "lying-down", "face-to-face"],
+    "difficulty": 3,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 3,
+    "staminaRequired": 3,
+    "description": "Partner A lies on their back and raises one leg to rest on Partner B's shoulder while keeping the other leg down. This asymmetric arrangement creates a unique angle and moderate stretch without requiring full splits flexibility.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies on their back. Partner B kneels facing them."},
+      {"step": 2, "text": "Partner A raises one leg and rests it on Partner B's shoulder."},
+      {"step": 3, "text": "The other leg remains on the bed, bent at the knee. Partner B leans in and both find their rhythm."}
+    ],
+    "tips": ["Switch legs periodically to even out the stretch", "The raised leg can be straight or bent at the knee depending on flexibility"],
+    "physicalNotes": "Moderate hamstring flexibility required for the raised leg. Less demanding than having both legs raised.",
+    "bestFor": ["asymmetric stimulation", "moderate stretch", "angle variety"],
+    "relatedPositions": ["pos_012", "pos_046"]
+  },
+  {
+    "id": "pos_056",
+    "name": "The Sidewinder",
+    "alternateNames": ["Twisted Spoon", "The Corkscrew"],
+    "category": ["intermediate", "side-by-side", "rear-entry"],
+    "difficulty": 3,
+    "intimacyLevel": 4,
+    "flexibilityRequired": 2,
+    "staminaRequired": 2,
+    "description": "A spooning variation where Partner B (in back) keeps their body aligned while Partner A (in front) twists their upper body to face Partner B. This allows for kissing and eye contact while maintaining the side-by-side rear approach.",
+    "howTo": [
+      {"step": 1, "text": "Begin in a standard spooning position with Partner A in front."},
+      {"step": 2, "text": "Partner A twists their upper body backward to face Partner B while keeping hips pointing forward."},
+      {"step": 3, "text": "Partners can now kiss and make eye contact while maintaining the spooning connection."}
+    ],
+    "tips": ["Use a pillow under Partner A's twisted shoulder for support", "Don't force the twist; only turn as far as is comfortable"],
+    "physicalNotes": "Requires reasonable spinal rotation ability from Partner A. Not suitable for those with back issues.",
+    "bestFor": ["eye contact during spooning", "romantic twist", "hybrid position"],
+    "relatedPositions": ["pos_008", "pos_043"]
+  },
+  {
+    "id": "pos_057",
+    "name": "The Lotus Bloom",
+    "alternateNames": ["Flowering Lotus", "Tantric Unfold"],
+    "category": ["tantric", "sitting", "romantic"],
+    "difficulty": 3,
+    "intimacyLevel": 5,
+    "flexibilityRequired": 3,
+    "staminaRequired": 2,
+    "description": "Beginning in the Lotus position, both partners slowly lean back simultaneously until they are both reclining, connected at the hips. This gradual unfolding creates a powerful sense of vulnerability and openness.",
+    "howTo": [
+      {"step": 1, "text": "Begin in the standard Lotus position (pos_001) with Partner B in Partner A's lap, facing them."},
+      {"step": 2, "text": "Slowly and simultaneously, both partners lean back until lying flat, maintaining connection."},
+      {"step": 3, "text": "Once both are reclined, use leg and hip movements to maintain rhythm in this stretched-out position."}
+    ],
+    "tips": ["Use pillows behind each partner to cushion the transition", "The slow unfolding is the most intimate part; don't rush it"],
+    "physicalNotes": "Moderate core strength needed for the controlled lean-back. Once reclined, physical demand is low.",
+    "bestFor": ["vulnerability", "tantric transitions", "meditative intimacy"],
+    "relatedPositions": ["pos_001", "pos_015", "pos_045"]
+  },
+  {
+    "id": "pos_058",
+    "name": "The Phoenix",
+    "alternateNames": ["Rising Bird", "The Soar"],
+    "category": ["advanced", "lying-down", "passionate"],
+    "difficulty": 4,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 3,
+    "staminaRequired": 4,
+    "description": "Partner A lies on their back while Partner B positions in a squatting stance over them, feet flat on the bed on either side of Partner A's hips. Partner B uses a deep squatting motion to control all movement from above.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies flat on their back on a firm surface."},
+      {"step": 2, "text": "Partner B stands over Partner A, then squats down, placing feet flat on the surface on either side of Partner A's hips."},
+      {"step": 3, "text": "Partner B uses deep squatting motions to move, keeping balance with hands on Partner A's chest or the surface."}
+    ],
+    "tips": ["Partner B should have strong squatting endurance before attempting this regularly", "Partner A can hold Partner B's hips to help with balance"],
+    "physicalNotes": "Very high quadriceps and glute demand on Partner B. An excellent leg workout. Rest frequently.",
+    "bestFor": ["athletic intimacy", "powerful movement", "leg strength"],
+    "relatedPositions": ["pos_028", "pos_048"]
+  },
+  {
+    "id": "pos_059",
+    "name": "The Pretzel Sit",
+    "alternateNames": ["Cross-Legged Embrace", "The Weave"],
+    "category": ["sitting", "face-to-face", "tantric"],
+    "difficulty": 3,
+    "intimacyLevel": 5,
+    "flexibilityRequired": 3,
+    "staminaRequired": 2,
+    "description": "Both partners sit cross-legged facing each other and scoot close enough for their crossed legs to interweave. Their foreheads touch, and they breathe together while connected at the hips through the woven-leg arrangement.",
+    "howTo": [
+      {"step": 1, "text": "Both partners sit cross-legged on a cushioned surface facing each other."},
+      {"step": 2, "text": "Scoot toward each other until crossed legs overlap and interweave, creating a stable base."},
+      {"step": 3, "text": "Touch foreheads together, synchronize breathing, and use subtle pelvic rocking for movement."}
+    ],
+    "tips": ["Sit on cushions to elevate hips and make the leg-weaving more comfortable", "This is meditation as much as intimacy; let the stillness speak"],
+    "physicalNotes": "Requires moderate hip flexibility for comfortable cross-legged sitting. Extended sessions benefit from cushion elevation.",
+    "bestFor": ["meditation", "tantric union", "stillness"],
+    "relatedPositions": ["pos_015", "pos_044", "pos_001"]
+  },
+  {
+    "id": "pos_060",
+    "name": "The Shoulder Stand",
+    "alternateNames": ["Legs Up Wall", "The Candle"],
+    "category": ["advanced", "lying-down", "flexibility"],
+    "difficulty": 5,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 4,
+    "staminaRequired": 3,
+    "description": "Partner A positions in a shoulder stand (upper back and shoulders on the bed, hips and legs elevated straight up) while Partner B stands or kneels to connect with the elevated Partner A. This inverted position is acrobatic and challenging.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies on their back and lifts hips and legs into a shoulder stand, supported by hands on lower back."},
+      {"step": 2, "text": "Partner B kneels or stands to align with Partner A's elevated hips."},
+      {"step": 3, "text": "Partner B supports Partner A's hips while they maintain the inverted position briefly."}
+    ],
+    "tips": ["Only attempt if Partner A regularly practices shoulder stands", "Keep duration very short; inversions can cause lightheadedness"],
+    "physicalNotes": "High core, shoulder, and neck strength required from Partner A. Inversions increase blood pressure to the head. Not for beginners or those with neck, blood pressure, or heart issues.",
+    "bestFor": ["acrobatic couples", "yoga practitioners", "brief novelty"],
+    "relatedPositions": ["pos_016", "pos_036"]
+  },
+  {
+    "id": "pos_061",
+    "name": "The Bow",
+    "alternateNames": ["The Archer", "Drawn Back"],
+    "category": ["intermediate", "lying-down", "passionate"],
+    "difficulty": 3,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 2,
+    "staminaRequired": 3,
+    "description": "Partner A lies on their back while Partner B kneels between their legs. Partner B leans back, arching their back and gripping Partner A's thighs for support, creating a bow-like shape with their body. This shift in angle creates novel sensations.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies on their back with knees bent, feet flat on the surface."},
+      {"step": 2, "text": "Partner B kneels between Partner A's legs in an upright position."},
+      {"step": 3, "text": "Partner B slowly leans backward, arching their back and gripping Partner A's thighs for support, while maintaining hip connection."}
+    ],
+    "tips": ["Partner B should lean back only as far as is comfortable", "Partner A can plant their feet and push their hips up to meet Partner B"],
+    "physicalNotes": "Moderate back flexibility needed for Partner B. The lean-back creates a good stretch but should not be forced.",
+    "bestFor": ["angle change", "back stretch", "visual drama"],
+    "relatedPositions": ["pos_004", "pos_048"]
+  },
+  {
+    "id": "pos_062",
+    "name": "The Swing Set",
+    "alternateNames": ["Edge Dangle", "Bedside Swing"],
+    "category": ["intermediate", "lying-down", "standing"],
+    "difficulty": 3,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 2,
+    "staminaRequired": 3,
+    "description": "Partner A lies on the bed with their legs dangling off the edge, feet not touching the floor. Partner B stands between Partner A's hanging legs and holds them for positioning. The dangling legs allow for easy angle adjustments.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies on a bed positioned so their legs hang freely off the edge from the knees down."},
+      {"step": 2, "text": "Partner B stands at the edge of the bed between Partner A's dangling legs."},
+      {"step": 3, "text": "Partner B can lift, spread, or position Partner A's legs as desired while standing comfortably."}
+    ],
+    "tips": ["Adjust bed height with mattress toppers if the edge is too low or high for the standing partner", "Partner A can hook their heels behind Partner B's thighs for stability"],
+    "physicalNotes": "Low physical demand for Partner A. Partner B needs moderate leg stamina for standing. Good bed height matching is essential.",
+    "bestFor": ["leg freedom", "standing variety", "easy transitions"],
+    "relatedPositions": ["pos_011", "pos_022"]
+  },
+  {
+    "id": "pos_063",
+    "name": "The Slow Dance",
+    "alternateNames": ["Standing Sway", "The Waltz"],
+    "category": ["standing", "face-to-face", "romantic", "beginner"],
+    "difficulty": 2,
+    "intimacyLevel": 5,
+    "flexibilityRequired": 1,
+    "staminaRequired": 2,
+    "description": "Partners stand face-to-face in a close dance-like embrace, swaying gently together. One partner lifts a leg to hook around the other's hip. More about the emotional connection and romance of slow dancing than vigorous physicality.",
+    "howTo": [
+      {"step": 1, "text": "Both partners stand facing each other in a close embrace, as if slow dancing."},
+      {"step": 2, "text": "Partner A lifts one leg and hooks it around Partner B's hip or thigh."},
+      {"step": 3, "text": "Both partners sway gently together, using the rhythm of music or their own breathing."}
+    ],
+    "tips": ["Actually play slow music to enhance the romantic atmosphere", "Focus on the dance and emotional connection rather than performance"],
+    "physicalNotes": "Minimal physical demand. Balance is aided by holding each other. One of the most accessible standing positions.",
+    "bestFor": ["romance", "dancing", "emotional connection", "gentle pace"],
+    "relatedPositions": ["pos_042", "pos_018"]
+  },
+  {
+    "id": "pos_064",
+    "name": "The Helicopter",
+    "alternateNames": ["The Swivel", "Turntable"],
+    "category": ["advanced", "lying-down"],
+    "difficulty": 5,
+    "intimacyLevel": 2,
+    "flexibilityRequired": 3,
+    "staminaRequired": 4,
+    "description": "Partner A lies on their back while Partner B mounts on top and gradually rotates their body 360 degrees while maintaining connection. This is more of a playful challenge than a sustained position, requiring coordination and humor.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies flat on their back on a spacious surface."},
+      {"step": 2, "text": "Partner B positions on top in a standard facing position."},
+      {"step": 3, "text": "Partner B carefully shifts their weight and rotates their body slowly, pivoting on the connection point, attempting a full 360-degree turn."},
+      {"step": 4, "text": "Move slowly, communicate constantly, and prioritize comfort over completing the rotation."}
+    ],
+    "tips": ["This is a playful challenge, not an everyday position", "Use a well-lubricated connection and move extremely slowly"],
+    "physicalNotes": "Requires patience, coordination, and good humor. Not always achievable and that is perfectly fine. The attempt is the fun part.",
+    "bestFor": ["playful challenge", "novelty", "adventurous couples"],
+    "relatedPositions": ["pos_004", "pos_005"]
+  },
+  {
+    "id": "pos_065",
+    "name": "The Piston",
+    "alternateNames": ["Standing Squat", "The Pump"],
+    "category": ["advanced", "standing", "passionate"],
+    "difficulty": 4,
+    "intimacyLevel": 2,
+    "flexibilityRequired": 2,
+    "staminaRequired": 5,
+    "description": "Both partners stand facing the same direction. Partner A bends forward holding a support surface while Partner B stands behind. The standing alignment allows for powerful, piston-like movement but requires endurance.",
+    "howTo": [
+      {"step": 1, "text": "Partner A stands and bends forward, gripping a sturdy surface like a table or railing."},
+      {"step": 2, "text": "Partner B stands directly behind, aligning hips."},
+      {"step": 3, "text": "Partner B uses the full range of standing motion for powerful, rhythmic movement."}
+    ],
+    "tips": ["Ensure the support surface is rock-solid and at the right height", "Partner B should maintain a slight bend in the knees to protect the lower back"],
+    "physicalNotes": "Very high stamina demand on Partner B. Good cardiovascular fitness is helpful. Take breaks as needed.",
+    "bestFor": ["intensity", "stamina", "powerful movement"],
+    "relatedPositions": ["pos_021", "pos_020"]
+  },
+  {
+    "id": "pos_066",
+    "name": "The Peacock",
+    "alternateNames": ["Fan Display", "The Showcase"],
+    "category": ["intermediate", "lying-down", "face-to-face"],
+    "difficulty": 3,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 3,
+    "staminaRequired": 3,
+    "description": "Partner A lies on their back with legs spread wide, while Partner B kneels upright between them, holding Partner A's ankles. Partner B spreads Partner A's legs wider or brings them together to change angles during the encounter.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies on their back with legs extended upward."},
+      {"step": 2, "text": "Partner B kneels upright between Partner A's legs and holds their ankles."},
+      {"step": 3, "text": "Partner B alternates between spreading Partner A's legs wide and bringing them together, changing the sensation with each shift."}
+    ],
+    "tips": ["Communicate clearly about how wide is comfortable for the leg spread", "Alternate between wide and narrow leg positions for varied sensation"],
+    "physicalNotes": "Requires moderate inner-thigh flexibility from Partner A. Partner B controls the angle adjustment.",
+    "bestFor": ["dynamic positioning", "partner guidance", "angle control"],
+    "relatedPositions": ["pos_046", "pos_055"]
+  },
+  {
+    "id": "pos_067",
+    "name": "The Candle",
+    "alternateNames": ["Upright Sitting", "Straight Up"],
+    "category": ["beginner", "sitting", "face-to-face", "romantic"],
+    "difficulty": 2,
+    "intimacyLevel": 4,
+    "flexibilityRequired": 1,
+    "staminaRequired": 2,
+    "description": "Partner A sits on the edge of the bed with feet on the floor. Partner B sits on their lap facing them with feet also on the floor. Both sit bolt-upright, chest to chest, in the simplest of sitting positions.",
+    "howTo": [
+      {"step": 1, "text": "Partner A sits upright on the edge of a bed or sturdy chair, feet flat on the floor."},
+      {"step": 2, "text": "Partner B sits on Partner A's lap facing them, straddling, with their feet also touching the floor."},
+      {"step": 3, "text": "Both partners hold each other and rock together, using feet on the floor for leverage."}
+    ],
+    "tips": ["Having both partners' feet on the floor provides excellent leverage and stability", "The upright posture naturally promotes face-to-face intimacy"],
+    "physicalNotes": "Low physical demand. The floor provides grounding support for both partners.",
+    "bestFor": ["simplicity", "beginners", "face-to-face closeness"],
+    "relatedPositions": ["pos_006", "pos_027"]
+  },
+  {
+    "id": "pos_068",
+    "name": "The Basket",
+    "alternateNames": ["The Scoop", "Cradle Carry"],
+    "category": ["advanced", "lying-down", "romantic"],
+    "difficulty": 4,
+    "intimacyLevel": 4,
+    "flexibilityRequired": 2,
+    "staminaRequired": 4,
+    "description": "Partner B kneels on the bed and lifts Partner A into their lap by scooping under their back and thighs. Partner A curls into a ball shape in Partner B's arms. An unusually nurturing position that creates a strong sense of being cradled.",
+    "howTo": [
+      {"step": 1, "text": "Partner B kneels on a wide, stable surface."},
+      {"step": 2, "text": "Partner A lies back, and Partner B lifts Partner A's hips into their lap, cradling their back with one arm."},
+      {"step": 3, "text": "Partner A curls inward, held in Partner B's lap and arms, while both find a gentle rhythm."}
+    ],
+    "tips": ["Partner B should lift with their legs, not their back", "Pillows under Partner B's knees reduce strain during kneeling"],
+    "physicalNotes": "Significant arm and core strength required from Partner B to cradle Partner A. Weight difference matters; works best when Partner B is the stronger partner.",
+    "bestFor": ["nurturing", "being held", "romantic care"],
+    "relatedPositions": ["pos_014", "pos_047"]
+  },
+  {
+    "id": "pos_069",
+    "name": "The G-Force",
+    "alternateNames": ["Pillow Prop", "Angled Entry"],
+    "category": ["beginner", "lying-down", "rear-entry", "pregnancy-safe"],
+    "difficulty": 1,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 1,
+    "staminaRequired": 2,
+    "description": "A straightforward enhancement of any lying position that uses strategically placed pillows to tilt the pelvis upward. This simple adjustment can significantly change the angle of connection and is universally accessible.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies on their front or back, depending on the desired approach."},
+      {"step": 2, "text": "Place one or two firm pillows under Partner A's hips to create a pelvic tilt."},
+      {"step": 3, "text": "Partner B positions behind or above, benefiting from the improved angle created by the elevation."}
+    ],
+    "tips": ["Experiment with different numbers and sizes of pillows to find the ideal tilt", "A dedicated position wedge provides more consistent and comfortable support than regular pillows"],
+    "physicalNotes": "Zero additional physical demand beyond the base position. The pillow does all the work.",
+    "bestFor": ["angle enhancement", "comfort", "accessibility"],
+    "relatedPositions": ["pos_003", "pos_032", "pos_024"]
+  },
+  {
+    "id": "pos_070",
+    "name": "The Clock",
+    "alternateNames": ["Around the World", "Rotation"],
+    "category": ["intermediate", "lying-down", "face-to-face"],
+    "difficulty": 3,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 2,
+    "staminaRequired": 3,
+    "description": "Starting with Partner B on top facing Partner A, Partner B gradually shifts their body angle, rotating incrementally around Partner A like the hand of a clock. Each small rotation changes the angle of connection.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies on their back. Partner B mounts in a standard facing position on top."},
+      {"step": 2, "text": "Partner B carefully rotates their body a few degrees, pausing to enjoy each new angle."},
+      {"step": 3, "text": "Continue rotating incrementally, exploring different angles throughout the full range of rotation."}
+    ],
+    "tips": ["Move in very small increments; even a slight rotation changes the sensation", "You don't need to complete a full 360; explore the angles that feel best"],
+    "physicalNotes": "Moderate coordination required. Move slowly and carefully during rotation to maintain comfort for both partners.",
+    "bestFor": ["exploration", "angle discovery", "playful variety"],
+    "relatedPositions": ["pos_064", "pos_004"]
+  },
+  {
+    "id": "pos_071",
+    "name": "The Surf Board",
+    "alternateNames": ["Prone Ride", "The Slider"],
+    "category": ["intermediate", "lying-down", "rear-entry"],
+    "difficulty": 3,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 1,
+    "staminaRequired": 3,
+    "description": "Partner A lies face-down with legs together. Partner B lies on top in the same direction but positioned slightly higher, using a sliding, surfing motion rather than standard movement. Full body-on-body contact creates warmth and closeness.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies face-down, legs together, on a comfortable surface."},
+      {"step": 2, "text": "Partner B lies on top in the same direction, positioned with their hips over Partner A's."},
+      {"step": 3, "text": "Partner B uses a long, sliding motion along the length of Partner A's body, like surfing a wave."}
+    ],
+    "tips": ["A small amount of massage oil can enhance the sliding sensation", "Keep movements long and smooth rather than short and quick"],
+    "physicalNotes": "Moderate physical demand for Partner B. Weight distribution is important; Partner B should support some weight on their arms.",
+    "bestFor": ["full body contact", "sliding sensation", "sensual movement"],
+    "relatedPositions": ["pos_035", "pos_024"]
+  },
+  {
+    "id": "pos_072",
+    "name": "The Kneel",
+    "alternateNames": ["Kneeling Classic", "The Prayer"],
+    "category": ["beginner", "lying-down", "face-to-face"],
+    "difficulty": 2,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 1,
+    "staminaRequired": 2,
+    "description": "Partner A lies on their back while Partner B kneels between their legs, sitting back on their heels. This upright kneeling position gives Partner B visual access to Partner A and allows for hands-free connection.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies on their back with knees bent and feet flat on the surface."},
+      {"step": 2, "text": "Partner B kneels between Partner A's legs, sitting back on their heels."},
+      {"step": 3, "text": "Partner B grips Partner A's hips or thighs and uses their kneeling position for gentle, controlled movement."}
+    ],
+    "tips": ["Place padding under Partner B's knees for comfort", "This position frees both of Partner B's hands for additional stimulation"],
+    "physicalNotes": "Low overall demand. Knee padding is recommended for Partner B during extended sessions.",
+    "bestFor": ["visual connection", "hands-free", "controlled pace"],
+    "relatedPositions": ["pos_002", "pos_046"]
+  },
+  {
+    "id": "pos_073",
+    "name": "The Headboard Hold",
+    "alternateNames": ["Grip Top", "The Anchor"],
+    "category": ["intermediate", "lying-down", "passionate"],
+    "difficulty": 2,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 1,
+    "staminaRequired": 3,
+    "description": "Partner B is on top, but instead of supporting weight on their arms, they grip the headboard for leverage. This frees their body for more dynamic movement and provides a stable anchor point.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies on their back on a bed with a sturdy headboard."},
+      {"step": 2, "text": "Partner B positions on top, facing Partner A, and grips the headboard with both hands."},
+      {"step": 3, "text": "Using the headboard for leverage, Partner B moves with more power and control than arm-supported positions allow."}
+    ],
+    "tips": ["Ensure the headboard is securely attached to the wall or bed frame", "Partner B can adjust grip width on the headboard for different leverage angles"],
+    "physicalNotes": "The headboard reduces arm fatigue for Partner B while enabling more dynamic movement. Core engagement remains important.",
+    "bestFor": ["leverage", "powerful movement", "passionate intensity"],
+    "relatedPositions": ["pos_002", "pos_034"]
+  },
+  {
+    "id": "pos_074",
+    "name": "The Crab",
+    "alternateNames": ["Reverse Tabletop", "The Bridge Top"],
+    "category": ["advanced", "sitting"],
+    "difficulty": 4,
+    "intimacyLevel": 2,
+    "flexibilityRequired": 3,
+    "staminaRequired": 4,
+    "description": "Partner A assumes a reverse tabletop position (face-up, supported on hands and feet with hips raised) while Partner B sits on top facing Partner A's feet. An unusual, strength-intensive arrangement.",
+    "howTo": [
+      {"step": 1, "text": "Partner A sits on the floor and then lifts into a reverse tabletop position: hands behind, feet in front, hips raised."},
+      {"step": 2, "text": "Partner B carefully sits on Partner A's raised hips, facing Partner A's feet."},
+      {"step": 3, "text": "Partner B uses their feet on the floor for movement while Partner A maintains the tabletop position."}
+    ],
+    "tips": ["Partner A should build wrist and arm strength before attempting this regularly", "Keep sessions brief to avoid arm fatigue"],
+    "physicalNotes": "Extremely demanding on Partner A's arms, wrists, and core. Only suitable for those with good upper body strength.",
+    "bestFor": ["strength challenge", "unusual angles", "fitness enthusiasts"],
+    "relatedPositions": ["pos_040", "pos_016"]
+  },
+  {
+    "id": "pos_075",
+    "name": "The Octopus",
+    "alternateNames": ["Full Wrap", "The Cling"],
+    "category": ["intermediate", "lying-down", "face-to-face", "romantic"],
+    "difficulty": 2,
+    "intimacyLevel": 5,
+    "flexibilityRequired": 2,
+    "staminaRequired": 2,
+    "description": "Partners lie face-to-face with every limb wrapped around each other: both arms and both legs intertwined. The goal is maximum surface contact and the feeling of being completely enveloped by each other.",
+    "howTo": [
+      {"step": 1, "text": "Partners lie facing each other on their sides."},
+      {"step": 2, "text": "Wrap both arms around each other's torsos and intertwine both legs."},
+      {"step": 3, "text": "Press every available surface together, using slow grinding or rocking movement."}
+    ],
+    "tips": ["This is more about the feeling of total embrace than about vigorous movement", "Focus on matching your partner's breathing rhythm"],
+    "physicalNotes": "Low physical demand. The challenge is in finding a comfortable arrangement of all four interlocked limbs.",
+    "bestFor": ["maximum closeness", "emotional bonding", "security"],
+    "relatedPositions": ["pos_010", "pos_009", "pos_051"]
+  },
+  {
+    "id": "pos_076",
+    "name": "The Straddle",
+    "alternateNames": ["Lap Straddle", "The Mount"],
+    "category": ["beginner", "sitting", "face-to-face"],
+    "difficulty": 2,
+    "intimacyLevel": 4,
+    "flexibilityRequired": 1,
+    "staminaRequired": 2,
+    "description": "Partner A sits comfortably on the floor or bed, legs extended, leaning back on outstretched arms. Partner B sits in their lap, straddling them, and leans into Partner A. Simple, stable, and intimate.",
+    "howTo": [
+      {"step": 1, "text": "Partner A sits with legs extended forward and leans back, supporting themselves on their hands."},
+      {"step": 2, "text": "Partner B straddles Partner A's lap, one leg on each side, sitting facing them."},
+      {"step": 3, "text": "Partner B leans forward against Partner A's chest and both move with a gentle rocking rhythm."}
+    ],
+    "tips": ["Partner A can sit against a wall for back support instead of leaning on arms", "This position naturally brings faces very close for kissing"],
+    "physicalNotes": "Low demand for both partners. Partner A's arms may tire from leaning back; wall support eliminates this.",
+    "bestFor": ["simplicity", "closeness", "kissing distance"],
+    "relatedPositions": ["pos_067", "pos_014"]
+  },
+  {
+    "id": "pos_077",
+    "name": "The Wheelhouse",
+    "alternateNames": ["Kneeling Rear", "From Behind Kneel"],
+    "category": ["beginner", "lying-down", "rear-entry"],
+    "difficulty": 2,
+    "intimacyLevel": 2,
+    "flexibilityRequired": 1,
+    "staminaRequired": 3,
+    "description": "Partner A kneels with their upper body upright while Partner B kneels behind them, also upright. Both partners are on their knees, with torsos vertical. Partner B can embrace Partner A from behind.",
+    "howTo": [
+      {"step": 1, "text": "Both partners kneel on a comfortable surface, facing the same direction, Partner B directly behind Partner A."},
+      {"step": 2, "text": "Both keep their torsos upright, with Partner A potentially leaning slightly forward."},
+      {"step": 3, "text": "Partner B wraps arms around Partner A's torso from behind while both move together."}
+    ],
+    "tips": ["Use thick knee padding for comfort", "Partner B can reach around to Partner A's front for additional stimulation"],
+    "physicalNotes": "Moderate knee demand from kneeling. Cushioning under both partners' knees is essential for comfort.",
+    "bestFor": ["rear embrace", "upright connection", "reach-around access"],
+    "relatedPositions": ["pos_023", "pos_020"]
+  },
+  {
+    "id": "pos_078",
+    "name": "The Snow Angel",
+    "alternateNames": ["Spread Eagle", "The Star"],
+    "category": ["beginner", "lying-down", "face-to-face"],
+    "difficulty": 1,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 1,
+    "staminaRequired": 2,
+    "description": "Partner A lies on their back with arms and legs spread wide in a relaxed, open star shape. Partner B positions on top. This maximally open, vulnerable arrangement is psychologically powerful in its simplicity.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies on their back and spreads both arms and legs wide in a relaxed star shape."},
+      {"step": 2, "text": "Partner B lies on top of Partner A, between their spread legs."},
+      {"step": 3, "text": "Both partners find their rhythm, with Partner A maintaining the open, receiving posture."}
+    ],
+    "tips": ["The openness of this position can feel emotionally vulnerable; ensure a trusting, safe environment", "Partner A can gradually close or open their limbs to change the sensation"],
+    "physicalNotes": "Minimal physical demand for both partners. The key element is the psychological openness of the spread posture.",
+    "bestFor": ["vulnerability", "trust", "openness"],
+    "relatedPositions": ["pos_002", "pos_051"]
+  },
+  {
+    "id": "pos_079",
+    "name": "The Pretzel Stand",
+    "alternateNames": ["Standing Twist", "Twisted Stand"],
+    "category": ["advanced", "standing", "face-to-face"],
+    "difficulty": 4,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 3,
+    "staminaRequired": 4,
+    "description": "Both partners stand face-to-face. Partner A turns 90 degrees so they are perpendicular to Partner B, then lifts the near leg for Partner B to hold. This creates a twisted, angular standing connection.",
+    "howTo": [
+      {"step": 1, "text": "Both partners stand close together, with a wall nearby for support."},
+      {"step": 2, "text": "Partner A rotates 90 degrees relative to Partner B and lifts the leg closest to Partner B."},
+      {"step": 3, "text": "Partner B holds Partner A's raised leg and both partners use the wall and each other for balance while connecting."}
+    ],
+    "tips": ["The wall is essential for balance in this complex standing arrangement", "Start with small movements until both partners feel stable"],
+    "physicalNotes": "Requires good balance, core strength, and moderate flexibility. The wall provides critical stability.",
+    "bestFor": ["variety", "standing novelty", "athletic challenge"],
+    "relatedPositions": ["pos_018", "pos_050"]
+  },
+  {
+    "id": "pos_080",
+    "name": "The Sleepy Sunday",
+    "alternateNames": ["Morning Comfort", "The Doze"],
+    "category": ["beginner", "lying-down", "romantic", "pregnancy-safe"],
+    "difficulty": 1,
+    "intimacyLevel": 5,
+    "flexibilityRequired": 1,
+    "staminaRequired": 1,
+    "description": "Partners lie on their sides facing each other, both partially curled in a relaxed fetal position, knees touching. One partner drapes a leg over the other's hip. Minimal movement, maximum coziness.",
+    "howTo": [
+      {"step": 1, "text": "Both partners lie on their sides facing each other, knees slightly drawn up."},
+      {"step": 2, "text": "One partner drapes their upper leg over the other's hip."},
+      {"step": 3, "text": "Pull close together and use tiny, lazy hip movements, prioritizing warmth and closeness."}
+    ],
+    "tips": ["Perfect for mornings when you don't want to leave the covers", "Keep the blankets pulled up over both of you for maximum comfort"],
+    "physicalNotes": "Essentially zero physical demand. The most relaxed position possible.",
+    "bestFor": ["morning intimacy", "comfort", "pregnancy", "sleep transitions"],
+    "relatedPositions": ["pos_037", "pos_047", "pos_008"]
+  },
+  {
+    "id": "pos_081",
+    "name": "The Propeller",
+    "alternateNames": ["Windmill", "The Spin"],
+    "category": ["advanced", "lying-down", "passionate"],
+    "difficulty": 5,
+    "intimacyLevel": 2,
+    "flexibilityRequired": 3,
+    "staminaRequired": 4,
+    "description": "Similar to The Helicopter, but with Partner B performing a half-rotation from facing to facing-away (or vice versa) during the encounter. Less ambitious than a full 360 but still playful and challenging.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies on their back. Partner B mounts on top facing them."},
+      {"step": 2, "text": "Partner B carefully lifts and rotates 180 degrees to face away from Partner A."},
+      {"step": 3, "text": "Both pause to readjust and enjoy the different sensation of the new facing direction."}
+    ],
+    "tips": ["The transition is the tricky part; move slowly and communicate throughout", "Having Partner A hold their legs together during the rotation makes it easier"],
+    "physicalNotes": "Requires coordination, patience, and careful movement. Not a sustained position but rather a playful transition maneuver.",
+    "bestFor": ["playful transitions", "switching things up", "novelty"],
+    "relatedPositions": ["pos_064", "pos_004", "pos_005"]
+  },
+  {
+    "id": "pos_082",
+    "name": "The Victory",
+    "alternateNames": ["V for Victory", "Wide Stance"],
+    "category": ["intermediate", "lying-down", "face-to-face"],
+    "difficulty": 3,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 3,
+    "staminaRequired": 3,
+    "description": "Partner A lies on their back and raises both legs into a wide V-shape, held in the air by their own hand or by Partner B. Partner B kneels facing Partner A. The wide-open V creates full access and visual openness.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies on their back and raises both legs, spreading them into a wide V-shape."},
+      {"step": 2, "text": "Partner A holds their own legs behind the knees, or Partner B supports them."},
+      {"step": 3, "text": "Partner B kneels between Partner A's elevated, spread legs and connects."}
+    ],
+    "tips": ["Partner A should only hold the V as wide as is comfortable", "This position can transition easily into other leg-position variations"],
+    "physicalNotes": "Requires moderate inner thigh and hip flexor flexibility from Partner A. Holding legs up engages the core.",
+    "bestFor": ["openness", "access", "visual intimacy"],
+    "relatedPositions": ["pos_066", "pos_046"]
+  },
+  {
+    "id": "pos_083",
+    "name": "The Armchair",
+    "alternateNames": ["Seated Facing Out", "The Lookout"],
+    "category": ["intermediate", "sitting", "rear-entry", "pregnancy-safe"],
+    "difficulty": 2,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 1,
+    "staminaRequired": 2,
+    "description": "Partner A sits on a comfortable armchair or couch. Partner B sits on Partner A's lap, facing away from them, leaning back against Partner A's chest. The furniture provides complete support, making this an extremely comfortable seated position.",
+    "howTo": [
+      {"step": 1, "text": "Partner A sits in a deep, comfortable armchair or on a couch."},
+      {"step": 2, "text": "Partner B backs onto Partner A's lap, facing away, and sits down."},
+      {"step": 3, "text": "Partner B leans back against Partner A's chest for support while using their feet on the floor for movement."}
+    ],
+    "tips": ["Choose furniture with a slight recline for the most comfortable angle", "Partner A's hands are free to explore while Partner B controls the motion"],
+    "physicalNotes": "Very low physical demand for both thanks to furniture support. One of the most comfortable seated positions.",
+    "bestFor": ["comfort", "furniture support", "pregnancy-safe seated option"],
+    "relatedPositions": ["pos_007", "pos_053"]
+  },
+  {
+    "id": "pos_084",
+    "name": "The Warrior",
+    "alternateNames": ["Lunge Position", "The Knight"],
+    "category": ["advanced", "standing", "passionate"],
+    "difficulty": 4,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 3,
+    "staminaRequired": 5,
+    "description": "Partner B stands in a deep lunge position while Partner A positions in front of them, adjusting height to match. The lunge provides a powerful, dynamic base for movement but is extremely demanding on the legs.",
+    "howTo": [
+      {"step": 1, "text": "Partner B steps into a deep forward lunge, back leg extended, front knee bent."},
+      {"step": 2, "text": "Partner A positions in front of or on Partner B's forward thigh, adjusting for alignment."},
+      {"step": 3, "text": "Partner B uses the powerful lunge stance for dynamic, driven movement."}
+    ],
+    "tips": ["Alternate which leg is forward to prevent excessive fatigue on one side", "This is as much a leg workout as an intimate position"],
+    "physicalNotes": "Extremely high leg demand on Partner B. Only suitable for those with good lower body strength and endurance.",
+    "bestFor": ["power", "athletic couples", "leg workout"],
+    "relatedPositions": ["pos_065", "pos_019"]
+  },
+  {
+    "id": "pos_085",
+    "name": "The Envelope",
+    "alternateNames": ["The Fold Over", "Chest to Chest"],
+    "category": ["beginner", "lying-down", "face-to-face", "romantic"],
+    "difficulty": 1,
+    "intimacyLevel": 5,
+    "flexibilityRequired": 1,
+    "staminaRequired": 2,
+    "description": "A maximally close version of the classic position where Partner B lies fully on Partner A, with no space between their bodies from chest to toes. Arms wrap completely around. The emphasis is on full-body warmth and envelopment.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies on their back. Partner B lies on top, lowering their full weight onto Partner A."},
+      {"step": 2, "text": "Both partners wrap their arms fully around each other."},
+      {"step": 3, "text": "Movement is limited to slow, gentle rocking or grinding with bodies pressed tightly together."}
+    ],
+    "tips": ["Partner B should check in about weight; Partner A should communicate if it feels too heavy", "Focus on the feeling of being completely surrounded by your partner"],
+    "physicalNotes": "Low effort but Partner A bears Partner B's weight. Communication about comfort is key.",
+    "bestFor": ["maximum body contact", "warmth", "emotional closeness"],
+    "relatedPositions": ["pos_002", "pos_051", "pos_075"]
+  },
+  {
+    "id": "pos_086",
+    "name": "The Pendulum",
+    "alternateNames": ["The Swing", "Rocking Horse"],
+    "category": ["intermediate", "sitting", "passionate"],
+    "difficulty": 3,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 2,
+    "staminaRequired": 3,
+    "description": "Partner A sits on a surface with legs dangling over the edge. Partner B stands between their legs. Partner A rocks their body forward and backward in a pendulum-like swinging motion, using their core to drive the rhythm.",
+    "howTo": [
+      {"step": 1, "text": "Partner A sits on a surface high enough that their feet do not touch the floor."},
+      {"step": 2, "text": "Partner B stands between Partner A's legs."},
+      {"step": 3, "text": "Partner A uses core muscles to rock forward and backward rhythmically, creating a swinging, pendulum-like motion."}
+    ],
+    "tips": ["Partner A can grip Partner B's shoulders for stability during the swing", "The higher the surface, the more range of motion for the pendulum swing"],
+    "physicalNotes": "Moderate core demand on Partner A for the swinging motion. Partner B's standing role is less demanding.",
+    "bestFor": ["dynamic movement", "core engagement", "rhythm play"],
+    "relatedPositions": ["pos_022", "pos_062"]
+  },
+  {
+    "id": "pos_087",
+    "name": "The Bridge Partner",
+    "alternateNames": ["Elevated Hips", "The Thrust Platform"],
+    "category": ["intermediate", "lying-down", "face-to-face"],
+    "difficulty": 3,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 2,
+    "staminaRequired": 4,
+    "description": "Partner A lies on their back and lifts their hips into a bridge position (feet flat, hips raised). Partner B kneels between Partner A's legs. Partner A drives the movement from below using their elevated hips.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies on their back, bends knees, and places feet flat on the surface."},
+      {"step": 2, "text": "Partner A lifts their hips into a bridge position and holds it."},
+      {"step": 3, "text": "Partner B kneels between Partner A's legs, and Partner A uses glute and core muscles to drive upward movement from the bridge position."}
+    ],
+    "tips": ["This is an excellent glute workout for Partner A", "Partner A can lower and raise hips rhythmically rather than holding a static bridge"],
+    "physicalNotes": "High glute, hamstring, and core demand on Partner A. Excellent for those who want to combine exercise with intimacy.",
+    "bestFor": ["active bottom partner", "glute workout", "hip-driven movement"],
+    "relatedPositions": ["pos_003", "pos_072"]
+  },
+  {
+    "id": "pos_088",
+    "name": "The Shelf",
+    "alternateNames": ["Bathroom Shelf", "Counter Connection"],
+    "category": ["intermediate", "standing", "quickie"],
+    "difficulty": 3,
+    "intimacyLevel": 2,
+    "flexibilityRequired": 2,
+    "staminaRequired": 3,
+    "description": "Partner A sits on a bathroom or kitchen counter with Partner B standing between their legs. The built-in height of counters makes this a practical everyday option. The tile or counter surface requires care for safety.",
+    "howTo": [
+      {"step": 1, "text": "Partner A hops up onto a sturdy bathroom or kitchen counter."},
+      {"step": 2, "text": "Partner B stands between Partner A's open legs."},
+      {"step": 3, "text": "Partner A wraps legs around Partner B's waist for stability and closeness."}
+    ],
+    "tips": ["Ensure the counter is clean and dry to prevent slipping", "Place a folded towel under Partner A for comfort on hard surfaces"],
+    "physicalNotes": "Low physical demand for both. The primary concern is surface safety, especially on potentially slippery bathroom counters.",
+    "bestFor": ["quickies", "bathroom encounters", "spontaneous moments"],
+    "relatedPositions": ["pos_022", "pos_011"]
+  },
+  {
+    "id": "pos_089",
+    "name": "The Blossom",
+    "alternateNames": ["Opening Flower", "The Bloom"],
+    "category": ["tantric", "lying-down", "face-to-face", "romantic"],
+    "difficulty": 2,
+    "intimacyLevel": 5,
+    "flexibilityRequired": 2,
+    "staminaRequired": 1,
+    "description": "A tantric position where Partner A lies on their back with knees gently falling open like flower petals. Partner B lies between them, and both focus on breathing and energy exchange rather than physical motion. Movement comes from breath alone.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies on their back and lets their knees fall open naturally to the sides, feet together."},
+      {"step": 2, "text": "Partner B lies gently between Partner A's open legs, chest to chest."},
+      {"step": 3, "text": "Both close their eyes, synchronize breathing, and focus on the subtle movements created by breath alone."}
+    ],
+    "tips": ["The less you move, the more you feel in this breath-focused position", "Place cushions under Partner A's open knees if the stretch is too much"],
+    "physicalNotes": "Near-zero physical demand. Moderate inner thigh openness for Partner A. Cushions help if hips are tight.",
+    "bestFor": ["breath focus", "tantric stillness", "energy exchange"],
+    "relatedPositions": ["pos_015", "pos_057", "pos_051"]
+  },
+  {
+    "id": "pos_090",
+    "name": "The Scissors",
+    "alternateNames": ["Interlocking Legs", "The Weave"],
+    "category": ["intermediate", "lying-down", "face-to-face"],
+    "difficulty": 3,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 2,
+    "staminaRequired": 2,
+    "description": "Both partners lie on their backs, angled toward each other, with legs interlocked in a scissors arrangement. Connected at the hips, both are on equal footing and share the work of creating movement.",
+    "howTo": [
+      {"step": 1, "text": "Both partners lie on their backs at angles to each other, feet toward each other's midsections."},
+      {"step": 2, "text": "Interlock legs so one partner's leg is over the other's and vice versa, bringing hips together."},
+      {"step": 3, "text": "Both partners use their legs and hips to create a grinding or rocking rhythm."}
+    ],
+    "tips": ["This position may take some adjusting to find the right alignment", "Both partners' hands are completely free in this position"],
+    "physicalNotes": "Low to moderate effort shared equally. Alignment is the primary challenge rather than physical exertion.",
+    "bestFor": ["equal participation", "hands-free", "relaxed variety"],
+    "relatedPositions": ["pos_033", "pos_029"]
+  },
+  {
+    "id": "pos_091",
+    "name": "The Shower Press",
+    "alternateNames": ["Wet Wall", "Shower Encounter"],
+    "category": ["standing", "rear-entry", "quickie", "passionate"],
+    "difficulty": 3,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 2,
+    "staminaRequired": 3,
+    "description": "A shower-specific position where Partner A faces the shower wall and leans against it while Partner B stands behind them. Water provides natural lubrication for movement. Caution with slippery surfaces is paramount.",
+    "howTo": [
+      {"step": 1, "text": "Partner A stands in the shower facing the wall, leaning hands against it for support."},
+      {"step": 2, "text": "Partner B stands directly behind, with both partners ensuring stable footing."},
+      {"step": 3, "text": "Movement should be slower and more controlled than usual to prevent slipping."}
+    ],
+    "tips": ["A non-slip shower mat is absolutely essential for safety", "Grab bars provide critical stability; use them if available"],
+    "physicalNotes": "Standard standing stamina required, but the slippery environment demands extra caution. Non-slip measures are mandatory, not optional.",
+    "bestFor": ["shower encounters", "water play", "spontaneous passion"],
+    "relatedPositions": ["pos_020", "pos_031"]
+  },
+  {
+    "id": "pos_092",
+    "name": "The Seated Butterfly",
+    "alternateNames": ["Chair Butterfly", "Seated Edge"],
+    "category": ["beginner", "sitting", "face-to-face", "pregnancy-safe"],
+    "difficulty": 2,
+    "intimacyLevel": 4,
+    "flexibilityRequired": 2,
+    "staminaRequired": 2,
+    "description": "Partner A sits on a chair or bed edge. Partner B sits on Partner A's lap facing them, with both of Partner B's feet flat on the floor and knees wide, creating a butterfly wing shape with their legs. Grounded and stable.",
+    "howTo": [
+      {"step": 1, "text": "Partner A sits on a sturdy chair or the edge of the bed."},
+      {"step": 2, "text": "Partner B straddles Partner A's lap, sitting down with feet flat on the floor and knees wide apart."},
+      {"step": 3, "text": "Both partners hold each other and use the stable, grounded position for a comfortable rocking rhythm."}
+    ],
+    "tips": ["Both partners having feet on the floor creates excellent stability and leverage", "The wide knee position allows for close proximity and easy kissing"],
+    "physicalNotes": "Very low physical demand thanks to the grounded, supported positioning. Suitable for pregnancy.",
+    "bestFor": ["stability", "pregnancy-safe sitting", "grounded connection"],
+    "relatedPositions": ["pos_067", "pos_006"]
+  },
+  {
+    "id": "pos_093",
+    "name": "The Reverse Jockey",
+    "alternateNames": ["Reverse Rider Prone", "The Saddle Back"],
+    "category": ["intermediate", "lying-down", "rear-entry"],
+    "difficulty": 3,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 2,
+    "staminaRequired": 3,
+    "description": "Partner A lies on their stomach while Partner B lies on top facing the opposite direction (toward Partner A's feet). Partner B's weight is distributed along Partner A's body in this reversed on-top arrangement.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies face-down on a comfortable surface."},
+      {"step": 2, "text": "Partner B lies on top of Partner A but facing the opposite direction, toward Partner A's feet."},
+      {"step": 3, "text": "Partner B supports their weight on their elbows and uses hip movement to create rhythm."}
+    ],
+    "tips": ["Partner B should keep weight distributed and supported on elbows", "This unusual arrangement provides a very different sensation than standard positions"],
+    "physicalNotes": "Moderate weight management from Partner B. The reversed orientation requires careful alignment.",
+    "bestFor": ["novelty", "reversed sensations", "exploration"],
+    "relatedPositions": ["pos_038", "pos_005"]
+  },
+  {
+    "id": "pos_094",
+    "name": "The Seated Spoon",
+    "alternateNames": ["Chair Spoon", "Lap Cuddle"],
+    "category": ["sitting", "romantic", "pregnancy-safe"],
+    "difficulty": 2,
+    "intimacyLevel": 4,
+    "flexibilityRequired": 1,
+    "staminaRequired": 2,
+    "description": "Partner A sits on a large chair or couch. Partner B sits on their lap facing the same direction, back against Partner A's chest, like a seated version of spooning. The furniture provides full support for this cozy arrangement.",
+    "howTo": [
+      {"step": 1, "text": "Partner A sits on a large, comfortable chair or couch with enough room for two."},
+      {"step": 2, "text": "Partner B sits on Partner A's lap facing the same direction, settling back against Partner A's chest."},
+      {"step": 3, "text": "Partner A wraps arms around Partner B, and both use gentle rocking movements."}
+    ],
+    "tips": ["A recliner works excellently for this position, providing back support and a gentle recline", "Partner B can spread their legs over Partner A's for a more open arrangement"],
+    "physicalNotes": "Very low physical demand. Full furniture support makes this suitable for extended sessions.",
+    "bestFor": ["comfort", "cozy evenings", "pregnancy", "TV watching"],
+    "relatedPositions": ["pos_083", "pos_008"]
+  },
+  {
+    "id": "pos_095",
+    "name": "The Tandem",
+    "alternateNames": ["Seated Train", "Same Direction Sit"],
+    "category": ["intermediate", "sitting", "rear-entry"],
+    "difficulty": 3,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 2,
+    "staminaRequired": 3,
+    "description": "Both partners sit on the bed facing the same direction, with Partner A in front and Partner B behind. Partner B's legs extend on either side of Partner A. Both are upright and connected in a seated tandem arrangement.",
+    "howTo": [
+      {"step": 1, "text": "Partner B sits on the bed with legs extended in a V-shape."},
+      {"step": 2, "text": "Partner A sits between Partner B's legs, facing the same direction, back to Partner B's chest."},
+      {"step": 3, "text": "Both partners work together with rocking motions, Partner A leaning slightly forward for alignment."}
+    ],
+    "tips": ["Partner B can lean back on their hands for a slight recline, changing the angle", "This position is great for watching something together while being intimate"],
+    "physicalNotes": "Moderate core engagement for both. Finding the right seated alignment is the main challenge.",
+    "bestFor": ["same-direction connection", "casual intimacy", "watching together"],
+    "relatedPositions": ["pos_094", "pos_007"]
+  },
+  {
+    "id": "pos_096",
+    "name": "The Yoga Stretch",
+    "alternateNames": ["Downward Dog Partner", "Stretch and Connect"],
+    "category": ["advanced", "standing", "flexibility"],
+    "difficulty": 4,
+    "intimacyLevel": 2,
+    "flexibilityRequired": 4,
+    "staminaRequired": 3,
+    "description": "Partner A assumes a downward-facing dog yoga position while Partner B stands behind them. Partner A's inverted V-shape creates a specific angle and provides a good stretch. Only for those comfortable with this yoga pose.",
+    "howTo": [
+      {"step": 1, "text": "Partner A assumes a downward-facing dog position on a yoga mat or soft surface."},
+      {"step": 2, "text": "Partner B stands behind Partner A, adjusting height by bending knees as needed."},
+      {"step": 3, "text": "Both move gently while Partner A maintains the yoga pose, focusing on breath and stretch."}
+    ],
+    "tips": ["Partner A should be comfortable holding downward dog for several minutes before attempting", "This works best if both partners practice yoga regularly"],
+    "physicalNotes": "Demands sustained arm, shoulder, and hamstring flexibility from Partner A. Partner B needs moderate leg flexibility to adjust height.",
+    "bestFor": ["yoga couples", "combined stretch", "fitness fusion"],
+    "relatedPositions": ["pos_021", "pos_050"]
+  },
+  {
+    "id": "pos_097",
+    "name": "The Speed Bump",
+    "alternateNames": ["Prone Pillow", "The Hump"],
+    "category": ["beginner", "lying-down", "rear-entry", "quickie"],
+    "difficulty": 1,
+    "intimacyLevel": 2,
+    "flexibilityRequired": 1,
+    "staminaRequired": 2,
+    "description": "An extremely simple position where Partner A lies face-down over a large pillow or bolster placed under their hips. Partner B approaches from behind. The pillow creates the ideal angle with zero effort from either partner.",
+    "howTo": [
+      {"step": 1, "text": "Place a large, firm pillow or bolster crosswise on the bed."},
+      {"step": 2, "text": "Partner A lies face-down over the pillow so it elevates their hip area."},
+      {"step": 3, "text": "Partner B kneels or lies behind, with the pillow providing the ideal angle automatically."}
+    ],
+    "tips": ["Experiment with different pillow sizes; a larger bolster usually works best", "This is the easiest rear-approach position to set up"],
+    "physicalNotes": "Virtually no physical demand. The pillow does all the work of positioning.",
+    "bestFor": ["minimal effort", "quickies", "beginners", "pillow-assisted"],
+    "relatedPositions": ["pos_069", "pos_032", "pos_024"]
+  },
+  {
+    "id": "pos_098",
+    "name": "The Tantric Breath",
+    "alternateNames": ["Breath Exchange", "The Circuit"],
+    "category": ["tantric", "lying-down", "face-to-face", "romantic"],
+    "difficulty": 2,
+    "intimacyLevel": 5,
+    "flexibilityRequired": 1,
+    "staminaRequired": 1,
+    "description": "Partners lie face-to-face on their sides, foreheads touching, with one partner inhaling as the other exhales, creating a circular breath exchange. Physical movement is minimal; the focus is entirely on breath, presence, and energy.",
+    "howTo": [
+      {"step": 1, "text": "Both partners lie on their sides facing each other, close enough that foreheads touch."},
+      {"step": 2, "text": "One partner breathes in slowly while the other breathes out, creating an alternating breath cycle."},
+      {"step": 3, "text": "Maintain this breath circuit while connected, allowing the breath to be the primary source of movement and sensation."}
+    ],
+    "tips": ["Close your eyes and focus entirely on the sensation of breathing with your partner", "The goal is to feel as if you are breathing each other's breath"],
+    "physicalNotes": "No physical demand whatsoever. The challenge is mental: staying present and maintaining the breath circuit.",
+    "bestFor": ["mindfulness", "energy exchange", "breath practice", "tantric connection"],
+    "relatedPositions": ["pos_089", "pos_015", "pos_080"]
+  },
+  {
+    "id": "pos_099",
+    "name": "The Edge",
+    "alternateNames": ["Half Off Bed", "Dangling"],
+    "category": ["intermediate", "lying-down", "passionate"],
+    "difficulty": 3,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 1,
+    "staminaRequired": 3,
+    "description": "Partner A lies on the bed with their lower body off the edge from the waist down, so their legs dangle and their feet touch the floor. Partner B stands behind or kneels at the bedside. This uses gravity and the bed edge for positioning.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies on their stomach on the bed with everything from the waist down hanging off the edge."},
+      {"step": 2, "text": "Partner A can place feet on the floor for some support or let legs dangle freely."},
+      {"step": 3, "text": "Partner B stands or kneels behind at the bed edge, using the height for comfortable alignment."}
+    ],
+    "tips": ["A firm mattress works better than a soft one for edge positioning", "Partner A can push up on their elbows or grip the far edge of the bed for stability"],
+    "physicalNotes": "Moderate core engagement for Partner A to maintain the edge position. Partner B benefits from the standing or kneeling freedom.",
+    "bestFor": ["edge play", "gravity assist", "bed variety"],
+    "relatedPositions": ["pos_011", "pos_062"]
+  },
+  {
+    "id": "pos_100",
+    "name": "The Union",
+    "alternateNames": ["Complete Merge", "The Oneness"],
+    "category": ["tantric", "lying-down", "face-to-face", "romantic"],
+    "difficulty": 2,
+    "intimacyLevel": 5,
+    "flexibilityRequired": 1,
+    "staminaRequired": 1,
+    "description": "The simplest and perhaps most profound tantric position: partners lie completely still, face-to-face, fully connected but without any physical movement at all. All focus is directed inward toward sensation, breath, heartbeat, and the felt sense of union.",
+    "howTo": [
+      {"step": 1, "text": "Both partners lie face-to-face on their sides, or with Partner B gently on top of Partner A."},
+      {"step": 2, "text": "Connect fully but do not move. Close eyes and breathe slowly."},
+      {"step": 3, "text": "Focus entirely on internal sensations: heartbeat, warmth, subtle involuntary movements, and the presence of your partner."}
+    ],
+    "tips": ["This practice can last from five minutes to over an hour", "The stillness often reveals sensations that movement masks"],
+    "physicalNotes": "Zero physical demand. The only requirement is patience and the willingness to be fully present.",
+    "bestFor": ["deep presence", "tantric stillness", "meditative union", "emotional depth"],
+    "relatedPositions": ["pos_098", "pos_089", "pos_015"]
+  },
+  {
+    "id": "pos_101",
+    "name": "The Backstroke",
+    "alternateNames": ["Reverse Lean", "The Recline"],
+    "category": ["intermediate", "lying-down", "passionate"],
+    "difficulty": 3,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 2,
+    "staminaRequired": 3,
+    "description": "Partner A lies on their back. Partner B sits on top facing Partner A's feet, then leans all the way back until lying on Partner A's chest. This creates a full back-to-chest contact with a reversed orientation.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies flat on their back."},
+      {"step": 2, "text": "Partner B sits on top facing away (toward Partner A's feet)."},
+      {"step": 3, "text": "Partner B slowly leans back until they are lying on Partner A's chest, face-up, stacked directly on top."}
+    ],
+    "tips": ["Partner A can wrap arms around Partner B's torso once they are reclined", "Partner B can use their feet on the bed for leverage to create movement"],
+    "physicalNotes": "Partner A bears Partner B's weight. Comfortable if partners are similar in size. Partner B uses leg muscles for movement.",
+    "bestFor": ["back-to-chest contact", "relaxed reversed position", "different perspective"],
+    "relatedPositions": ["pos_005", "pos_038"]
+  },
+  {
+    "id": "pos_102",
+    "name": "The Cradle Rock",
+    "alternateNames": ["Side Cradle", "Nurture Position"],
+    "category": ["beginner", "side-by-side", "romantic", "pregnancy-safe"],
+    "difficulty": 1,
+    "intimacyLevel": 5,
+    "flexibilityRequired": 1,
+    "staminaRequired": 1,
+    "description": "Both partners lie on their sides facing each other. Partner A cradles Partner B's head on their arm while the other arm wraps around Partner B's waist. Legs intertwine gently. The cradling aspect adds a deeply nurturing quality.",
+    "howTo": [
+      {"step": 1, "text": "Both partners lie on their sides facing each other."},
+      {"step": 2, "text": "Partner A extends their lower arm for Partner B to rest their head on, like a pillow."},
+      {"step": 3, "text": "Legs intertwine naturally, and Partner A's upper arm wraps around Partner B's waist while both rock gently."}
+    ],
+    "tips": ["Place a pillow under Partner A's lower arm to prevent it from falling asleep", "This is one of the most emotionally nurturing positions available"],
+    "physicalNotes": "Minimal physical demand. Partner A's lower arm may experience numbness over time; a pillow helps.",
+    "bestFor": ["nurturing", "emotional safety", "pregnancy", "tender moments"],
+    "relatedPositions": ["pos_080", "pos_047", "pos_009"]
+  },
+  {
+    "id": "pos_103",
+    "name": "The Bouncer",
+    "alternateNames": ["Exercise Ball", "Stability Ball"],
+    "category": ["intermediate", "sitting", "passionate"],
+    "difficulty": 3,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 2,
+    "staminaRequired": 3,
+    "description": "Partner A sits on a large exercise or stability ball while Partner B sits on their lap facing them or facing away. The ball's natural bounce and instability add a dynamic, playful element to seated positions.",
+    "howTo": [
+      {"step": 1, "text": "Partner A sits on a fully inflated stability ball, feet wide apart on the floor for balance."},
+      {"step": 2, "text": "Partner B sits on Partner A's lap, either facing them or facing away."},
+      {"step": 3, "text": "Both use the ball's natural bounce to create movement, with Partner A's feet providing ground stability."}
+    ],
+    "tips": ["Ensure the ball is properly inflated and rated for your combined weight", "Position the ball against a wall for added stability, especially when starting out"],
+    "physicalNotes": "Requires good core balance from Partner A. The ball introduces instability that demands constant micro-adjustments.",
+    "bestFor": ["playful bouncing", "core engagement", "novelty"],
+    "relatedPositions": ["pos_006", "pos_053"]
+  },
+  {
+    "id": "pos_104",
+    "name": "The Side Plank",
+    "alternateNames": ["Elevated Side", "The Lean"],
+    "category": ["advanced", "side-by-side"],
+    "difficulty": 4,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 2,
+    "staminaRequired": 4,
+    "description": "Both partners lie on their sides facing the same direction, like spooning, but Partner B props up on one elbow and lifts their upper body. Partner A lifts their upper leg. This elevated spooning allows for deeper access and more vigorous movement.",
+    "howTo": [
+      {"step": 1, "text": "Both partners lie on the same side in a spooning arrangement, Partner A in front."},
+      {"step": 2, "text": "Partner B props up on their elbow, lifting their upper body off the bed."},
+      {"step": 3, "text": "Partner A lifts their upper leg, and both use the elevated positioning for more dynamic movement."}
+    ],
+    "tips": ["Partner B's supporting elbow should be on a padded surface", "This is essentially an energized version of spooning"],
+    "physicalNotes": "Moderate arm fatigue for Partner B from the propped position. Transitions naturally from and back to standard spooning.",
+    "bestFor": ["energized spooning", "deeper access", "dynamic side position"],
+    "relatedPositions": ["pos_008", "pos_043"]
+  },
+  {
+    "id": "pos_105",
+    "name": "The Hammock Swing",
+    "alternateNames": ["Suspended Embrace", "The Rock"],
+    "category": ["tantric", "lying-down", "romantic"],
+    "difficulty": 2,
+    "intimacyLevel": 5,
+    "flexibilityRequired": 1,
+    "staminaRequired": 1,
+    "description": "Partners lie in a gentle embrace, either face-to-face or spooned, and create a slow, swinging motion as if they are in a hammock. The swaying, rocking movement induces deep relaxation and a trance-like intimacy.",
+    "howTo": [
+      {"step": 1, "text": "Both partners settle into a comfortable lying embrace, either facing or spooned."},
+      {"step": 2, "text": "Together, create a slow, gentle full-body rocking motion, as though swaying in a hammock."},
+      {"step": 3, "text": "Let the rhythm slow naturally, breathing deeply and letting the sway become hypnotic."}
+    ],
+    "tips": ["A waterbed or memory foam mattress enhances the swaying sensation", "Let the motion become slower and slower over time for a deepening effect"],
+    "physicalNotes": "Nearly zero physical demand. The motion should be as effortless as possible.",
+    "bestFor": ["trance-like intimacy", "deep relaxation", "hypnotic rhythm"],
+    "relatedPositions": ["pos_098", "pos_100", "pos_037"]
+  }
+]
