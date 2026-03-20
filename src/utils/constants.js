@@ -135,6 +135,11 @@ export const SCREEN_NAMES = {
   CATEGORY_BROWSE: 'CategoryBrowse',
   SEARCH: 'Search',
   FAVORITES: 'Favorites',
+  // Game screens
+  GAME_TRUTH_OR_DARE: 'GameTruthOrDare',
+  GAME_WOULD_YOU_RATHER: 'GameWouldYouRather',
+  GAME_QUIZ: 'GameQuiz',
+  GAME_MINI: 'GameMini',
 };
 
 // ─── Storage Keys ────────────────────────────────────────
@@ -148,6 +153,11 @@ export const STORAGE_KEYS = {
   FCM_TOKEN: '@fcm_token',
   POTD_CACHE_PREFIX: '@potd_',
   RECENT_SEARCHES: '@recent_searches',
+  GAME_HISTORY: '@game_history',
+  GAME_FAVORITES: '@game_favorites',
+  THIRTY_SIX_PROGRESS: '@36q_progress',
+  QUIZ_HIGH_SCORE: '@quiz_high_score',
+  GAME_LEVEL_PREF: '@game_level_preference',
 };
 
 // ─── Firebase Collections ────────────────────────────────
@@ -190,6 +200,24 @@ export const SORT_OPTIONS = [
   {id: 'difficulty_desc', label: 'Hardest First', field: 'difficulty', direction: 'desc'},
   {id: 'intimacy_desc', label: 'Most Intimate', field: 'intimacyLevel', direction: 'desc'},
   {id: 'intimacy_asc', label: 'Least Intimate', field: 'intimacyLevel', direction: 'asc'},
+];
+
+// ─── Game Levels ────────────────────────────────────────
+export const GAME_LEVELS = [
+  {id: 'mild', label: 'Mild', color: '#4CAF50'},
+  {id: 'medium', label: 'Medium', color: '#FF9800'},
+  {id: 'spicy', label: 'Spicy', color: '#FF5722'},
+  {id: 'extreme', label: 'Extreme', color: '#F44336'},
+];
+
+// ─── Game Categories ────────────────────────────────────
+export const GAME_CATEGORIES = [
+  {id: 'truth-or-dare', label: 'Truth or Dare', icon: '🎭', gradient: 'warm', description: 'Reveal secrets or take on daring challenges together'},
+  {id: 'would-you-rather', label: 'Would You Rather', icon: '🤔', gradient: 'cool', description: 'Explore preferences and spark deep conversations'},
+  {id: 'intimacy-quiz', label: 'Intimacy Quiz', icon: '🧠', gradient: 'primary', description: 'Test your knowledge about love, health & connection'},
+  {id: 'desire-dice', label: 'Desire Dice', icon: '🎲', gradient: 'gold', description: 'Roll for spontaneous actions and body part combos'},
+  {id: '36-questions', label: '36 Questions', icon: '💬', gradient: 'cool', description: 'Deepen your bond with questions designed to build closeness'},
+  {id: 'mood-match', label: 'Mood Match', icon: '🎨', gradient: 'warm', description: 'Discover if you and your partner are in sync tonight'},
 ];
 
 export const MIN_AGE = 18;
