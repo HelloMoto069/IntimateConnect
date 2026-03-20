@@ -1,0 +1,673 @@
+[
+  {
+    "id": "guide_001",
+    "title": "Sensate Focus: Level One",
+    "category": "sensate-focus",
+    "icon": "✋",
+    "duration": 25,
+    "difficulty": "beginner",
+    "description": "A foundational touch exercise that rebuilds physical connection by focusing on sensation without pressure for arousal or performance.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Set the Scene",
+        "description": "Choose a private, warm space. Lay out comfortable bedding or towels. Dim the lights. Remove phones and distractions. Agree that either partner can pause at any time.",
+        "durationSeconds": 120,
+        "tip": "A slightly warmer room (72°F) helps both partners relax."
+      },
+      {
+        "step": 2,
+        "title": "Partner A Receives",
+        "description": "Partner A lies comfortably, face down or up. Partner B begins exploring their body with hands, focusing on arms, back, legs, and feet. Avoid breasts and genitals. Focus entirely on texture, temperature, and contour.",
+        "durationSeconds": 420,
+        "tip": "The toucher should focus on their own curiosity, not on 'performing' for their partner."
+      },
+      {
+        "step": 3,
+        "title": "Switch: Partner B Receives",
+        "description": "Partners swap roles. Partner A now explores Partner B's body with the same guidelines. Keep the touch exploratory and pressure-free. There is no right or wrong way to do this.",
+        "durationSeconds": 420,
+        "tip": "If the receiver's mind wanders, gently bring attention back to the sensation of touch."
+      },
+      {
+        "step": 4,
+        "title": "Share Reflections",
+        "description": "Sit together and share what you noticed. What surprised you? What felt particularly pleasant? What was challenging? This conversation deepens the practice.",
+        "durationSeconds": 300,
+        "tip": "Use 'I noticed...' statements rather than evaluating each other's technique."
+      }
+    ],
+    "benefits": ["Reduces performance pressure", "Rebuilds physical connection", "Increases body awareness", "Builds trust through structured touch"],
+    "relatedGuides": ["guide_002", "guide_003"]
+  },
+  {
+    "id": "guide_002",
+    "title": "Sensate Focus: Level Two",
+    "category": "sensate-focus",
+    "icon": "✋",
+    "duration": 30,
+    "difficulty": "intermediate",
+    "description": "Building on Level One, this session includes intimate areas while maintaining the focus on sensation over arousal.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Warm Up",
+        "description": "Begin with 5 minutes of Level One touch on non-intimate areas. This eases both partners into the exercise and establishes the exploratory mindset.",
+        "durationSeconds": 300,
+        "tip": "Treat this as a continuation of your Level One practice, not a completely new exercise."
+      },
+      {
+        "step": 2,
+        "title": "Expand the Territory",
+        "description": "Partner B now includes breasts and genitals in their exploration of Partner A. The same principles apply: focus on sensation, not arousal. If arousal happens, that is fine, but it is not the goal.",
+        "durationSeconds": 480,
+        "tip": "If arousal builds, simply notice it without chasing it. Return focus to exploratory touch."
+      },
+      {
+        "step": 3,
+        "title": "Switch Roles",
+        "description": "Partner A explores Partner B's full body, including intimate areas. Maintain the same exploratory, curious approach. Pay attention to different textures and responses.",
+        "durationSeconds": 480,
+        "tip": "The receiver can use a hand-over-hand technique to guide touch if desired."
+      },
+      {
+        "step": 4,
+        "title": "Reflect Together",
+        "description": "Discuss how this session differed from Level One. Was it harder to stay in exploratory mode? What new sensations did you discover? How did it feel emotionally?",
+        "durationSeconds": 300,
+        "tip": "There is no rush to move to the next level. Repeat this level as many times as feels right."
+      }
+    ],
+    "benefits": ["Builds comfort with intimate touch", "Reduces goal-oriented thinking", "Enhances whole-body awareness", "Strengthens emotional safety"],
+    "relatedGuides": ["guide_001", "guide_003"]
+  },
+  {
+    "id": "guide_003",
+    "title": "Sensate Focus: Level Three",
+    "category": "sensate-focus",
+    "icon": "✋",
+    "duration": 35,
+    "difficulty": "advanced",
+    "description": "The final sensate focus level introduces mutual touch and natural progression, building on the foundation of the first two levels.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Review and Connect",
+        "description": "Sit facing each other. Make eye contact. Share one thing you have appreciated about this sensate focus journey. Take 5 deep synchronized breaths together.",
+        "durationSeconds": 180,
+        "tip": "This emotional opening sets the tone for deeper physical connection."
+      },
+      {
+        "step": 2,
+        "title": "Sequential Touch",
+        "description": "Begin with one partner touching while the other receives, as in previous levels, but with full-body permission. After a few minutes, switch without formal pause.",
+        "durationSeconds": 480,
+        "tip": "Let the transitions between giving and receiving become more fluid."
+      },
+      {
+        "step": 3,
+        "title": "Mutual Exploration",
+        "description": "Now both partners touch simultaneously. Explore each other's bodies at the same time. Notice how giving and receiving touch together changes the experience.",
+        "durationSeconds": 600,
+        "tip": "If this feels overwhelming, return to taking turns. There is no pressure to stay mutual."
+      },
+      {
+        "step": 4,
+        "title": "Natural Progression",
+        "description": "Allow the session to progress naturally from here. If both partners feel drawn to greater intimacy, follow that impulse. If not, continue with mutual touch or transition to cuddling.",
+        "durationSeconds": 600,
+        "tip": "Whatever happens is the right outcome. Trust the process and your shared connection."
+      }
+    ],
+    "benefits": ["Integrates structured practice with natural intimacy", "Builds confidence in mutual pleasure", "Creates a bridge from exercise to spontaneous connection"],
+    "relatedGuides": ["guide_001", "guide_002"]
+  },
+  {
+    "id": "guide_004",
+    "title": "Mindful Breathing for Couples",
+    "category": "breathing",
+    "icon": "🌬️",
+    "duration": 10,
+    "difficulty": "beginner",
+    "description": "A simple synchronized breathing exercise that calms the nervous system and creates a profound sense of connection between partners.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Get Comfortable",
+        "description": "Sit or lie facing each other in a comfortable position. You can hold hands or place a hand on each other's chest to feel breathing. Close your eyes or maintain soft eye contact.",
+        "durationSeconds": 60,
+        "tip": "Lying on your sides facing each other works particularly well."
+      },
+      {
+        "step": 2,
+        "title": "Find Your Rhythm",
+        "description": "Begin breathing deeply and slowly. Inhale through your nose for 4 counts, exhale through your mouth for 6 counts. Do not try to sync yet; just find your own comfortable rhythm.",
+        "durationSeconds": 120,
+        "tip": "The longer exhale activates your parasympathetic nervous system."
+      },
+      {
+        "step": 3,
+        "title": "Synchronize",
+        "description": "Gradually match your breathing to your partner's. Inhale together, exhale together. If you fall out of sync, gently realign without frustration. Feel your bodies breathing as one.",
+        "durationSeconds": 240,
+        "tip": "Place a hand on your partner's belly to feel their rhythm more easily."
+      },
+      {
+        "step": 4,
+        "title": "Deepen the Connection",
+        "description": "While maintaining synchronized breathing, add visualization. Imagine breathing in love and breathing out tension. With each shared breath, feel the connection between you growing stronger.",
+        "durationSeconds": 180,
+        "tip": "Some couples find that humming on the exhale deepens the sense of connection."
+      }
+    ],
+    "benefits": ["Reduces anxiety and stress together", "Creates nervous system co-regulation", "Deepens emotional attunement", "Can be used as foreplay or stress relief"],
+    "relatedGuides": ["guide_005", "guide_006"]
+  },
+  {
+    "id": "guide_005",
+    "title": "4-7-8 Relaxation Breathing",
+    "category": "breathing",
+    "icon": "🌬️",
+    "duration": 8,
+    "difficulty": "beginner",
+    "description": "A powerful individual breathing technique that rapidly calms the nervous system, perfect for reducing pre-intimacy anxiety.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Get Settled",
+        "description": "Sit or lie in a comfortable position. Place the tip of your tongue against the ridge behind your upper front teeth. Keep it there throughout the exercise. Let your shoulders drop and your jaw relax.",
+        "durationSeconds": 30,
+        "tip": "This tongue position is key to the technique's effectiveness."
+      },
+      {
+        "step": 2,
+        "title": "Exhale Completely",
+        "description": "Exhale fully through your mouth, making a whooshing sound. Empty your lungs completely. This prepares you for the counted breathing pattern.",
+        "durationSeconds": 15,
+        "tip": "Do not rush the exhale. Let it be slow and complete."
+      },
+      {
+        "step": 3,
+        "title": "Practice the Pattern",
+        "description": "Inhale quietly through your nose for 4 counts. Hold your breath for 7 counts. Exhale completely through your mouth for 8 counts. This is one cycle. Complete 4 full cycles.",
+        "durationSeconds": 300,
+        "tip": "The exact speed does not matter; the ratio of 4:7:8 is what activates relaxation."
+      },
+      {
+        "step": 4,
+        "title": "Return to Normal Breathing",
+        "description": "After 4 cycles, breathe normally for a minute. Notice how your body feels. You should feel noticeably calmer. Repeat another set of 4 cycles if desired.",
+        "durationSeconds": 120,
+        "tip": "Practice this technique twice daily to build the relaxation response habit."
+      }
+    ],
+    "benefits": ["Rapidly reduces anxiety", "Activates parasympathetic nervous system", "Can be done anywhere, anytime", "Effective pre-intimacy relaxation tool"],
+    "relatedGuides": ["guide_004", "guide_006"]
+  },
+  {
+    "id": "guide_006",
+    "title": "Body Scan Meditation for Intimacy",
+    "category": "mindful-intimacy",
+    "icon": "🧘",
+    "duration": 15,
+    "difficulty": "beginner",
+    "description": "A guided body scan that increases awareness of physical sensations, perfect preparation for mindful intimate connection.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Lie Down Comfortably",
+        "description": "Lie on your back with arms at your sides, palms up. Close your eyes. Take 3 deep breaths to settle in. Let your body sink into the surface beneath you.",
+        "durationSeconds": 60,
+        "tip": "This can be done individually or side by side with your partner."
+      },
+      {
+        "step": 2,
+        "title": "Scan Feet to Knees",
+        "description": "Bring attention to your toes. Notice any sensations: warmth, tingling, pressure. Slowly move attention through the soles of your feet, ankles, calves, and knees. Spend a few breaths on each area.",
+        "durationSeconds": 180,
+        "tip": "If you notice tension, breathe into that area and imagine it softening."
+      },
+      {
+        "step": 3,
+        "title": "Scan Thighs to Chest",
+        "description": "Continue upward through your thighs, hips, pelvis, abdomen, lower back, and chest. Notice areas of tension and relaxation. Pay special attention to the belly and pelvis, where many people hold stress.",
+        "durationSeconds": 240,
+        "tip": "The pelvic area often holds unconscious tension that affects intimacy."
+      },
+      {
+        "step": 4,
+        "title": "Scan Shoulders to Head",
+        "description": "Move attention through your shoulders, arms, hands, neck, jaw, face, and scalp. Notice how each area feels. Release any tension you discover. Let your face become completely soft and relaxed.",
+        "durationSeconds": 180,
+        "tip": "The jaw and shoulders are common tension hotspots. Consciously relax them."
+      },
+      {
+        "step": 5,
+        "title": "Whole Body Awareness",
+        "description": "Expand your awareness to encompass your entire body at once. Feel yourself as a complete, unified field of sensation. Rest in this whole-body awareness for several breaths. Notice how alive and sensitive your body feels.",
+        "durationSeconds": 180,
+        "tip": "This heightened body awareness carries directly into intimate experiences."
+      }
+    ],
+    "benefits": ["Increases body sensitivity and awareness", "Releases stored tension", "Prepares the body for pleasure", "Improves mind-body connection"],
+    "relatedGuides": ["guide_004", "guide_007"]
+  },
+  {
+    "id": "guide_007",
+    "title": "Eye Gazing Connection Exercise",
+    "category": "mindful-intimacy",
+    "icon": "👀",
+    "duration": 10,
+    "difficulty": "beginner",
+    "description": "A powerful intimacy exercise where partners connect through sustained, soft eye contact, building emotional depth and vulnerability.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Face Each Other",
+        "description": "Sit comfortably facing your partner, close enough to reach each other. You can sit cross-legged on the bed, on chairs, or however feels comfortable. Take a few deep breaths together.",
+        "durationSeconds": 60,
+        "tip": "Knee-to-knee sitting creates a sense of closeness and containment."
+      },
+      {
+        "step": 2,
+        "title": "Soft Eye Contact",
+        "description": "Look into your partner's left eye (choose one eye to focus on). Let your gaze be soft, not intense or staring. It is normal to feel nervous or want to laugh at first. Let those reactions pass without judgment.",
+        "durationSeconds": 120,
+        "tip": "Focusing on one eye prevents the discomfort of rapidly switching between eyes."
+      },
+      {
+        "step": 3,
+        "title": "Deepen the Gaze",
+        "description": "Continue gazing for several minutes. Allow whatever emotions arise: tenderness, vulnerability, love, or even discomfort. Do not speak. Let your eyes communicate what words cannot. Stay present with whatever comes up.",
+        "durationSeconds": 240,
+        "tip": "If tears come, let them. This exercise often releases deep emotion."
+      },
+      {
+        "step": 4,
+        "title": "Close and Connect",
+        "description": "When the timer ends, close your eyes and take 3 deep breaths. Open your eyes and share one word that describes how you feel. Then share a hug or whatever physical connection feels right.",
+        "durationSeconds": 120,
+        "tip": "This exercise naturally transitions into deeper physical intimacy for many couples."
+      }
+    ],
+    "benefits": ["Builds profound emotional connection", "Increases vulnerability and trust", "Creates a pre-intimacy ritual", "Releases emotional barriers"],
+    "relatedGuides": ["guide_006", "guide_008"]
+  },
+  {
+    "id": "guide_008",
+    "title": "Appreciation Ritual",
+    "category": "communication-exercises",
+    "icon": "🙏",
+    "duration": 10,
+    "difficulty": "beginner",
+    "description": "A structured gratitude exercise where partners verbally appreciate each other, strengthening emotional bonds and building desire.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Create the Space",
+        "description": "Sit facing each other in a comfortable, private setting. Hold hands if that feels natural. Take three deep breaths together to transition from daily life into this intentional connection space.",
+        "durationSeconds": 60,
+        "tip": "This exercise works best as a regular practice, ideally weekly."
+      },
+      {
+        "step": 2,
+        "title": "Partner A Shares",
+        "description": "Partner A shares three specific things they appreciate about Partner B. Be specific: not 'I appreciate you' but 'I appreciate how you made me laugh yesterday when I was stressed about work.' Look into your partner's eyes as you share.",
+        "durationSeconds": 180,
+        "tip": "Include one appreciation about your intimate life to normalize those conversations."
+      },
+      {
+        "step": 3,
+        "title": "Partner B Receives and Responds",
+        "description": "Partner B listens fully without deflecting or minimizing. Simply receive the words. Then say 'Thank you for seeing me.' Before sharing your own appreciations, sit with the feeling of being appreciated for 30 seconds.",
+        "durationSeconds": 60,
+        "tip": "Receiving appreciation is often harder than giving it. Practice letting it in."
+      },
+      {
+        "step": 4,
+        "title": "Partner B Shares",
+        "description": "Now Partner B shares three specific appreciations while Partner A receives. Follow the same guidelines: specific, heartfelt, and with eye contact.",
+        "durationSeconds": 180,
+        "tip": "Avoid competitive appreciation ('Well, I appreciate you even MORE'). Keep it genuine."
+      },
+      {
+        "step": 5,
+        "title": "Close with Connection",
+        "description": "End with a long hug (at least 20 seconds for oxytocin release), a meaningful kiss, or whatever physical expression of love feels right. Let the warmth of appreciation flow into physical connection.",
+        "durationSeconds": 60,
+        "tip": "Research shows that 20-second hugs trigger significant oxytocin release."
+      }
+    ],
+    "benefits": ["Strengthens emotional bonds", "Normalizes intimate communication", "Increases feelings of being valued", "Creates a bridge to physical intimacy"],
+    "relatedGuides": ["guide_007", "guide_009"]
+  },
+  {
+    "id": "guide_009",
+    "title": "Desire Mapping Conversation",
+    "category": "communication-exercises",
+    "icon": "🗺️",
+    "duration": 20,
+    "difficulty": "intermediate",
+    "description": "A structured conversation framework for couples to discuss desires, fantasies, and curiosities in a safe, non-pressured setting.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Set Ground Rules",
+        "description": "Agree on ground rules: no judgment, no obligation to act on anything shared, everything stays between you two, and either person can pass on any question. These rules create the safety needed for honesty.",
+        "durationSeconds": 120,
+        "tip": "Write the rules down if needed. Referencing them reduces anxiety."
+      },
+      {
+        "step": 2,
+        "title": "Share Highlights",
+        "description": "Each partner shares their favorite intimate experience with each other and explains what made it special. This starts the conversation with positive territory and reminds you both of good times.",
+        "durationSeconds": 300,
+        "tip": "Be specific about what made the experience stand out: the setting, the mood, the actions."
+      },
+      {
+        "step": 3,
+        "title": "Explore Curiosities",
+        "description": "Take turns sharing one thing you have been curious about trying. Use the framing 'I have been curious about...' This keeps it exploratory rather than demanding. The listening partner responds with their honest feeling about the idea.",
+        "durationSeconds": 360,
+        "tip": "Curiosity does not equal commitment. You are sharing ideas, not making plans."
+      },
+      {
+        "step": 4,
+        "title": "Discuss Boundaries",
+        "description": "Each partner shares something that is a clear boundary for them, something they do not want or are not comfortable with. Receive boundaries with gratitude: 'Thank you for telling me.'",
+        "durationSeconds": 240,
+        "tip": "Knowing your partner's boundaries actually creates more freedom to explore safely."
+      },
+      {
+        "step": 5,
+        "title": "Choose One Next Step",
+        "description": "Together, choose one small, mutually exciting thing to try in the coming week. It should be something both partners genuinely want to explore. Keep it achievable and fun.",
+        "durationSeconds": 180,
+        "tip": "Start small. Success with small explorations builds confidence for bigger ones."
+      }
+    ],
+    "benefits": ["Opens honest dialogue about desires", "Reduces fear of judgment", "Aligns expectations between partners", "Creates an actionable plan for exploration"],
+    "relatedGuides": ["guide_008", "guide_010"]
+  },
+  {
+    "id": "guide_010",
+    "title": "Conflict Resolution for Intimate Issues",
+    "category": "communication-exercises",
+    "icon": "🕊️",
+    "duration": 15,
+    "difficulty": "intermediate",
+    "description": "A structured approach to discussing intimate disagreements or frustrations without damaging trust or connection.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Check Readiness",
+        "description": "Both partners must be calm and willing to talk. If either person is too emotional, schedule the conversation for later. Rate your readiness from 1-10. Both should be at least a 6 to proceed.",
+        "durationSeconds": 60,
+        "tip": "Never attempt this exercise in the heat of an argument."
+      },
+      {
+        "step": 2,
+        "title": "Speaker Shares (Partner A)",
+        "description": "Partner A describes the issue using the format: 'When [specific situation], I feel [emotion], because [reason]. What I need is [specific request].' Speak from your own experience only. Avoid blame or generalization.",
+        "durationSeconds": 240,
+        "tip": "Stick to one issue at a time. Avoid bringing up old grievances."
+      },
+      {
+        "step": 3,
+        "title": "Listener Reflects (Partner B)",
+        "description": "Partner B reflects back what they heard: 'What I hear you saying is...' Then validates: 'That makes sense because...' Ask: 'Did I understand correctly?' Clarify until Partner A feels fully heard.",
+        "durationSeconds": 180,
+        "tip": "Understanding does not mean agreeing. You can validate without conceding."
+      },
+      {
+        "step": 4,
+        "title": "Switch Roles",
+        "description": "Partner B now shares their perspective on the same issue using the same format. Partner A reflects and validates. Both perspectives coexist; this is not about who is right.",
+        "durationSeconds": 360,
+        "tip": "Often, hearing your partner's perspective reveals that you want the same thing."
+      },
+      {
+        "step": 5,
+        "title": "Find a Solution Together",
+        "description": "With both perspectives understood, brainstorm solutions that honor both people's needs. Choose one to try. Agree to revisit in two weeks to assess how it is working.",
+        "durationSeconds": 180,
+        "tip": "The best solutions usually involve some compromise from both partners."
+      }
+    ],
+    "benefits": ["Resolves intimate disagreements constructively", "Prevents resentment buildup", "Builds communication skills", "Strengthens partnership equality"],
+    "relatedGuides": ["guide_008", "guide_009"]
+  },
+  {
+    "id": "guide_011",
+    "title": "Basic Kegel Routine",
+    "category": "kegel",
+    "icon": "💪",
+    "duration": 5,
+    "difficulty": "beginner",
+    "description": "A simple daily pelvic floor exercise routine that improves sexual function, sensation, and orgasm intensity for all genders.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Identify the Muscles",
+        "description": "Imagine you are trying to stop the flow of urine midstream. The muscles you tense are your pelvic floor. Practice squeezing and releasing a few times to ensure you have found the right muscles. Do not actually do this while urinating.",
+        "durationSeconds": 30,
+        "tip": "If you feel your abs, buttocks, or thighs tightening, you are using the wrong muscles."
+      },
+      {
+        "step": 2,
+        "title": "Long Holds",
+        "description": "Squeeze your pelvic floor muscles and hold for 5 seconds. Relax completely for 5 seconds. Repeat 10 times. Focus on full contraction and full relaxation. Breathe normally throughout.",
+        "durationSeconds": 120,
+        "tip": "Full relaxation between contractions is just as important as the squeeze."
+      },
+      {
+        "step": 3,
+        "title": "Quick Pulses",
+        "description": "Now do rapid squeezes: contract and release as quickly as you can for 10 seconds. Rest for 10 seconds. Repeat 3 times. These quick pulses build different muscle fibers than long holds.",
+        "durationSeconds": 60,
+        "tip": "Quick pulses mimic the muscle contractions that occur during orgasm."
+      },
+      {
+        "step": 4,
+        "title": "Cool Down",
+        "description": "End with 3 slow, gentle contractions held for 3 seconds each. Take a deep breath between each one. Notice how your pelvic floor feels. Over time, you will feel these muscles becoming stronger and more responsive.",
+        "durationSeconds": 30,
+        "tip": "Do this routine 3 times daily for best results. Results appear in 4-6 weeks."
+      }
+    ],
+    "benefits": ["Enhances orgasm intensity", "Improves ejaculatory control", "Increases blood flow to pelvic region", "Supports lifelong sexual health"],
+    "relatedGuides": ["guide_012"]
+  },
+  {
+    "id": "guide_012",
+    "title": "Advanced Kegel Program",
+    "category": "kegel",
+    "icon": "💪",
+    "duration": 8,
+    "difficulty": "intermediate",
+    "description": "An advanced pelvic floor workout with progressive holds, elevator contractions, and integration techniques for enhanced results.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Warm Up",
+        "description": "Begin with 5 basic long holds (5 seconds each) and 2 sets of quick pulses (10 seconds each) as a warm-up. This prepares the muscles for the more demanding exercises ahead.",
+        "durationSeconds": 60,
+        "tip": "If you have not mastered the basic routine, practice that for 4 weeks first."
+      },
+      {
+        "step": 2,
+        "title": "Progressive Holds",
+        "description": "Squeeze and hold for 10 seconds. Rest for 10 seconds. Repeat 8 times. Focus on maintaining full contraction for the entire duration. If you cannot maintain, reduce to 7-8 seconds and build up gradually.",
+        "durationSeconds": 180,
+        "tip": "Count slowly and breathe normally. Holding your breath reduces effectiveness."
+      },
+      {
+        "step": 3,
+        "title": "Elevator Contractions",
+        "description": "Imagine your pelvic floor is an elevator. Contract to the first floor (25% strength), hold 2 seconds. Second floor (50%), hold 2 seconds. Third floor (75%), hold 2 seconds. Penthouse (100%), hold 2 seconds. Then release floor by floor. Repeat 5 times.",
+        "durationSeconds": 150,
+        "tip": "This builds fine motor control over your pelvic floor, enhancing sensation during intimacy."
+      },
+      {
+        "step": 4,
+        "title": "Endurance Set",
+        "description": "Contract at 50% effort and hold for 30 seconds. Rest for 15 seconds. Repeat 3 times. This builds the endurance needed for sustained pelvic floor engagement during intimate activities.",
+        "durationSeconds": 150,
+        "tip": "If 30 seconds is too long, start at 15 and add 5 seconds each week."
+      },
+      {
+        "step": 5,
+        "title": "Integration Cool Down",
+        "description": "End with 5 slow, controlled contractions coordinated with breath: inhale and contract, exhale and release. This integrates Kegel awareness with breathing, which transfers directly to intimate practice.",
+        "durationSeconds": 60,
+        "tip": "Practice Kegel contractions during intimacy once you master this integration."
+      }
+    ],
+    "benefits": ["Builds advanced pelvic floor control", "Enhances sensation during intimacy", "Improves orgasm quality and duration", "Supports pelvic health long-term"],
+    "relatedGuides": ["guide_011"]
+  },
+  {
+    "id": "guide_013",
+    "title": "Mindful Touch Meditation",
+    "category": "mindful-intimacy",
+    "icon": "🧘",
+    "duration": 15,
+    "difficulty": "beginner",
+    "description": "A guided meditation where partners practice giving and receiving touch with complete presence and awareness.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Center Together",
+        "description": "Sit comfortably with your partner. Close your eyes. Take 5 deep breaths together. Set an intention for this practice: 'We are here to be fully present with each other through touch.'",
+        "durationSeconds": 90,
+        "tip": "Speaking the intention aloud creates shared commitment."
+      },
+      {
+        "step": 2,
+        "title": "Hand Exploration",
+        "description": "Partner A holds out their hands, palms up. Partner B slowly explores Partner A's hands: tracing fingers, feeling knuckles, noticing temperature and texture. Both partners focus entirely on the sensation of this touch.",
+        "durationSeconds": 180,
+        "tip": "Move incredibly slowly. Slower than feels natural. This amplifies sensation."
+      },
+      {
+        "step": 3,
+        "title": "Arms and Shoulders",
+        "description": "Partner B expands touch to Partner A's forearms, upper arms, and shoulders. Vary pressure from feather-light to firm. The receiver narrates one thing they notice: 'That feels warm' or 'I notice tingling.'",
+        "durationSeconds": 240,
+        "tip": "Verbal sharing keeps both partners grounded in present-moment awareness."
+      },
+      {
+        "step": 4,
+        "title": "Switch Roles",
+        "description": "Swap so Partner A becomes the toucher and Partner B receives. Follow the same progression from hands to arms to shoulders. The new toucher brings the same slow, curious attention.",
+        "durationSeconds": 300,
+        "tip": "Notice if giving or receiving feels more comfortable. Both skills improve with practice."
+      },
+      {
+        "step": 5,
+        "title": "Mutual Hand Hold",
+        "description": "End by holding hands with eyes closed. Feel the warmth and pulse in each other's hands. After 30 seconds, open your eyes, make contact, and share a smile.",
+        "durationSeconds": 60,
+        "tip": "This simple ending creates a moment of pure connection."
+      }
+    ],
+    "benefits": ["Develops mindful touch skills", "Increases physical sensitivity", "Creates a calming pre-intimacy ritual", "Builds non-verbal communication"],
+    "relatedGuides": ["guide_006", "guide_007"]
+  },
+  {
+    "id": "guide_014",
+    "title": "Needs and Desires Check-In",
+    "category": "communication-exercises",
+    "icon": "💬",
+    "duration": 15,
+    "difficulty": "beginner",
+    "description": "A monthly structured conversation about your intimate life that keeps both partners aligned and prevents issues from building up.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Set the Tone",
+        "description": "Choose a relaxed time when you are both in a good mood. Perhaps over a glass of wine or during a walk. Frame this as a positive check-in, not a complaint session. Start by each sharing one highlight from your intimate life this month.",
+        "durationSeconds": 180,
+        "tip": "Schedule this monthly, like a relationship maintenance appointment."
+      },
+      {
+        "step": 2,
+        "title": "Rate Satisfaction",
+        "description": "Each partner silently rates their overall intimate satisfaction from 1-10. Share your numbers. No judgment on the numbers; they simply provide a starting point for conversation. If there is a gap, discuss what might bridge it.",
+        "durationSeconds": 180,
+        "tip": "A number below 7 is a signal that something needs attention, not blame."
+      },
+      {
+        "step": 3,
+        "title": "More Of / Less Of",
+        "description": "Each partner shares one thing they would like more of and one thing they could use less of. Frame positively: 'I would love more morning cuddles' rather than 'You never touch me in the morning.' Listen without defending.",
+        "durationSeconds": 240,
+        "tip": "Keep it to one each. More than that can feel overwhelming."
+      },
+      {
+        "step": 4,
+        "title": "Dream Together",
+        "description": "Share one thing you would like to explore or experience together in the coming month. It can be anything from a date night to trying a new form of intimacy. Find something you both feel excited about.",
+        "durationSeconds": 180,
+        "tip": "Dreams should energize you both. If one partner is not enthusiastic, keep brainstorming."
+      },
+      {
+        "step": 5,
+        "title": "Close with Gratitude",
+        "description": "End by each sharing one specific thing you are grateful for about your partner's role in your intimate life. Then seal the check-in with physical affection, a hug, kiss, or whatever feels natural.",
+        "durationSeconds": 120,
+        "tip": "Always end on a positive note to make the next check-in something to look forward to."
+      }
+    ],
+    "benefits": ["Prevents resentment from building", "Keeps both partners aligned", "Normalizes intimate communication", "Creates regular opportunity for adjustment"],
+    "relatedGuides": ["guide_008", "guide_009"]
+  },
+  {
+    "id": "guide_015",
+    "title": "Progressive Relaxation for Intimacy",
+    "category": "breathing",
+    "icon": "🌬️",
+    "duration": 12,
+    "difficulty": "beginner",
+    "description": "A progressive muscle relaxation technique that releases physical tension stored in the body, preparing it for pleasure and connection.",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Prepare",
+        "description": "Lie on your back in a comfortable position. Close your eyes. Take 3 deep breaths. On each exhale, let your body sink deeper into the surface beneath you. Release any effort to hold yourself up.",
+        "durationSeconds": 60,
+        "tip": "This can be done alone or with your partner doing the same beside you."
+      },
+      {
+        "step": 2,
+        "title": "Lower Body",
+        "description": "Curl your toes tightly and hold for 5 seconds, then release. Flex your feet and hold for 5 seconds, then release. Tense your calves, then release. Tense your thighs, then release. With each release, notice the contrast between tension and relaxation.",
+        "durationSeconds": 150,
+        "tip": "The contrast between tension and release teaches your body what true relaxation feels like."
+      },
+      {
+        "step": 3,
+        "title": "Core and Pelvis",
+        "description": "Tense your buttocks and hold for 5 seconds, release. Tense your pelvic floor, hold, release. Tighten your abdomen, hold, release. Arch your lower back slightly, hold, release. Let your whole midsection become completely soft.",
+        "durationSeconds": 150,
+        "tip": "Pay special attention to the pelvis. Many people hold chronic tension here without realizing it."
+      },
+      {
+        "step": 4,
+        "title": "Upper Body",
+        "description": "Make fists and tense your arms, hold and release. Shrug your shoulders to your ears, hold and release. Scrunch your face tightly, hold and release. Clench your jaw, hold and release. Let everything soften.",
+        "durationSeconds": 150,
+        "tip": "Jaw tension is very common and directly affects how relaxed you feel during intimacy."
+      },
+      {
+        "step": 5,
+        "title": "Full Body Release",
+        "description": "Scan your body for any remaining tension. Breathe into those areas. Spend 2 minutes simply lying in this deeply relaxed state, feeling the warmth and openness in your body. You are now physically primed for connection.",
+        "durationSeconds": 180,
+        "tip": "This state of deep relaxation is ideal for transitioning into intimacy."
+      }
+    ],
+    "benefits": ["Releases chronic physical tension", "Reduces anxiety and stress", "Increases body awareness and sensitivity", "Creates optimal physical state for intimacy"],
+    "relatedGuides": ["guide_005", "guide_006"]
+  }
+]

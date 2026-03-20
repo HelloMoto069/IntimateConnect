@@ -140,6 +140,12 @@ export const SCREEN_NAMES = {
   GAME_WOULD_YOU_RATHER: 'GameWouldYouRather',
   GAME_QUIZ: 'GameQuiz',
   GAME_MINI: 'GameMini',
+  // Health screens
+  HEALTH_ARTICLE_DETAIL: 'HealthArticleDetail',
+  HEALTH_GUIDES: 'HealthGuides',
+  HEALTH_GUIDE_PLAYER: 'HealthGuidePlayer',
+  HEALTH_GLOSSARY: 'HealthGlossary',
+  HEALTH_CHECKIN: 'HealthCheckIn',
 };
 
 // ─── Storage Keys ────────────────────────────────────────
@@ -158,6 +164,10 @@ export const STORAGE_KEYS = {
   THIRTY_SIX_PROGRESS: '@36q_progress',
   QUIZ_HIGH_SCORE: '@quiz_high_score',
   GAME_LEVEL_PREF: '@game_level_preference',
+  HEALTH_BOOKMARKS: '@health_bookmarks',
+  HEALTH_READING_PROGRESS: '@health_reading_progress',
+  HEALTH_GUIDE_COMPLETIONS: '@health_guide_completions',
+  HEALTH_MOOD_HISTORY: '@health_mood_history',
 };
 
 // ─── Firebase Collections ────────────────────────────────
@@ -218,6 +228,40 @@ export const GAME_CATEGORIES = [
   {id: 'desire-dice', label: 'Desire Dice', icon: '🎲', gradient: 'gold', description: 'Roll for spontaneous actions and body part combos'},
   {id: '36-questions', label: '36 Questions', icon: '💬', gradient: 'cool', description: 'Deepen your bond with questions designed to build closeness'},
   {id: 'mood-match', label: 'Mood Match', icon: '🎨', gradient: 'warm', description: 'Discover if you and your partner are in sync tonight'},
+];
+
+// ─── Health Categories ─────────────────────────────────
+export const HEALTH_CATEGORIES = [
+  {id: 'anatomy-pleasure', label: 'Anatomy & Pleasure', icon: '🧬', gradient: 'warm'},
+  {id: 'communication', label: 'Communication', icon: '💬', gradient: 'cool'},
+  {id: 'consent-boundaries', label: 'Consent & Boundaries', icon: '🤝', gradient: 'primary'},
+  {id: 'health-safety', label: 'Health & Safety', icon: '🛡️', gradient: 'cool'},
+  {id: 'emotional-intimacy', label: 'Emotional Intimacy', icon: '💕', gradient: 'warm'},
+  {id: 'common-concerns', label: 'Common Concerns', icon: '❓', gradient: 'primary'},
+  {id: 'wellness-practices', label: 'Wellness Practices', icon: '🧘', gradient: 'gold'},
+];
+
+// ─── Guide Categories ──────────────────────────────────
+export const GUIDE_CATEGORIES = [
+  {id: 'sensate-focus', label: 'Sensate Focus', icon: '✋'},
+  {id: 'mindful-intimacy', label: 'Mindful Intimacy', icon: '🧘'},
+  {id: 'communication-exercises', label: 'Communication', icon: '💬'},
+  {id: 'breathing', label: 'Breathing', icon: '🌬️'},
+  {id: 'kegel', label: 'Kegel Exercises', icon: '💪'},
+];
+
+// ─── Wellness Moods ────────────────────────────────────
+export const WELLNESS_MOODS = [
+  {id: 'great', emoji: '😊', label: 'Great', color: '#4CAF50'},
+  {id: 'good', emoji: '🙂', label: 'Good', color: '#8BC34A'},
+  {id: 'okay', emoji: '😐', label: 'Okay', color: '#FF9800'},
+  {id: 'low', emoji: '😔', label: 'Low', color: '#FF5722'},
+  {id: 'stressed', emoji: '😰', label: 'Stressed', color: '#F44336'},
+  {id: 'anxious', emoji: '😟', label: 'Anxious', color: '#9C27B0'},
+  {id: 'loved', emoji: '🥰', label: 'Loved', color: '#E91E63'},
+  {id: 'connected', emoji: '💞', label: 'Connected', color: '#E94560'},
+  {id: 'playful', emoji: '😏', label: 'Playful', color: '#FF6B6B'},
+  {id: 'tired', emoji: '😴', label: 'Tired', color: '#607D8B'},
 ];
 
 export const MIN_AGE = 18;

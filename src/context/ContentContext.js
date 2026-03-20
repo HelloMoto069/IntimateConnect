@@ -1,12 +1,14 @@
 import React, {createContext, useContext, useMemo} from 'react';
 import {usePositions} from '@hooks/usePositions';
 import {useGames} from '@hooks/useGames';
+import {useHealth} from '@hooks/useHealth';
 
 const ContentContext = createContext(null);
 
 export const ContentProvider = ({children}) => {
   const positionHook = usePositions();
   const gamesHook = useGames();
+  const healthHook = useHealth();
 
   const value = useMemo(
     () => ({
@@ -49,12 +51,12 @@ export const ContentProvider = ({children}) => {
       // Games
       games: gamesHook,
 
-      // Stub fields for future modules
-      healthContent: [],
-      guides: [],
+      // Health
+      health: healthHook,
+
       isLoading: positionHook.isLoading,
     }),
-    [positionHook, gamesHook],
+    [positionHook, gamesHook, healthHook],
   );
 
   return (
