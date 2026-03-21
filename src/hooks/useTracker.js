@@ -5,6 +5,7 @@ import {setDocument, addDocument} from '@api/firebase/firestore';
 import firestore from '@react-native-firebase/firestore';
 import auth from '@react-native-firebase/auth';
 import {generateId} from '@utils/helpers';
+import logger from '@utils/logger';
 
 // ─── MMKV helpers ───────────────────────────────────────
 function loadCached(key, fallback) {
@@ -249,7 +250,7 @@ export const useTracker = (moodHistoryLength = 0, completedGuidesCount = 0) => {
       try {
         await setDocument(`${basePath}/badges`, badgeId, badgeDoc, true);
       } catch (error) {
-        console.error('Award badge error:', error);
+        logger.error('Award badge error:', error);
       }
     }
 
@@ -297,7 +298,7 @@ export const useTracker = (moodHistoryLength = 0, completedGuidesCount = 0) => {
         await setDocument(`${trackerPath(uid)}/journal`, id, entry, true);
         await checkAndAwardBadges();
       } catch (error) {
-        console.error('Add journal entry error:', error);
+        logger.error('Add journal entry error:', error);
         setJournalEntries(prev => prev.filter(e => e.id !== id));
       }
 
@@ -334,7 +335,7 @@ export const useTracker = (moodHistoryLength = 0, completedGuidesCount = 0) => {
           true,
         );
       } catch (error) {
-        console.error('Update journal entry error:', error);
+        logger.error('Update journal entry error:', error);
       }
     },
     [uid],
@@ -352,7 +353,7 @@ export const useTracker = (moodHistoryLength = 0, completedGuidesCount = 0) => {
           .doc(`${trackerPath(uid)}/journal/${entryId}`)
           .delete();
       } catch (error) {
-        console.error('Delete journal entry error:', error);
+        logger.error('Delete journal entry error:', error);
         setJournalEntries(prev);
       }
     },
@@ -387,7 +388,7 @@ export const useTracker = (moodHistoryLength = 0, completedGuidesCount = 0) => {
         await setDocument(`${trackerPath(uid)}/kegels`, id, session, true);
         await checkAndAwardBadges();
       } catch (error) {
-        console.error('Add kegel session error:', error);
+        logger.error('Add kegel session error:', error);
         setKegelSessions(prev => prev.filter(s => s.id !== id));
       }
 
@@ -419,7 +420,7 @@ export const useTracker = (moodHistoryLength = 0, completedGuidesCount = 0) => {
         await setDocument(`${trackerPath(uid)}/goals`, id, goal, true);
         await checkAndAwardBadges();
       } catch (error) {
-        console.error('Add goal error:', error);
+        logger.error('Add goal error:', error);
         setGoals(prev => prev.filter(g => g.id !== id));
       }
 
@@ -444,7 +445,7 @@ export const useTracker = (moodHistoryLength = 0, completedGuidesCount = 0) => {
           true,
         );
       } catch (error) {
-        console.error('Update goal progress error:', error);
+        logger.error('Update goal progress error:', error);
       }
     },
     [uid],
@@ -472,7 +473,7 @@ export const useTracker = (moodHistoryLength = 0, completedGuidesCount = 0) => {
         );
         await checkAndAwardBadges();
       } catch (error) {
-        console.error('Complete goal error:', error);
+        logger.error('Complete goal error:', error);
       }
     },
     [uid, checkAndAwardBadges],
@@ -490,7 +491,7 @@ export const useTracker = (moodHistoryLength = 0, completedGuidesCount = 0) => {
           .doc(`${trackerPath(uid)}/goals/${goalId}`)
           .delete();
       } catch (error) {
-        console.error('Delete goal error:', error);
+        logger.error('Delete goal error:', error);
         setGoals(prev);
       }
     },

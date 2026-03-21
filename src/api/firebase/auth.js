@@ -1,6 +1,7 @@
 import auth from '@react-native-firebase/auth';
 import firestore from '@react-native-firebase/firestore';
 import {FIREBASE_COLLECTIONS} from '@utils/constants';
+import logger from '@utils/logger';
 import {generatePartnerCode, generateId} from '@utils/helpers';
 
 export const signUpWithEmail = async (email, password, displayName) => {
@@ -100,7 +101,7 @@ export const subscribeToUserProfile = (userId, callback) => {
         callback(doc.exists ? doc.data() : null);
       },
       error => {
-        console.error('User profile subscription error:', error);
+        logger.error('User profile subscription error:', error);
       },
     );
 };

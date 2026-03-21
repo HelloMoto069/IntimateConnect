@@ -7,6 +7,7 @@ import auth from '@react-native-firebase/auth';
 import articlesData from '@data/health/articles.json';
 import guidesData from '@data/health/guides.json';
 import glossaryData from '@data/health/glossary.json';
+import logger from '@utils/logger';
 
 // ─── djb2 Hash for Featured Article ────────────────────
 function djb2Hash(str) {
@@ -131,7 +132,7 @@ export const useHealth = () => {
         }
       }
     } catch (e) {
-      console.error('Error loading health data:', e);
+      logger.error('Error loading health data:', e);
     }
     setIsLoading(false);
   }, []);
@@ -165,7 +166,7 @@ export const useHealth = () => {
           }
         },
         error => {
-          console.error('Error syncing health data:', error);
+          logger.error('Error syncing health data:', error);
         },
       );
 
@@ -188,7 +189,7 @@ export const useHealth = () => {
         data,
       );
     } catch (error) {
-      console.error('Error syncing health data:', error);
+      logger.error('Error syncing health data:', error);
     }
   }, []);
 
@@ -422,7 +423,7 @@ export const useHealth = () => {
             entry,
           );
         } catch (error) {
-          console.error('Error syncing mood data:', error);
+          logger.error('Error syncing mood data:', error);
         }
       }
     },

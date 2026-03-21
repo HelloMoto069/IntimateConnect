@@ -1,4 +1,5 @@
 import firestore from '@react-native-firebase/firestore';
+import logger from '@utils/logger';
 
 export const getDocument = async (collection, docId) => {
   const doc = await firestore().collection(collection).doc(docId).get();
@@ -56,7 +57,7 @@ export const subscribeToDocument = (collection, docId, callback) => {
         callback(doc.exists ? {id: doc.id, ...doc.data()} : null);
       },
       error => {
-        console.error(`Subscription error [${collection}/${docId}]:`, error);
+        logger.error(`Subscription error [${collection}/${docId}]:`, error);
       },
     );
 };
@@ -84,7 +85,7 @@ export const subscribeToQuery = (
       callback(data);
     },
     error => {
-      console.error(`Query subscription error [${collection}]:`, error);
+      logger.error(`Query subscription error [${collection}]:`, error);
     },
   );
 };

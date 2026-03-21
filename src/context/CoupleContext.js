@@ -13,12 +13,4 @@ export const CoupleProvider = ({children}) => {
   );
 };
 
-export const useCoupleCx = () => {
-  const context = useContext(CoupleContext);
-  if (!context) {
-    throw new Error('useCoupleCx must be used within a CoupleProvider');
-  }
-  return context;
-};
-
 export default CoupleContext;

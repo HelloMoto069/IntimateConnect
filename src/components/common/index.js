@@ -9,3 +9,5 @@ export {default as EmptyState} from './EmptyState';
 export {default as SearchBar} from './SearchBar';
 export {default as FilterChips} from './FilterChips';
 export {toastConfig, showToast} from './Toast';
+export {default as SyncStatusBar} from './SyncStatusBar';
+export {default as ErrorBoundary} from './ErrorBoundary';

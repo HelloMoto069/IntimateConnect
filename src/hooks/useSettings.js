@@ -5,6 +5,7 @@ import {fastStore} from '@utils/encryptionUtils';
 import {updateUserProfile, deleteAccount as firebaseDeleteAccount} from '@api/firebase/auth';
 import {getDocument} from '@api/firebase/firestore';
 import auth from '@react-native-firebase/auth';
+import logger from '@utils/logger';
 
 export const useSettings = () => {
   const currentUser = auth().currentUser;
@@ -72,7 +73,7 @@ export const useSettings = () => {
         title: 'My Data Export',
       });
     } catch (error) {
-      console.error('Export data error:', error);
+      logger.error('Export data error:', error);
     }
   }, [currentUser]);
 
@@ -103,7 +104,7 @@ export const useSettings = () => {
       await firebaseDeleteAccount();
       fastStore.clearAll();
     } catch (error) {
-      console.error('Delete account error:', error);
+      logger.error('Delete account error:', error);
       throw error;
     }
   }, [currentUser]);

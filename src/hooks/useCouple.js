@@ -16,6 +16,7 @@ import {
 import firestore from '@react-native-firebase/firestore';
 import auth from '@react-native-firebase/auth';
 import {generateId, generatePartnerCode} from '@utils/helpers';
+import logger from '@utils/logger';
 
 // ─── Load cached data from MMKV ─────────────────────────
 function loadCached(key, fallback) {
@@ -174,13 +175,13 @@ export const useCouple = () => {
                 setIsLoading(false);
               },
               error => {
-                console.error('Couple doc subscription error:', error);
+                logger.error('Couple doc subscription error:', error);
                 setIsLoading(false);
               },
             );
         },
         error => {
-          console.error('User profile subscription error:', error);
+          logger.error('User profile subscription error:', error);
           setIsLoading(false);
         },
       );
@@ -219,7 +220,7 @@ export const useCouple = () => {
           }
         },
         error => {
-          console.error('Activity feed subscription error:', error);
+          logger.error('Activity feed subscription error:', error);
         },
       );
 
@@ -356,7 +357,7 @@ export const useCouple = () => {
 
         return {success: true};
       } catch (error) {
-        console.error('Connect error:', error);
+        logger.error('Connect error:', error);
         return {success: false, error: 'Connection failed. Try again.'};
       } finally {
         setIsConnecting(false);
@@ -400,7 +401,7 @@ export const useCouple = () => {
       saveCached(STORAGE_KEYS.COUPLE_ACTIVITY, []);
       saveCached(STORAGE_KEYS.COUPLE_SHARED_FAVORITES, []);
     } catch (error) {
-      console.error('Disconnect error:', error);
+      logger.error('Disconnect error:', error);
     }
   }, [currentUser, coupleId, partner]);
 
@@ -424,7 +425,7 @@ export const useCouple = () => {
       fastStore.set(STORAGE_KEYS.COUPLE_DATA + '_code', newCode);
       return newCode;
     } catch (error) {
-      console.error('Regenerate code error:', error);
+      logger.error('Regenerate code error:', error);
       return null;
     }
   }, [currentUser]);
@@ -470,7 +471,7 @@ export const useCouple = () => {
           },
         );
       } catch (error) {
-        console.error('Add to want-to-try error:', error);
+        logger.error('Add to want-to-try error:', error);
         // Revert optimistic update
         setWantToTryList(prev => prev.filter(item => item.id !== newItem.id));
       }
@@ -496,7 +497,7 @@ export const useCouple = () => {
             wantToTry: firestore.FieldValue.arrayRemove(item),
           });
       } catch (error) {
-        console.error('Remove from want-to-try error:', error);
+        logger.error('Remove from want-to-try error:', error);
         setWantToTryList(prev => [...prev, item]);
       }
     },
@@ -550,7 +551,7 @@ export const useCouple = () => {
           },
         );
       } catch (error) {
-        console.error('Mark as tried error:', error);
+        logger.error('Mark as tried error:', error);
         setWantToTryList(prev =>
           prev.map(i => (i.id === itemId ? oldItem : i)),
         );
@@ -584,7 +585,7 @@ export const useCouple = () => {
           .doc(coupleId)
           .update({lastActivity: serverTimestamp()});
       } catch (error) {
-        console.error('Add activity error:', error);
+        logger.error('Add activity error:', error);
       }
     },
     [coupleId, currentUser, coupleData],
@@ -614,7 +615,7 @@ export const useCouple = () => {
         lastActivityDocRef.current = snapshot.docs[snapshot.docs.length - 1];
       }
     } catch (error) {
-      console.error('Load more activity error:', error);
+      logger.error('Load more activity error:', error);
     }
   }, [coupleId, hasMoreActivity]);
 
@@ -646,7 +647,7 @@ export const useCouple = () => {
       setSharedFavorites(shared);
       saveCached(STORAGE_KEYS.COUPLE_SHARED_FAVORITES, shared);
     } catch (error) {
-      console.error('Refresh shared favorites error:', error);
+      logger.error('Refresh shared favorites error:', error);
     }
   }, [partner?.uid, currentUser]);
 

@@ -5,6 +5,7 @@ import {setDocument, getDocument} from '@api/firebase/firestore';
 import firestore from '@react-native-firebase/firestore';
 import auth from '@react-native-firebase/auth';
 import positionsData from '@data/positions.json';
+import logger from '@utils/logger';
 
 // ─── djb2 Hash for Position of the Day ──────────────────
 function djb2Hash(str) {
@@ -128,7 +129,7 @@ export const usePositions = () => {
           setIsLoading(false);
         },
         error => {
-          console.error('Error loading position data:', error);
+          logger.error('Error loading position data:', error);
           setIsLoading(false);
         },
       );
@@ -235,7 +236,7 @@ export const usePositions = () => {
         data,
       );
     } catch (error) {
-      console.error('Error syncing position data:', error);
+      logger.error('Error syncing position data:', error);
     }
   }, []);
 

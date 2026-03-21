@@ -191,6 +191,7 @@ export const STORAGE_KEYS = {
   TRACKER_GOALS: '@tracker_goals',
   TRACKER_BADGES: '@tracker_badges',
   DISGUISE_MODE: '@disguise_mode',
+  PENDING_SYNC_OPS: '@pending_sync_ops',
 };
 
 // ─── Firebase Collections ────────────────────────────────

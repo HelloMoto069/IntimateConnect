@@ -10,6 +10,8 @@ import {ContentProvider} from '@context/ContentContext';
 import {TrackerProvider} from '@context/TrackerContext';
 import RootNavigator from '@navigation/RootNavigator';
 import {toastConfig} from '@components/common/Toast';
+import ErrorBoundary from '@components/common/ErrorBoundary';
+import SyncStatusBar from '@components/common/SyncStatusBar';
 
 const AppContent = () => {
   const {isDark, theme} = useTheme();
@@ -32,6 +34,7 @@ const AppContent = () => {
         barStyle={isDark ? 'light-content' : 'dark-content'}
         backgroundColor={theme.colors.background}
       />
+      <SyncStatusBar />
       <RootNavigator />
       <Toast config={toastConfig} />
     </NavigationContainer>
@@ -40,6 +43,7 @@ const AppContent = () => {
 
 const App = () => {
   return (
+    <ErrorBoundary>
     <GestureHandlerRootView style={styles.root}>
       <ThemeProvider>
         <AuthProvider>
@@ -53,6 +57,7 @@ const App = () => {
         </AuthProvider>
       </ThemeProvider>
     </GestureHandlerRootView>
+    </ErrorBoundary>
   );
 };
 
