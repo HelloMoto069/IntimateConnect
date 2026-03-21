@@ -142,6 +142,15 @@ const positionMap = {
   pos_098: {t: 'lyingFaceToFace', a: {headTilt: 5, leftArm: {shoulder: 155, elbow: 25}}, b: {headTilt: -5}},
   pos_100: {t: 'lyingFaceToFace', a: {leftArm: {shoulder: 145, elbow: 40}}, b: {leftArm: {shoulder: 135, elbow: 45}}},
   pos_105: {t: 'lyingFaceToFace', a: {bodyAngle: 88}, b: {bodyAngle: 92, torsoAngle: -4}},
+
+  // === KAMASUTRA POSITIONS ===
+  pos_106: {t: 'lyingFaceToFace', a: {leftLeg: {hip: 15, knee: 85}, rightLeg: {hip: 155, knee: -50}, torsoAngle: 5}, b: {torsoAngle: -15}}, // Indrani - knees to chest
+  pos_107: {t: 'onTopReverse', a: {}, b: {torsoAngle: 20, leftArm: {shoulder: 15, elbow: 25}, rightArm: {shoulder: -15, elbow: -25}}}, // Bull - reverse mount leaning forward
+  pos_108: {t: 'lyingRearEntry', a: {leftLeg: {hip: 50, knee: 30}, rightLeg: {hip: 130, knee: -20}}, b: {torsoAngle: -10, leftArm: {shoulder: 30, elbow: 25}}}, // Camel - all fours
+  pos_109: {t: 'lyingFaceToFace', a: {leftLeg: {hip: 45, knee: 45}, rightLeg: {hip: 135, knee: -30}}, b: {y: 115, leftLeg: {hip: 70, knee: 15}}}, // Blossoming - knees bent open
+  pos_110: {t: 'lyingFaceToFace', a: {bodyAngle: 85, leftLeg: {hip: 20, knee: 75}, rightLeg: {hip: 135, knee: -20}}, b: {bodyAngle: 95, leftArm: {shoulder: 140, elbow: 30}}}, // Deep Impact - bamboo split
+  pos_111: {t: 'sideBySide', a: {bodyAngle: 82, headTilt: 7, leftArm: {shoulder: 120, elbow: 55}}, b: {bodyAngle: 98, headTilt: -7, rightArm: {shoulder: 240, elbow: -55}}}, // Love's Fusion - side embrace
+  pos_112: {t: 'proneRear', a: {y: 148, torsoAngle: -8}, b: {y: 125, torsoAngle: 15, leftLeg: {hip: 45, knee: 35}}}, // Elephant - hips raised face down
 };
 
 // Cache for resolved poses

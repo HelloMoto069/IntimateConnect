@@ -2103,5 +2103,145 @@
     "physicalNotes": "Nearly zero physical demand. The motion should be as effortless as possible.",
     "bestFor": ["trance-like intimacy", "deep relaxation", "hypnotic rhythm"],
     "relatedPositions": ["pos_098", "pos_100", "pos_037"]
+  },
+  {
+    "id": "pos_106",
+    "name": "The Indrani",
+    "alternateNames": ["Queen of Heaven", "Indrani Pose"],
+    "category": ["kamasutra", "lying-down", "face-to-face", "flexibility", "advanced"],
+    "difficulty": 4,
+    "intimacyLevel": 4,
+    "flexibilityRequired": 5,
+    "staminaRequired": 3,
+    "description": "An ancient Kamasutra position named after the Queen of Heaven. Partner A lies on their back and draws both knees up toward their chest in a compact fetal-like fold, while Partner B kneels or lies above, entering from the front. This deep fold creates an intense angle of connection and requires significant flexibility from the receiving partner.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies on their back on a comfortable surface."},
+      {"step": 2, "text": "Partner A draws both knees up toward their chest, keeping feet near Partner B's underarm area."},
+      {"step": 3, "text": "Partner B positions themselves above, using the compact angle for deep, controlled connection."}
+    ],
+    "tips": ["A pillow under Partner A's lower back can reduce strain", "Partner A should warm up with gentle hip stretches beforehand", "Communication about depth is especially important in this position"],
+    "physicalNotes": "Requires high hip and hamstring flexibility from Partner A. Partner B controls depth and pace. Not recommended for those with lower back issues.",
+    "bestFor": ["deep connection", "intense angles", "kamasutra exploration"],
+    "relatedPositions": ["pos_026", "pos_036", "pos_012"]
+  },
+  {
+    "id": "pos_107",
+    "name": "The Bull",
+    "alternateNames": ["Virsha", "The Reverse Mount"],
+    "category": ["kamasutra", "lying-down", "rear-entry", "advanced"],
+    "difficulty": 4,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 3,
+    "staminaRequired": 4,
+    "description": "A bold Kamasutra position where Partner A lies flat on their back while Partner B kneels on top facing away toward Partner A's feet. Partner B leans forward and grips Partner A's ankles or shins for leverage, creating a powerful reverse riding dynamic with strong visual and physical intensity.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies flat on their back with legs extended."},
+      {"step": 2, "text": "Partner B straddles Partner A facing their feet, kneeling with one knee on each side."},
+      {"step": 3, "text": "Partner B leans forward, gripping Partner A's ankles for stability and leverage during movement."}
+    ],
+    "tips": ["Partner B should use their grip on ankles to control the rhythm", "A firm mattress or floor with padding works best for stability", "Partner A can bend knees slightly to offer easier grip points"],
+    "physicalNotes": "Demands strong core and thigh muscles from Partner B. Partner A's role is more passive. The forward lean requires decent back flexibility from Partner B.",
+    "bestFor": ["power dynamics", "visual intensity", "reverse angle"],
+    "relatedPositions": ["pos_005", "pos_064", "pos_016"]
+  },
+  {
+    "id": "pos_108",
+    "name": "Camel Style",
+    "alternateNames": ["Dhenuka", "The Cow Pose"],
+    "category": ["kamasutra", "lying-down", "rear-entry", "beginner"],
+    "difficulty": 1,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 1,
+    "staminaRequired": 2,
+    "description": "One of the most natural Kamasutra positions, known as Dhenuka. Partner A positions themselves on all fours while Partner B enters from behind in a kneeling position. This instinctive arrangement allows for deep connection and gives Partner B full control over rhythm and depth.",
+    "howTo": [
+      {"step": 1, "text": "Partner A gets on all fours on a comfortable surface, with hands and knees shoulder-width apart."},
+      {"step": 2, "text": "Partner B kneels behind Partner A, aligning their hips."},
+      {"step": 3, "text": "Partner B holds Partner A's hips for guidance while both find a comfortable rhythm together."}
+    ],
+    "tips": ["Partner A can arch or flatten their back to change the angle of sensation", "Placing a pillow under Partner A's knees adds comfort for longer sessions", "Partner A can lower to their forearms for a different variation"],
+    "physicalNotes": "Very accessible with minimal flexibility requirements. Partner A may experience wrist fatigue in extended sessions — forearm variation helps.",
+    "bestFor": ["natural rhythm", "deep access", "beginner-friendly rear entry"],
+    "relatedPositions": ["pos_023", "pos_024", "pos_032"]
+  },
+  {
+    "id": "pos_109",
+    "name": "The Blossoming",
+    "alternateNames": ["Vikasita", "The Opening Flower"],
+    "category": ["kamasutra", "lying-down", "face-to-face", "romantic"],
+    "difficulty": 2,
+    "intimacyLevel": 4,
+    "flexibilityRequired": 2,
+    "staminaRequired": 2,
+    "description": "A tender Kamasutra position where Partner A lies on their back with knees gently bent like a flower opening its petals. Partner B kneels facing them between their legs, rising on their knees to meet Partner A. The upright kneeling angle combined with Partner A's open posture creates a visually beautiful and emotionally connected arrangement.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies on their back and bends both knees, letting them fall gently open."},
+      {"step": 2, "text": "Partner B kneels between Partner A's legs, sitting upright on their knees."},
+      {"step": 3, "text": "Partner B raises their hips to connect, while Partner A can rock gently to match the rhythm."}
+    ],
+    "tips": ["Partner A placing feet flat on the bed gives more leverage for movement", "Maintain eye contact for deeper emotional connection", "Partner B can lean forward onto hands to shift to a different angle"],
+    "physicalNotes": "Moderate demand on Partner B's thighs from the kneeling position. Partner A is in a very relaxed posture. Transition-friendly — easily shifts to missionary or butterfly.",
+    "bestFor": ["romantic connection", "gentle rhythm", "kamasutra exploration"],
+    "relatedPositions": ["pos_011", "pos_072", "pos_089"]
+  },
+  {
+    "id": "pos_110",
+    "name": "Deep Impact",
+    "alternateNames": ["Shulachitaka", "Splitting of a Bamboo"],
+    "category": ["kamasutra", "lying-down", "face-to-face", "flexibility", "intermediate"],
+    "difficulty": 3,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 4,
+    "staminaRequired": 3,
+    "description": "Known in the Kamasutra as Shulachitaka or the Splitting of a Bamboo. Partner A lies on their back and shifts weight onto one hip. Partner B straddles one of Partner A's legs while lifting the other leg up toward their own shoulder or head. This asymmetric split creates a uniquely intense angle and deep connection.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies on their back and rolls slightly onto one hip."},
+      {"step": 2, "text": "Partner B straddles Partner A's lower leg, keeping it between their knees."},
+      {"step": 3, "text": "Partner B lifts Partner A's upper leg, resting it against their chest or shoulder, creating the bamboo-split angle."}
+    ],
+    "tips": ["Switch sides periodically to balance the stretch", "Partner B should support the lifted leg firmly to prevent strain", "Partner A can push against Partner B's chest with their raised foot for leverage"],
+    "physicalNotes": "Requires good hamstring flexibility from Partner A for the raised leg. Partner B needs stable balance while straddling. Can cause hip fatigue if held too long on one side.",
+    "bestFor": ["intense angles", "asymmetric sensation", "flexibility showcase"],
+    "relatedPositions": ["pos_013", "pos_029", "pos_090"]
+  },
+  {
+    "id": "pos_111",
+    "name": "Love's Fusion",
+    "alternateNames": ["Parshva Samputa", "The Side Embrace"],
+    "category": ["kamasutra", "side-by-side", "face-to-face", "romantic", "pregnancy-safe"],
+    "difficulty": 1,
+    "intimacyLevel": 5,
+    "flexibilityRequired": 1,
+    "staminaRequired": 1,
+    "description": "Called Parshva Samputa in the Kamasutra, this position has both partners lying on their sides facing each other in a close embrace. Their bodies press together from chest to hips, legs intertwined, allowing for whispered conversation, kissing, and synchronized breathing. It is one of the most emotionally intimate arrangements in the ancient texts.",
+    "howTo": [
+      {"step": 1, "text": "Both partners lie on their sides facing each other on a comfortable surface."},
+      {"step": 2, "text": "Move close together so that chests, hips, and legs are in contact, intertwining legs naturally."},
+      {"step": 3, "text": "Wrap arms around each other and find a gentle, unhurried rocking rhythm together."}
+    ],
+    "tips": ["Place a pillow between or under your heads for neck comfort", "Synchronize breathing for a deeper emotional bond", "This is an ideal position for long, unhurried sessions"],
+    "physicalNotes": "Virtually no physical strain. Suitable for all fitness levels and during pregnancy. May require minor hip adjustments to find the right alignment.",
+    "bestFor": ["deep emotional intimacy", "effortless pace", "pregnancy-safe", "whispered closeness"],
+    "relatedPositions": ["pos_008", "pos_037", "pos_047"]
+  },
+  {
+    "id": "pos_112",
+    "name": "The Elephant",
+    "alternateNames": ["Hastika", "Elephant Posture", "Airavata"],
+    "category": ["kamasutra", "lying-down", "rear-entry", "intermediate"],
+    "difficulty": 2,
+    "intimacyLevel": 3,
+    "flexibilityRequired": 2,
+    "staminaRequired": 3,
+    "description": "An iconic Kamasutra position where Partner A lies face-down and raises their hips while lowering their head and shoulders to the surface, creating an arched posture reminiscent of an elephant bowing. Partner B enters from behind, straddling the outside of Partner A's thighs. The elevated hip angle provides a unique sensation different from standard rear-entry positions.",
+    "howTo": [
+      {"step": 1, "text": "Partner A lies face-down on a comfortable surface."},
+      {"step": 2, "text": "Partner A raises their hips upward while keeping head and shoulders lowered against the surface."},
+      {"step": 3, "text": "Partner B positions themselves behind, straddling the outside of Partner A's thighs, and uses the elevated angle for connection."}
+    ],
+    "tips": ["A pillow under Partner A's hips can help maintain the arch comfortably", "Partner A can adjust the height by spreading or closing their knees", "Partner B should keep weight on their own knees, not on Partner A's back"],
+    "physicalNotes": "Moderate lower back engagement for Partner A to maintain the arch. Partner B needs stable knee positioning. A firm surface works better than a very soft mattress.",
+    "bestFor": ["unique angles", "rear-entry variation", "kamasutra exploration"],
+    "relatedPositions": ["pos_024", "pos_025", "pos_038"]
   }
 ]

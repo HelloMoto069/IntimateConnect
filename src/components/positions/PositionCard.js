@@ -29,6 +29,7 @@ const CATEGORY_COLORS = {
   quickie: '#FFC107',
   tantric: '#7C4DFF',
   'pregnancy-safe': '#26A69A',
+  kamasutra: '#FF6B35',
 };
 
 const PositionCard = ({
