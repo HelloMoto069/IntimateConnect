@@ -1,12 +1,16 @@
 import React from 'react';
-import {View, Text, TouchableOpacity, StyleSheet, ScrollView} from 'react-native';
+import {View, Text, StyleSheet, ScrollView} from 'react-native';
 import {useAuth} from '@context/AuthContext';
 import {useTheme} from '@context/ThemeContext';
+import {useTrackerContext} from '@context/TrackerContext';
 import {GlassCard, AnimatedToggle, GradientButton} from '@components/common';
+import {TrackerDashboard} from '@components/tracker';
+import {SPACING, TYPOGRAPHY} from '@utils/constants';
 
 const ProfileScreen = () => {
   const {theme, isDark, toggleTheme} = useTheme();
   const {user, userProfile, logout} = useAuth();
+  const tracker = useTrackerContext();
 
   return (
     <ScrollView
@@ -31,11 +35,15 @@ const ProfileScreen = () => {
         />
       </GlassCard>
 
-      <GlassCard style={styles.card}>
-        <Text style={[styles.sectionTitle, {color: theme.colors.textSecondary}]}>
-          Wellness Tracker — Coming in Phase 6
-        </Text>
-      </GlassCard>
+      {/* Wellness Tracker Dashboard */}
+      <View style={styles.trackerSection}>
+        <TrackerDashboard
+          journalCount={tracker.journalCount}
+          kegelStats={tracker.kegelStats}
+          goalStats={tracker.goalStats}
+          badgeCount={tracker.badgeCount}
+        />
+      </View>
 
       <GradientButton
         title="Sign Out"
@@ -52,16 +60,15 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   content: {
-    padding: 24,
+    padding: SPACING.lg,
     paddingTop: 60,
   },
   title: {
-    fontSize: 26,
-    fontWeight: '700',
-    marginBottom: 24,
+    ...TYPOGRAPHY.hero,
+    marginBottom: SPACING.lg,
   },
   card: {
-    marginBottom: 16,
+    marginBottom: SPACING.md,
   },
   name: {
     fontSize: 20,
@@ -71,12 +78,12 @@ const styles = StyleSheet.create({
   email: {
     fontSize: 14,
   },
-  sectionTitle: {
-    fontSize: 16,
-    textAlign: 'center',
+  trackerSection: {
+    marginTop: SPACING.md,
+    marginBottom: SPACING.md,
   },
   logoutButton: {
-    marginTop: 24,
+    marginTop: SPACING.lg,
   },
 });
 

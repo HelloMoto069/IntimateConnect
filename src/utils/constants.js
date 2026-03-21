@@ -150,6 +150,13 @@ export const SCREEN_NAMES = {
   PARTNER_SHARED_FAVORITES: 'PartnerSharedFavorites',
   PARTNER_WANT_TO_TRY: 'PartnerWantToTry',
   PARTNER_ACTIVITY: 'PartnerActivity',
+  // Tracker screens
+  TRACKER_JOURNAL: 'TrackerJournal',
+  TRACKER_JOURNAL_EDIT: 'TrackerJournalEdit',
+  TRACKER_KEGEL: 'TrackerKegel',
+  TRACKER_KEGEL_TIMER: 'TrackerKegelTimer',
+  TRACKER_GOALS: 'TrackerGoals',
+  TRACKER_BADGES: 'TrackerBadges',
 };
 
 // ─── Storage Keys ────────────────────────────────────────
@@ -176,6 +183,10 @@ export const STORAGE_KEYS = {
   COUPLE_WANT_TO_TRY: '@couple_want_to_try',
   COUPLE_ACTIVITY: '@couple_activity',
   COUPLE_SHARED_FAVORITES: '@couple_shared_favorites',
+  TRACKER_JOURNAL: '@tracker_journal',
+  TRACKER_KEGELS: '@tracker_kegels',
+  TRACKER_GOALS: '@tracker_goals',
+  TRACKER_BADGES: '@tracker_badges',
 };
 
 // ─── Firebase Collections ────────────────────────────────
@@ -294,3 +305,40 @@ export const COUPLE_ACTIVITY_TYPES = {
   want_to_try_completed: {label: 'Tried Together', icon: '✅'},
   mood_checked: {label: 'Mood Check-In', icon: '💭'},
 };
+
+// ─── Goal Categories ────────────────────────────────────
+export const GOAL_CATEGORIES = [
+  {id: 'intimacy', label: 'Intimacy', icon: '💕', color: '#E94560'},
+  {id: 'exercise', label: 'Exercise', icon: '💪', color: '#4CAF50'},
+  {id: 'communication', label: 'Communication', icon: '💬', color: '#2196F3'},
+  {id: 'self-care', label: 'Self-Care', icon: '🧘', color: '#9C27B0'},
+  {id: 'health', label: 'Health', icon: '❤️', color: '#FF5722'},
+];
+
+// ─── Kegel Intensities ──────────────────────────────────
+export const KEGEL_INTENSITIES = [
+  {id: 'light', label: 'Light', color: '#4CAF50', holdSeconds: 3, restSeconds: 3},
+  {id: 'medium', label: 'Medium', color: '#FF9800', holdSeconds: 5, restSeconds: 3},
+  {id: 'strong', label: 'Strong', color: '#F44336', holdSeconds: 8, restSeconds: 5},
+];
+
+// ─── Badge Definitions ──────────────────────────────────
+export const BADGE_DEFINITIONS = [
+  {id: 'first_journal', name: 'Dear Diary', description: 'Write your first journal entry', icon: '📝', category: 'journal'},
+  {id: 'journal_10', name: 'Reflective Soul', description: 'Write 10 journal entries', icon: '📖', category: 'journal'},
+  {id: 'journal_streak_7', name: 'Consistent Writer', description: '7-day journaling streak', icon: '🔥', category: 'journal'},
+  {id: 'first_kegel', name: 'Strong Start', description: 'Complete your first kegel session', icon: '💪', category: 'kegel'},
+  {id: 'kegel_10', name: 'Kegel Pro', description: 'Complete 10 kegel sessions', icon: '🏆', category: 'kegel'},
+  {id: 'kegel_streak_7', name: '7-Day Streak', description: '7 consecutive days of kegel exercises', icon: '⚡', category: 'kegel'},
+  {id: 'first_goal', name: 'Goal Setter', description: 'Create your first wellness goal', icon: '🎯', category: 'goals'},
+  {id: 'goal_crusher', name: 'Goal Crusher', description: 'Complete 5 wellness goals', icon: '🏅', category: 'goals'},
+  {id: 'mood_master', name: 'Mood Master', description: 'Log mood for 30 days', icon: '🧠', category: 'mood'},
+  {id: 'guide_graduate', name: 'Guide Graduate', description: 'Complete 5 wellness guides', icon: '🎓', category: 'guides'},
+  {id: 'well_rounded', name: 'Well-Rounded', description: 'Earn badges from 3 different categories', icon: '🌟', category: 'meta'},
+];
+
+// ─── Journal Tags ───────────────────────────────────────
+export const JOURNAL_TAGS = [
+  'intimacy', 'reflection', 'gratitude', 'communication',
+  'desire', 'boundary', 'growth', 'self-care', 'partner', 'health',
+];
