@@ -6,13 +6,15 @@ import {PinInput} from '@components/common';
 import {showToast} from '@components/common/Toast';
 import {useAppLock} from '@hooks/useAppLock';
 import {useHaptic} from '@hooks/useHaptic';
-import {MAX_PIN_ATTEMPTS, PIN_LOCKOUT_SECONDS} from '@utils/constants';
+import {MAX_PIN_ATTEMPTS, PIN_LOCKOUT_SECONDS, STORAGE_KEYS, DISGUISE_CONFIG} from '@utils/constants';
+import {fastStore} from '@utils/encryptionUtils';
 
 const AppLockScreen = () => {
   const {theme} = useTheme();
   const {checkPin, unlockApp, logout} = useAuth();
   const {isBiometricEnabled, verifyBiometric} = useAppLock();
   const {success: hapticSuccess, error: hapticError} = useHaptic();
+  const isDisguised = fastStore.getBoolean(STORAGE_KEYS.DISGUISE_MODE);
   const [pinError, setPinError] = useState(false);
   const [attempts, setAttempts] = useState(0);
   const [lockedUntil, setLockedUntil] = useState(null);
@@ -94,7 +96,7 @@ const AppLockScreen = () => {
       style={[styles.container, {backgroundColor: theme.colors.background}]}>
       <View style={styles.content}>
         <Text style={[styles.appName, {color: theme.colors.primary}]}>
-          IntimateConnect
+          {isDisguised ? DISGUISE_CONFIG.appName : 'IntimateConnect'}
         </Text>
         <Text style={[styles.title, {color: theme.colors.text}]}>
           Welcome Back

@@ -8,6 +8,8 @@ import KegelScreen from '@screens/main/profile/KegelScreen';
 import KegelTimerScreen from '@screens/main/profile/KegelTimerScreen';
 import GoalsScreen from '@screens/main/profile/GoalsScreen';
 import BadgesScreen from '@screens/main/profile/BadgesScreen';
+import SettingsScreen from '@screens/main/profile/SettingsScreen';
+import ChangePinScreen from '@screens/main/profile/ChangePinScreen';
 
 const Stack = createStackNavigator();
 
@@ -38,6 +40,14 @@ const ProfileNavigator = () => {
       <Stack.Screen
         name={SCREEN_NAMES.TRACKER_BADGES}
         component={BadgesScreen}
+      />
+      <Stack.Screen
+        name={SCREEN_NAMES.SETTINGS}
+        component={SettingsScreen}
+      />
+      <Stack.Screen
+        name={SCREEN_NAMES.CHANGE_PIN}
+        component={ChangePinScreen}
       />
     </Stack.Navigator>
   );

@@ -1,6 +1,6 @@
 import {useState, useEffect, useCallback} from 'react';
 import ReactNativeBiometrics from 'react-native-biometrics';
-import {STORAGE_KEYS} from '@utils/constants';
+import {STORAGE_KEYS, DISGUISE_CONFIG} from '@utils/constants';
 import {fastStore} from '@utils/encryptionUtils';
 
 const rnBiometrics = new ReactNativeBiometrics();
@@ -53,8 +53,13 @@ export const useAppLock = () => {
 
   const verifyBiometric = useCallback(async () => {
     try {
+      const isDisguised = fastStore.getBoolean(STORAGE_KEYS.DISGUISE_MODE);
+      const promptMessage = isDisguised
+        ? `Unlock ${DISGUISE_CONFIG.appName}`
+        : 'Unlock IntimateConnect';
+
       const {success} = await rnBiometrics.simplePrompt({
-        promptMessage: 'Unlock IntimateConnect',
+        promptMessage,
         cancelButtonText: 'Use PIN',
       });
       return success;

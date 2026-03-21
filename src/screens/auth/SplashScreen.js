@@ -7,9 +7,12 @@ import Animated, {
   withDelay,
 } from 'react-native-reanimated';
 import {useTheme} from '@context/ThemeContext';
+import {STORAGE_KEYS, DISGUISE_CONFIG} from '@utils/constants';
+import {fastStore} from '@utils/encryptionUtils';
 
 const SplashScreen = () => {
   const {theme} = useTheme();
+  const isDisguised = fastStore.getBoolean(STORAGE_KEYS.DISGUISE_MODE);
   const opacity = useSharedValue(0);
   const translateY = useSharedValue(20);
 
@@ -28,10 +31,10 @@ const SplashScreen = () => {
       style={[styles.container, {backgroundColor: theme.colors.background}]}>
       <Animated.View style={[styles.content, animatedStyle]}>
         <Text style={[styles.title, {color: theme.colors.primary}]}>
-          IntimateConnect
+          {isDisguised ? DISGUISE_CONFIG.appName : 'IntimateConnect'}
         </Text>
         <Text style={[styles.subtitle, {color: theme.colors.textSecondary}]}>
-          Your private wellness companion
+          {isDisguised ? DISGUISE_CONFIG.subtitle : 'Your private wellness companion'}
         </Text>
       </Animated.View>
       <ActivityIndicator

@@ -1,22 +1,37 @@
 import React from 'react';
-import {View, Text, StyleSheet, ScrollView} from 'react-native';
+import {View, Text, TouchableOpacity, StyleSheet, ScrollView} from 'react-native';
+import {useNavigation} from '@react-navigation/native';
 import {useAuth} from '@context/AuthContext';
 import {useTheme} from '@context/ThemeContext';
 import {useTrackerContext} from '@context/TrackerContext';
-import {GlassCard, AnimatedToggle, GradientButton} from '@components/common';
+import {GlassCard, GradientButton} from '@components/common';
 import {TrackerDashboard} from '@components/tracker';
-import {SPACING, TYPOGRAPHY} from '@utils/constants';
+import {SCREEN_NAMES, SPACING, TYPOGRAPHY} from '@utils/constants';
+import {normalize} from '@utils/helpers';
 
 const ProfileScreen = () => {
-  const {theme, isDark, toggleTheme} = useTheme();
+  const {theme} = useTheme();
   const {user, userProfile, logout} = useAuth();
   const tracker = useTrackerContext();
+  const navigation = useNavigation();
 
   return (
     <ScrollView
       style={[styles.container, {backgroundColor: theme.colors.background}]}
       contentContainerStyle={styles.content}>
-      <Text style={[styles.title, {color: theme.colors.text}]}>Profile</Text>
+      {/* Header with gear icon */}
+      <View style={styles.headerRow}>
+        <Text style={[styles.title, {color: theme.colors.text}]}>Profile</Text>
+        <TouchableOpacity
+          onPress={() => navigation.navigate(SCREEN_NAMES.SETTINGS)}
+          style={styles.gearBtn}
+          accessibilityLabel="Settings"
+          accessibilityRole="button">
+          <Text style={[styles.gearIcon, {color: theme.colors.textSecondary}]}>
+            ⚙
+          </Text>
+        </TouchableOpacity>
+      </View>
 
       <GlassCard style={styles.card}>
         <Text style={[styles.name, {color: theme.colors.text}]}>
@@ -25,14 +40,6 @@ const ProfileScreen = () => {
         <Text style={[styles.email, {color: theme.colors.textSecondary}]}>
           {user?.email || ''}
         </Text>
-      </GlassCard>
-
-      <GlassCard style={styles.card}>
-        <AnimatedToggle
-          label="Dark Mode"
-          value={isDark}
-          onToggle={toggleTheme}
-        />
       </GlassCard>
 
       {/* Wellness Tracker Dashboard */}
@@ -63,9 +70,20 @@ const styles = StyleSheet.create({
     padding: SPACING.lg,
     paddingTop: 60,
   },
+  headerRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: SPACING.lg,
+  },
   title: {
     ...TYPOGRAPHY.hero,
-    marginBottom: SPACING.lg,
+  },
+  gearBtn: {
+    padding: SPACING.sm,
+  },
+  gearIcon: {
+    fontSize: 26,
   },
   card: {
     marginBottom: SPACING.md,

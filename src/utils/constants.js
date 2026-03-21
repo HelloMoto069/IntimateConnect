@@ -157,6 +157,9 @@ export const SCREEN_NAMES = {
   TRACKER_KEGEL_TIMER: 'TrackerKegelTimer',
   TRACKER_GOALS: 'TrackerGoals',
   TRACKER_BADGES: 'TrackerBadges',
+  // Settings screens
+  SETTINGS: 'Settings',
+  CHANGE_PIN: 'ChangePin',
 };
 
 // ─── Storage Keys ────────────────────────────────────────
@@ -187,6 +190,7 @@ export const STORAGE_KEYS = {
   TRACKER_KEGELS: '@tracker_kegels',
   TRACKER_GOALS: '@tracker_goals',
   TRACKER_BADGES: '@tracker_badges',
+  DISGUISE_MODE: '@disguise_mode',
 };
 
 // ─── Firebase Collections ────────────────────────────────
@@ -342,3 +346,11 @@ export const JOURNAL_TAGS = [
   'intimacy', 'reflection', 'gratitude', 'communication',
   'desire', 'boundary', 'growth', 'self-care', 'partner', 'health',
 ];
+
+// ─── Disguise Mode Config ───────────────────────────────
+export const DISGUISE_CONFIG = {
+  appName: 'My Notes',
+  subtitle: 'Your personal organizer',
+  notificationTitle: 'Reminder',
+  notificationBody: 'You have a new note',
+};
