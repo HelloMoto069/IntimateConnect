@@ -10,6 +10,7 @@ import {useTheme} from '@context/ThemeContext';
 import {useHaptic} from '@hooks/useHaptic';
 import {BORDER_RADIUS, SHADOWS, ANIMATION_CONFIG, SCREEN_NAMES} from '@utils/constants';
 import DifficultyStars from './DifficultyStars';
+import PositionSVG from './PositionSVG';
 
 // Category colors for placeholder illustration area
 const CATEGORY_COLORS = {
@@ -80,15 +81,16 @@ const PositionCard = ({
       activeOpacity={0.7}
       accessibilityRole="button"
       accessibilityLabel={`${position.name}, difficulty ${position.difficulty} out of 5`}>
-      {/* Placeholder illustration area */}
+      {/* Position illustration */}
       <View
         style={[
           isGrid ? styles.gridIllustration : styles.listIllustration,
-          {backgroundColor: placeholderColor + '20'},
+          {backgroundColor: placeholderColor + '15'},
         ]}>
-        <Text style={[styles.illustrationEmoji, {color: placeholderColor}]}>
-          {position.difficulty <= 2 ? '🌱' : position.difficulty <= 4 ? '🔥' : '💪'}
-        </Text>
+        <PositionSVG
+          positionId={position.id}
+          size={isGrid ? 'small' : 'medium'}
+        />
       </View>
 
       <View style={isGrid ? styles.gridContent : styles.listContent}>

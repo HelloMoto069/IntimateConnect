@@ -7,7 +7,7 @@ import {useTheme} from '@context/ThemeContext';
 import {useContent} from '@context/ContentContext';
 import {useHaptic} from '@hooks/useHaptic';
 import {GradientButton, GlassCard} from '@components/common';
-import {DifficultyStars, IntimacyMeter} from '@components/positions';
+import {DifficultyStars, IntimacyMeter, PositionSVG} from '@components/positions';
 import {SPACING, BORDER_RADIUS, SCREEN_NAMES} from '@utils/constants';
 
 const PositionOfTheDayScreen = ({navigation}) => {
@@ -63,9 +63,12 @@ const PositionOfTheDayScreen = ({navigation}) => {
                 day: 'numeric',
               })}
             </Text>
-            <Text style={styles.heroEmoji}>
-              {'\uD83D\uDD25'}
-            </Text>
+            <PositionSVG
+              positionId={position.id}
+              size="large"
+              colorA="#FFFFFF"
+              colorB="rgba(255,255,255,0.6)"
+            />
             <Text style={styles.heroName}>{position.name}</Text>
             {position.alternateNames?.length > 0 && (
               <Text style={styles.heroAlt}>

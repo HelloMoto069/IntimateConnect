@@ -3,7 +3,7 @@ import {View, Text, TouchableOpacity, StyleSheet} from 'react-native';
 import {useTheme} from '@context/ThemeContext';
 import {BORDER_RADIUS} from '@utils/constants';
 
-const StepItem = ({step, isLast, theme, expanded, onToggle}) => {
+const StepItem = ({step, isLast, theme, expanded, onToggle, isActive}) => {
   return (
     <View style={styles.stepContainer}>
       {/* Step indicator line */}
@@ -11,7 +11,8 @@ const StepItem = ({step, isLast, theme, expanded, onToggle}) => {
         <View
           style={[
             styles.stepCircle,
-            {backgroundColor: theme.colors.primary},
+            {backgroundColor: isActive ? theme.colors.primary : theme.colors.primary + '80'},
+            isActive && styles.stepCircleActive,
           ]}>
           <Text style={styles.stepNumber}>{step.step}</Text>
         </View>
@@ -27,7 +28,11 @@ const StepItem = ({step, isLast, theme, expanded, onToggle}) => {
 
       {/* Step content */}
       <TouchableOpacity
-        style={[styles.stepContent, {borderColor: theme.colors.surfaceLight}]}
+        style={[
+          styles.stepContent,
+          {borderColor: isActive ? theme.colors.primary : theme.colors.surfaceLight},
+          isActive && {borderWidth: 2},
+        ]}
         onPress={onToggle}
         activeOpacity={0.7}
         accessibilityRole="button"
@@ -42,13 +47,14 @@ const StepItem = ({step, isLast, theme, expanded, onToggle}) => {
   );
 };
 
-const StepByStepGuide = ({steps = [], style}) => {
+const StepByStepGuide = ({steps = [], activeStep, onStepPress, style}) => {
   const {theme} = useTheme();
   const [expandedStep, setExpandedStep] = useState(null);
 
   const handleToggle = useCallback(stepNumber => {
     setExpandedStep(prev => (prev === stepNumber ? null : stepNumber));
-  }, []);
+    onStepPress?.(stepNumber);
+  }, [onStepPress]);
 
   if (!steps.length) return null;
 
@@ -62,6 +68,7 @@ const StepByStepGuide = ({steps = [], style}) => {
           isLast={index === steps.length - 1}
           theme={theme}
           expanded={expandedStep === step.step}
+          isActive={activeStep !== null && activeStep !== undefined && activeStep === index}
           onToggle={() => handleToggle(step.step)}
         />
       ))}
@@ -92,6 +99,11 @@ const styles = StyleSheet.create({
     borderRadius: 14,
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  stepCircleActive: {
+    width: 32,
+    height: 32,
+    borderRadius: 16,
   },
   stepNumber: {
     color: '#FFFFFF',

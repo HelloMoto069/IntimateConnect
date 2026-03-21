@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "000000000000",
-    "project_id": "intimate-connect-placeholder",
-    "storage_bucket": "intimate-connect-placeholder.appspot.com"
+    "project_number": "335113732143",
+    "project_id": "intimateconnect-1e0c3",
+    "storage_bucket": "intimateconnect-1e0c3.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:000000000000:android:0000000000000000",
+        "mobilesdk_app_id": "1:335113732143:android:2f1f5cafa56b0edaf146da",
         "android_client_info": {
           "package_name": "com.intimateconnect"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyPlaceholderKeyReplaceMeWithReal"
+          "current_key": "AIzaSyC6Oym6IE1kllof2pY3cGUM0FfMHKWnWP0"
         }
       ],
       "services": {

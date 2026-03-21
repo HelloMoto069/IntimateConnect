@@ -49,8 +49,9 @@ function calculateStreak(entries, dateField) {
   return streak;
 }
 
-// ─── Firestore subcollection path ───────────────────────
-const trackerPath = uid => `users/${uid}/trackerData`;
+// ─── Firestore helpers ──────────────────────────────────
+const userRef = uid => firestore().collection('users').doc(uid);
+const userPath = uid => `users/${uid}`;
 
 export const useTracker = (moodHistoryLength = 0, completedGuidesCount = 0) => {
   const currentUser = auth().currentUser;
@@ -105,11 +106,11 @@ export const useTracker = (moodHistoryLength = 0, completedGuidesCount = 0) => {
       return;
     }
 
-    const basePath = trackerPath(uid);
+    const uDoc = userRef(uid);
 
     // Journal
-    journalUnsubRef.current = firestore()
-      .collection(`${basePath}/journal`)
+    journalUnsubRef.current = uDoc
+      .collection('journal')
       .orderBy('createdAt', 'desc')
       .limit(100)
       .onSnapshot(
@@ -124,8 +125,8 @@ export const useTracker = (moodHistoryLength = 0, completedGuidesCount = 0) => {
       );
 
     // Kegels
-    kegelUnsubRef.current = firestore()
-      .collection(`${basePath}/kegels`)
+    kegelUnsubRef.current = uDoc
+      .collection('kegels')
       .orderBy('completedAt', 'desc')
       .limit(200)
       .onSnapshot(snap => {
@@ -135,8 +136,8 @@ export const useTracker = (moodHistoryLength = 0, completedGuidesCount = 0) => {
       });
 
     // Goals
-    goalsUnsubRef.current = firestore()
-      .collection(`${basePath}/goals`)
+    goalsUnsubRef.current = uDoc
+      .collection('goals')
       .orderBy('createdAt', 'desc')
       .onSnapshot(snap => {
         const items = snap.docs.map(d => ({id: d.id, ...d.data()}));
@@ -145,8 +146,8 @@ export const useTracker = (moodHistoryLength = 0, completedGuidesCount = 0) => {
       });
 
     // Badges
-    badgesUnsubRef.current = firestore()
-      .collection(`${basePath}/badges`)
+    badgesUnsubRef.current = uDoc
+      .collection('badges')
       .onSnapshot(snap => {
         const items = snap.docs.map(d => ({id: d.id, ...d.data()}));
         setEarnedBadges(items);
@@ -242,7 +243,7 @@ export const useTracker = (moodHistoryLength = 0, completedGuidesCount = 0) => {
 
     if (newBadges.length === 0) return;
 
-    const basePath = trackerPath(uid);
+    const basePath = userPath(uid);
     const now = new Date().toISOString();
 
     for (const badgeId of newBadges) {
@@ -295,7 +296,7 @@ export const useTracker = (moodHistoryLength = 0, completedGuidesCount = 0) => {
       setJournalEntries(prev => [decrypted, ...prev]);
 
       try {
-        await setDocument(`${trackerPath(uid)}/journal`, id, entry, true);
+        await setDocument(`${userPath(uid)}/journal`, id, entry, true);
         await checkAndAwardBadges();
       } catch (error) {
         logger.error('Add journal entry error:', error);
@@ -329,7 +330,7 @@ export const useTracker = (moodHistoryLength = 0, completedGuidesCount = 0) => {
 
       try {
         await setDocument(
-          `${trackerPath(uid)}/journal`,
+          `${userPath(uid)}/journal`,
           entryId,
           firestoreUpdates,
           true,
@@ -350,7 +351,7 @@ export const useTracker = (moodHistoryLength = 0, completedGuidesCount = 0) => {
 
       try {
         await firestore()
-          .doc(`${trackerPath(uid)}/journal/${entryId}`)
+          .doc(`${userPath(uid)}/journal/${entryId}`)
           .delete();
       } catch (error) {
         logger.error('Delete journal entry error:', error);
@@ -385,7 +386,7 @@ export const useTracker = (moodHistoryLength = 0, completedGuidesCount = 0) => {
       setKegelSessions(prev => [session, ...prev]);
 
       try {
-        await setDocument(`${trackerPath(uid)}/kegels`, id, session, true);
+        await setDocument(`${userPath(uid)}/kegels`, id, session, true);
         await checkAndAwardBadges();
       } catch (error) {
         logger.error('Add kegel session error:', error);
@@ -417,7 +418,7 @@ export const useTracker = (moodHistoryLength = 0, completedGuidesCount = 0) => {
       setGoals(prev => [goal, ...prev]);
 
       try {
-        await setDocument(`${trackerPath(uid)}/goals`, id, goal, true);
+        await setDocument(`${userPath(uid)}/goals`, id, goal, true);
         await checkAndAwardBadges();
       } catch (error) {
         logger.error('Add goal error:', error);
@@ -439,7 +440,7 @@ export const useTracker = (moodHistoryLength = 0, completedGuidesCount = 0) => {
 
       try {
         await setDocument(
-          `${trackerPath(uid)}/goals`,
+          `${userPath(uid)}/goals`,
           goalId,
           {progress},
           true,
@@ -466,7 +467,7 @@ export const useTracker = (moodHistoryLength = 0, completedGuidesCount = 0) => {
 
       try {
         await setDocument(
-          `${trackerPath(uid)}/goals`,
+          `${userPath(uid)}/goals`,
           goalId,
           {isCompleted: true, progress: 100, completedAt: now},
           true,
@@ -488,7 +489,7 @@ export const useTracker = (moodHistoryLength = 0, completedGuidesCount = 0) => {
 
       try {
         await firestore()
-          .doc(`${trackerPath(uid)}/goals/${goalId}`)
+          .doc(`${userPath(uid)}/goals/${goalId}`)
           .delete();
       } catch (error) {
         logger.error('Delete goal error:', error);

@@ -15,7 +15,7 @@ import {useContent} from '@context/ContentContext';
 import {useHaptic} from '@hooks/useHaptic';
 import {GradientButton, GlassCard} from '@components/common';
 import {showToast} from '@components/common/Toast';
-import {DifficultyStars, IntimacyMeter, StepByStepGuide, PositionCard} from '@components/positions';
+import {DifficultyStars, IntimacyMeter, StepByStepGuide, PositionCard, AnimatedPositionSVG} from '@components/positions';
 import {SPACING, BORDER_RADIUS, SCREEN_NAMES} from '@utils/constants';
 
 const PositionDetailScreen = ({route, navigation}) => {
@@ -45,6 +45,7 @@ const PositionDetailScreen = ({route, navigation}) => {
   const [noteText, setNoteText] = useState('');
   const [editingNote, setEditingNote] = useState(false);
   const [selectedRating, setSelectedRating] = useState(userData.userRating || 0);
+  const [activeHowToStep, setActiveHowToStep] = useState(null);
 
   // Load decrypted note when entering edit mode
   const handleEditNote = useCallback(() => {
@@ -112,14 +113,19 @@ const PositionDetailScreen = ({route, navigation}) => {
           <Text style={{color: theme.colors.text, fontSize: 24}}>{'\u2190'}</Text>
         </TouchableOpacity>
 
-        {/* Hero illustration placeholder */}
+        {/* Hero illustration with animated figures */}
         <Animated.View entering={FadeInDown.duration(500)}>
           <LinearGradient
             colors={[theme.colors.primary + '40', theme.colors.secondary + '40']}
             style={styles.heroArea}>
-            <Text style={styles.heroEmoji}>
-              {position.difficulty <= 2 ? '\uD83C\uDF31' : position.difficulty <= 4 ? '\uD83D\uDD25' : '\uD83D\uDCAA'}
-            </Text>
+            <AnimatedPositionSVG
+              positionId={positionId}
+              stepCount={position.howTo?.length || 3}
+              size="large"
+              activeStep={activeHowToStep}
+              autoPlay={activeHowToStep === null}
+              autoPlayInterval={2500}
+            />
           </LinearGradient>
         </Animated.View>
 
@@ -183,7 +189,11 @@ const PositionDetailScreen = ({route, navigation}) => {
 
           {/* How-To Steps */}
           <Animated.View entering={FadeInDown.delay(300).duration(400)}>
-            <StepByStepGuide steps={position.howTo} />
+            <StepByStepGuide
+              steps={position.howTo}
+              activeStep={activeHowToStep}
+              onStepPress={(stepNum) => setActiveHowToStep(stepNum - 1)}
+            />
           </Animated.View>
 
           {/* Tips */}

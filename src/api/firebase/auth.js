@@ -118,10 +118,14 @@ export const createPartnerCodeDoc = async (code, uid, displayName) => {
 };
 
 export const deletePartnerCodeDoc = async code => {
-  await firestore()
+  if (!code) return;
+  const ref = firestore()
     .collection(FIREBASE_COLLECTIONS.PARTNER_CODES)
-    .doc(code)
-    .delete();
+    .doc(code);
+  const doc = await ref.get();
+  if (doc.exists) {
+    await ref.delete();
+  }
 };
 
 export const getPartnerByCode = async code => {
