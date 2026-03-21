@@ -1,7 +1,7 @@
 import auth from '@react-native-firebase/auth';
 import firestore from '@react-native-firebase/firestore';
 import {FIREBASE_COLLECTIONS} from '@utils/constants';
-import {generatePartnerCode} from '@utils/helpers';
+import {generatePartnerCode, generateId} from '@utils/helpers';
 
 export const signUpWithEmail = async (email, password, displayName) => {
   const userCredential = await auth().createUserWithEmailAndPassword(
@@ -9,6 +9,8 @@ export const signUpWithEmail = async (email, password, displayName) => {
     password,
   );
   await userCredential.user.updateProfile({displayName});
+
+  const partnerCode = generatePartnerCode();
 
   // Create Firestore user document
   await firestore()
@@ -18,7 +20,7 @@ export const signUpWithEmail = async (email, password, displayName) => {
       uid: userCredential.user.uid,
       email,
       displayName,
-      partnerCode: generatePartnerCode(),
+      partnerCode,
       partnerId: null,
       coupleId: null,
       preferences: {
@@ -28,6 +30,9 @@ export const signUpWithEmail = async (email, password, displayName) => {
       },
       createdAt: firestore.FieldValue.serverTimestamp(),
     });
+
+  // Create denormalized partner code lookup document
+  await createPartnerCodeDoc(partnerCode, userCredential.user.uid, displayName);
 
   return userCredential.user;
 };
@@ -100,11 +105,43 @@ export const subscribeToUserProfile = (userId, callback) => {
     );
 };
 
+export const createPartnerCodeDoc = async (code, uid, displayName) => {
+  await firestore()
+    .collection(FIREBASE_COLLECTIONS.PARTNER_CODES)
+    .doc(code)
+    .set({
+      uid,
+      displayName,
+      createdAt: firestore.FieldValue.serverTimestamp(),
+    });
+};
+
+export const deletePartnerCodeDoc = async code => {
+  await firestore()
+    .collection(FIREBASE_COLLECTIONS.PARTNER_CODES)
+    .doc(code)
+    .delete();
+};
+
+export const getPartnerByCode = async code => {
+  const doc = await firestore()
+    .collection(FIREBASE_COLLECTIONS.PARTNER_CODES)
+    .doc(code)
+    .get();
+  return doc.exists ? doc.data() : null;
+};
+
 export const deleteAccount = async () => {
   const user = auth().currentUser;
   if (!user) throw new Error('No authenticated user');
 
-  // Delete Firestore document first
+  // Get user profile to find partner code
+  const profile = await getUserProfile(user.uid);
+  if (profile?.partnerCode) {
+    await deletePartnerCodeDoc(profile.partnerCode);
+  }
+
+  // Delete Firestore document
   await firestore()
     .collection(FIREBASE_COLLECTIONS.USERS)
     .doc(user.uid)

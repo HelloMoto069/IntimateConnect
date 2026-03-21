@@ -1,31 +1,22 @@
 import React, {createContext, useContext, useMemo} from 'react';
+import {useCouple} from '@hooks/useCouple';
 
 const CoupleContext = createContext(null);
 
 export const CoupleProvider = ({children}) => {
-  const value = useMemo(
-    () => ({
-      partner: null,
-      coupleId: null,
-      isConnected: false,
-      partnerCode: null,
-      sharedFavorites: [],
-      wantToTryList: [],
-      connectPartner: async () => {},
-      disconnectPartner: async () => {},
-    }),
-    [],
-  );
+  const coupleHook = useCouple();
+
+  const value = useMemo(() => ({...coupleHook}), [coupleHook]);
 
   return (
     <CoupleContext.Provider value={value}>{children}</CoupleContext.Provider>
   );
 };
 
-export const useCouple = () => {
+export const useCoupleCx = () => {
   const context = useContext(CoupleContext);
   if (!context) {
-    throw new Error('useCouple must be used within a CoupleProvider');
+    throw new Error('useCoupleCx must be used within a CoupleProvider');
   }
   return context;
 };

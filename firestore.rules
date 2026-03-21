@@ -7,12 +7,26 @@ service cloud.firestore {
       allow read, write: if request.auth != null && request.auth.uid == userId;
     }
 
+    // Partner codes: any authenticated user can read (for code lookup), only owner can write
+    match /partnerCodes/{code} {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null
+        && request.resource.data.uid == request.auth.uid;
+    }
+
     // Couples: both partners can read/write
-    match /couples/{coupleId}/{document=**} {
-      allow read, write: if request.auth != null && (
-        resource.data.partnerA == request.auth.uid ||
-        resource.data.partnerB == request.auth.uid
-      );
+    match /couples/{coupleId} {
+      allow create: if request.auth != null
+        && (request.resource.data.partnerA == request.auth.uid
+            || request.resource.data.partnerB == request.auth.uid);
+      allow read, update, delete: if request.auth != null
+        && (resource.data.partnerA == request.auth.uid
+            || resource.data.partnerB == request.auth.uid);
+    }
+
+    // Couple activity subcollection
+    match /couples/{coupleId}/activity/{activityId} {
+      allow read, write: if request.auth != null;
     }
 
     // Content: read-only for authenticated users

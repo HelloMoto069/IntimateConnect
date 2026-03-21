@@ -146,6 +146,10 @@ export const SCREEN_NAMES = {
   HEALTH_GUIDE_PLAYER: 'HealthGuidePlayer',
   HEALTH_GLOSSARY: 'HealthGlossary',
   HEALTH_CHECKIN: 'HealthCheckIn',
+  // Partner screens
+  PARTNER_SHARED_FAVORITES: 'PartnerSharedFavorites',
+  PARTNER_WANT_TO_TRY: 'PartnerWantToTry',
+  PARTNER_ACTIVITY: 'PartnerActivity',
 };
 
 // ─── Storage Keys ────────────────────────────────────────
@@ -168,6 +172,10 @@ export const STORAGE_KEYS = {
   HEALTH_READING_PROGRESS: '@health_reading_progress',
   HEALTH_GUIDE_COMPLETIONS: '@health_guide_completions',
   HEALTH_MOOD_HISTORY: '@health_mood_history',
+  COUPLE_DATA: '@couple_data',
+  COUPLE_WANT_TO_TRY: '@couple_want_to_try',
+  COUPLE_ACTIVITY: '@couple_activity',
+  COUPLE_SHARED_FAVORITES: '@couple_shared_favorites',
 };
 
 // ─── Firebase Collections ────────────────────────────────
@@ -180,6 +188,7 @@ export const FIREBASE_COLLECTIONS = {
   GUIDES: 'guides',
   GAMES: 'games',
   APP_CONFIG: 'appConfig',
+  PARTNER_CODES: 'partnerCodes',
 };
 
 // ─── App Constants ───────────────────────────────────────
@@ -269,3 +278,19 @@ export const PIN_LENGTH = 4;
 export const MAX_PIN_ATTEMPTS = 5;
 export const PIN_LOCKOUT_SECONDS = 30;
 export const PARTNER_CODE_LENGTH = 6;
+
+// ─── Partner Quick Actions ──────────────────────────────
+export const PARTNER_QUICK_ACTIONS = [
+  {id: 'shared-favorites', label: 'Shared Favorites', icon: '❤️', screen: 'PartnerSharedFavorites'},
+  {id: 'want-to-try', label: 'Want to Try', icon: '✨', screen: 'PartnerWantToTry'},
+  {id: 'activity', label: 'Activity', icon: '📋', screen: 'PartnerActivity'},
+];
+
+// ─── Couple Activity Types ──────────────────────────────
+export const COUPLE_ACTIVITY_TYPES = {
+  game_played: {label: 'Game Played', icon: '🎮'},
+  position_explored: {label: 'Position Explored', icon: '🔥'},
+  want_to_try_added: {label: 'Added to Try', icon: '✨'},
+  want_to_try_completed: {label: 'Tried Together', icon: '✅'},
+  mood_checked: {label: 'Mood Check-In', icon: '💭'},
+};
